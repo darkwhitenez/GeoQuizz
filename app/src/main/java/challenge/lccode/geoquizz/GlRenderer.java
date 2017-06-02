@@ -6,6 +6,9 @@ import javax.microedition.khronos.opengles.GL10;
 import android.content.Context;
 import android.opengl.GLSurfaceView.Renderer;
 import android.opengl.GLU;
+import android.util.Log;
+
+import java.util.Random;
 
 
 public class GlRenderer implements Renderer {
@@ -52,7 +55,7 @@ public class GlRenderer implements Renderer {
     /**
      * Object distance on the screen. move it back a bit so we can see it!
      */
-    private static final float OBJECT_DISTANCE = -15.0f;
+    private static final float OBJECT_DISTANCE = -10.0f;
 
     /**
      * The earth's sphere.
@@ -69,6 +72,9 @@ public class GlRenderer implements Renderer {
      */
     private float mRotationAngle;
 
+    private Random rnd;
+    private int rndStop;
+
     /**
      * Constructor to set the handed over context.
      *
@@ -76,8 +82,13 @@ public class GlRenderer implements Renderer {
      */
     public GlRenderer(final Context context) {
         this.mContext = context;
-        this.mEarth = new Sphere(3, 2);
-        this.mRotationAngle = 0.0f;
+        this.mEarth = new Sphere(3, 2); //(depth, radius)
+        this.mRotationAngle = -2000.0f;
+        Maths.ROTATION_SPEED = 0.0f;
+        Maths.IS_STOPPING = false;
+
+        rnd = new Random();
+        rndStop = rnd.nextInt((2000) + 1) - 2000;
     }
 
     @Override
@@ -86,7 +97,22 @@ public class GlRenderer implements Renderer {
         gl.glLoadIdentity();
         gl.glTranslatef(0.0f, 0.0f, OBJECT_DISTANCE);
         gl.glRotatef(AXIAL_TILT_DEGRESS, 1, 0, 0);
-        gl.glRotatef(this.mRotationAngle++, 0, 1, 0);
+
+        Log.d("AAAAA", Integer.toString(rndStop));
+        if (this.mRotationAngle >= rndStop)
+            this.mRotationAngle = rndStop;
+
+        else
+            this.mRotationAngle += (Maths.ROTATION_SPEED);
+
+        Log.d("rot", Float.toString(Maths.ROTATION_SPEED));
+        Log.d("angle", Float.toString(this.mRotationAngle));
+
+        if (Maths.IS_STOPPING)
+            gl.glRotatef(this.mRotationAngle += -this.mRotationAngle/50.0f, 0, 1, 0);
+        else
+            gl.glRotatef(this.mRotationAngle--, 0, 1, 0);
+
         this.mEarth.draw(gl);
     }
 
@@ -104,7 +130,7 @@ public class GlRenderer implements Renderer {
 
     @Override
     public void onSurfaceCreated(final GL10 gl, final EGLConfig config) {
-        this.mEarth.loadGLTexture(gl, this.mContext, R.drawable.earth);
+        this.mEarth.loadGLTexture(gl, this.mContext, R.drawable.earths);
         gl.glEnable(GL10.GL_TEXTURE_2D);
         gl.glShadeModel(GL10.GL_SMOOTH);
         gl.glClearColor(CLEAR_RED, CLEAR_GREEN, CLEAR_BLUE, CLEAR_ALPHA);

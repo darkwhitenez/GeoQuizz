@@ -3,7 +3,12 @@ package challenge.lccode.geoquizz;
 import android.databinding.DataBindingUtil;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v4.view.GestureDetectorCompat;
+import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -14,6 +19,7 @@ import android.view.WindowManager;
 
 public class GlobeActivity extends AppCompatActivity {
 
+    private GestureDetectorCompat gestDet;
     private GLSurfaceView mGlSurfaceView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +29,8 @@ public class GlobeActivity extends AppCompatActivity {
         this.mGlSurfaceView = new GLSurfaceView(this);
         this.mGlSurfaceView.setRenderer(new GlRenderer(this));
         this.setContentView(this.mGlSurfaceView);
+
+        gestDet = new GestureDetectorCompat(this, new GestureListener());
     }
 
     /**
@@ -42,4 +50,11 @@ public class GlobeActivity extends AppCompatActivity {
         this.mGlSurfaceView.onPause();
         super.onPause();
     }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event){
+        this.gestDet.onTouchEvent(event);
+        return super.onTouchEvent(event);
+    }
+
 }

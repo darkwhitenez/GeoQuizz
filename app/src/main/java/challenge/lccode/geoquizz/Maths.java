@@ -17,6 +17,10 @@ public final class Maths {
     /** Used by power. */
     private static final long POWER_CLAMP = 0x00000000ffffffffL;
 
+    public static float ROTATION_SPEED = 0.0f;
+
+    public static boolean IS_STOPPING = true;
+
     /**
      * Constructor, although not used at the moment.
      */
