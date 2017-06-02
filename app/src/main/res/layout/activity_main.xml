@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:text="GeoQuizz"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:textColor="@color/primary_dark" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:alpha="1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:src="@drawable/globe_small" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/primary"
+            android:elevation="6dp">
+
+            <TextView
+                android:id="@+id/activity_main_spin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Spin it"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/primary"
+            android:elevation="6dp">
+
+            <TextView
+                android:id="@+id/activity_main_challenge"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Challenge"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/primary_dark"
+            android:elevation="6dp">
+
+            <TextView
+                android:id="@+id/activity_main_register"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</layout>
