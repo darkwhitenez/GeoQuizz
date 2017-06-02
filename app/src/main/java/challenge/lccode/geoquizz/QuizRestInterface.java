@@ -2,7 +2,12 @@ package challenge.lccode.geoquizz;
 
 import java.util.List;
 
+import challenge.lccode.geoquizz.models.GeneralStats;
+import challenge.lccode.geoquizz.models.Quiz;
+import challenge.lccode.geoquizz.models.QuizItem;
+import challenge.lccode.geoquizz.models.QuizResult;
 import challenge.lccode.geoquizz.models.UserLogin;
+import challenge.lccode.geoquizz.models.UserStats;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
@@ -15,16 +20,33 @@ import retrofit2.http.Path;
 
 public interface QuizRestInterface {
 
-    @POST("/api/user/register")
-    Call<UserLogin> registerUser(@Body UserLogin user);
+    // registracija novog korisnika, vraća unique _id korisnika
+    @POST("api/user/register")
+    Call<Integer> registerUser(@Body UserLogin user);
 
-    @POST("/api/user/login")
-    Call<UserLogin> loginUser(@Body UserLogin user);
+    // login postojećeh korisnika, vraća unique _id korisnika
+    @POST("api/user/login")
+    Call<Integer> loginUser(@Body UserLogin user);
 
+    // slanje rezultata kviza
+    @POST("api/quiz/result/{id}")
+    Call<Void> sendQuizResult(@Path("id") String userId, @Body QuizResult quizResult );
+
+    // statistika o korisniku općenito
     @GET("api/user/stats/{id}")
     Call<UserStats> getUserStats(@Path("id") String id);
 
+    // dohvat random kviza
+    @GET("api/quiz/getrandom")
+    Call<Quiz> getRandomQuiz();
 
+    // dohvat random kviza neke države
+    @GET("api/quiz/getforcountry/{id}")
+    Call<Quiz> getQuizForCountry(@Path("id") String id);
+
+    // dohvat općenite statistike svih korisnika
+    @GET("api/quiz/getgeneralstats")
+    Call<GeneralStats> getGeneralQuizStats();
 
 
 }
