@@ -27,7 +27,7 @@ def login():
     username = request.form['username']
     password = request.form['password']
 
-    user = User.query.get(username)
+    user = User.query.filter_by(username=username).first()
     if user and check_password_hash(user.password_hash, password):
         token = user.generate_token()
         return jsonify(success=True, token=token)
@@ -40,7 +40,7 @@ def register():
     username = request.form['username']
     password = request.form['password']
 
-    if User.query.get(username):
+    if User.query.filter_by(username=username).first():
         return jsonify(success=False, error='already_exists'), 409
 
     password_hash = generate_password_hash(password)

@@ -9,21 +9,25 @@ db = SQLAlchemy()
 class User(db.Model):
     __tablename__ = 'user'
 
-    username = Column(String, primary_key=True)
+    id = Column(Integer, primary_key=True)
+    username = Column(String, nullable=False)
     password_hash = Column(String, nullable=False)
+
+    questions_answered = Column(Integer, nullable=False, default=0)
+    questions_correct = Column(Integer, nullable=False, default=0)
 
     def generate_token(self, expire_seconds=60*60):
         s = TimedJSONWebSignatureSerializer(current_app.secret_key, expires_in=expire_seconds)
-        return s.dumps(self.username).decode()
+        return s.dumps(self.id).decode()
 
     @staticmethod
     def verify_token(token):
         s = TimedJSONWebSignatureSerializer(current_app.secret_key)
         try:
-            username = s.loads(token)
+            user_id = s.loads(token)
         except (BadSignature, SignatureExpired):
             return None
-        return User.query.get(username)
+        return User.query.get(user_id)
 
 
 class Question(db.Model):
