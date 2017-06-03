@@ -9,7 +9,6 @@ answer = ""
 questions = []
 answersDict = {}
 answersArray = []
-isSafeToSave = False
 newLineCnt = 0
 
 toDump["main"] = []
@@ -21,7 +20,6 @@ with open('questions.txt', 'r') as f:
     if line == "":
       if question is not "" and country is not "" and len(answersArray) > 0 and newLineCnt < 2:
         toDump["main"].append({'answers': answersArray, "question": question, "country": country})
-        isSafeToSave = False
 
       answersArray = []
       newLineCnt += 1
