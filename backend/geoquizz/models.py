@@ -34,7 +34,7 @@ class Question(db.Model):
     __tablename__ = 'question'
 
     id = Column(Integer, primary_key=True)
-    country = Column(String, nullable= False)
+    country = Column(String, nullable=False)
     text = Column(String, nullable=False)
 
 
@@ -46,3 +46,14 @@ class Answer(db.Model):
     correct = Column(Boolean, nullable=False)
 
     question_id = Column(Integer, ForeignKey('question.id'), nullable=False)
+
+
+class CountryStats(db.Model):
+    __tablename__ = 'country_stats'
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey('user.id'), nullable=False)
+    country_code = Column(String, nullable=False)
+
+    questions_answered = Column(Integer, nullable=False)
+    questions_correct = Column(Integer, nullable=False)
