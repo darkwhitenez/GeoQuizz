@@ -51,7 +51,7 @@ def register():
 
 @api.route('/quiz/get_random')
 @authenticate
-def hello_world():
+def get_random():
     answers = [{'text': f'Dolor sit amet {i}', 'correct': False} for i in range(4)]
     random.choice(answers)['correct'] = True
     return jsonify(question={'text': 'Lorem ipsum'}, answers=answers)
