@@ -25,6 +25,9 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
     <color name="purple">#7e57c2</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="transparent">#00000000</color>
+
 
 
 

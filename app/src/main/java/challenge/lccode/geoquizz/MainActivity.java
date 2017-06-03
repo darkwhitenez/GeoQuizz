@@ -1,14 +1,21 @@
 package challenge.lccode.geoquizz;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.io.IOException;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import challenge.lccode.geoquizz.models.Quiz;
+import retrofit2.Call;
+import retrofit2.Retrofit;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     TextView challenge;
     @BindView(R.id.activity_main_register)
     TextView register;
+
+    ProgressDialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +48,16 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.activity_main_challenge)
     public void challenge(View view) {
-        Intent intent = new Intent(this, ChallengeActivity.class);
-        startActivity(intent);
+      dialog = new ProgressDialog(this, R.style.ProgressbarTheme);
+        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        dialog.setCancelable(true);
+        dialog.setTitle("Please wait");
+        dialog.setMessage("Loading the quiz data");
+        dialog.show();
+
+      //  new RandomQuizProvider().execute("");
+        startActivity(new Intent(MainActivity.this, ChallengeActivity.class));
+
     }
 
 
@@ -48,6 +65,50 @@ public class MainActivity extends AppCompatActivity {
     public void register(View view) {
         Intent intent = new Intent(this, RegisterActivity.class);
         startActivity(intent);
+    }
+
+
+
+    private class RandomQuizProvider extends AsyncTask<String, Void, Quiz> {
+
+        @Override
+        protected void onPostExecute(Quiz q) {
+            super.onPostExecute(q);
+            if(q != null) {
+                Intent intent = new Intent(MainActivity.this, ChallengeActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("quiz", q);
+                intent.putExtras(bundle);
+                startActivity(intent);
+                finish();
+                return;
+            }
+
+            /* snackbar TODO */
+        }
+
+        @Override
+        protected Quiz doInBackground(String... params) {
+
+            Retrofit retrofit = Application.getRetrofit();
+            if (retrofit == null){
+                return null;
+            }
+            QuizRestInterface apiService = retrofit.create(QuizRestInterface.class);
+            final Call<Quiz> callSticker = apiService.getRandomQuiz();
+
+            try {
+
+                Quiz quiz = callSticker.execute().body();
+                System.out.println("GETTING QUIZ");
+                return quiz;
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
     }
 
 }
