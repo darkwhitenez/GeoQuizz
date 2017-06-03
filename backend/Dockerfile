@@ -10,4 +10,4 @@ RUN apk add --no-cache python3 py3-gevent \
 EXPOSE 5000
 
 ENTRYPOINT ["python3"]
-CMD ["run_gevent.py"]"
+CMD ["run_gevent.py"]
