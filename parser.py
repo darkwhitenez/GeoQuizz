@@ -18,7 +18,7 @@ with open('questions.txt', 'r') as f:
     line = line.strip()
 
     if line == "":
-      if question is not "" and country is not "" and len(answersArray) > 0 and newLineCnt < 2:
+      if question and country and answersArray and newLineCnt < 2:
         toDump["main"].append({'answers': answersArray, "question": question, "country": country})
 
       answersArray = []
