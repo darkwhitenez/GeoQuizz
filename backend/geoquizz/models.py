@@ -1,7 +1,7 @@
 from flask import current_app
+from flask_sqlalchemy import SQLAlchemy
 from itsdangerous import TimedJSONWebSignatureSerializer, BadSignature, SignatureExpired
 from sqlalchemy import Column, String, Boolean, Integer, ForeignKey
-from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 

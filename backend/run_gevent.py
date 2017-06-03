@@ -1,4 +1,5 @@
 from gevent.wsgi import WSGIServer
+
 from geoquizz import create_app
 
 app = create_app()
