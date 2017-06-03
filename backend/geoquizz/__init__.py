@@ -1,10 +1,15 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
-app.config.from_object('config')
 
-db = SQLAlchemy(app)
-db.create_all()
+def create_app():
+    app = Flask(__name__)
+    app.config.from_object('config')
 
-from geoquizz import routes  # noqa
+    from geoquizz.models import db
+    db.init_app(app)
+    db.create_all(app=app)
+
+    from geoquizz.api import api
+    app.register_blueprint(api, url_prefix='/api')
+
+    return app

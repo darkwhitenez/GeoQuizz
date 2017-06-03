@@ -1,7 +1,9 @@
+from flask import current_app
 from itsdangerous import TimedJSONWebSignatureSerializer, BadSignature, SignatureExpired
 from sqlalchemy import Column, String, Boolean, Integer, ForeignKey
+from flask_sqlalchemy import SQLAlchemy
 
-from geoquizz import app, db
+db = SQLAlchemy()
 
 
 class User(db.Model):
@@ -11,12 +13,12 @@ class User(db.Model):
     password_hash = Column(String, nullable=False)
 
     def generate_token(self, expire_seconds=60*60):
-        s = TimedJSONWebSignatureSerializer(app.secret_key, expires_in=expire_seconds)
+        s = TimedJSONWebSignatureSerializer(current_app.secret_key, expires_in=expire_seconds)
         return s.dumps(self.username).decode()
 
     @staticmethod
     def verify_token(token):
-        s = TimedJSONWebSignatureSerializer(app.secret_key)
+        s = TimedJSONWebSignatureSerializer(current_app.secret_key)
         try:
             username = s.loads(token)
         except (BadSignature, SignatureExpired):
