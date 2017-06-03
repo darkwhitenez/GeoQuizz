@@ -5,6 +5,23 @@
     android:layout_height="match_parent"
     android:background="@color/primary">
 
+    <android.support.v7.widget.Toolbar
+        android:layout_gravity="top"
+        android:id="@+id/toolbar_question_number"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:background="@color/topeka_primary"
+        android:elevation="4dp">
+
+        <TextView android:id="@+id/toolbar_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_gravity="center_vertical|start"
+            android:paddingEnd="4dp"
+            android:paddingStart="4dp" />
+    </android.support.v7.widget.Toolbar>
     <FrameLayout
         android:id="@+id/question_frame"
         android:layout_width="match_parent"
@@ -12,7 +29,7 @@
         android:layout_marginBottom="80dp"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/rounded_quiz"
         android:elevation="6dp">
 
@@ -20,7 +37,6 @@
             android:id="@+id/quiz_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
 
     </FrameLayout>
 

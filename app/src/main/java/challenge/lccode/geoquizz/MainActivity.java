@@ -3,8 +3,10 @@ package challenge.lccode.geoquizz;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
@@ -16,6 +18,7 @@ import butterknife.OnClick;
 import challenge.lccode.geoquizz.models.Quiz;
 import retrofit2.Call;
 import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.main_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
     }
 
 
@@ -67,7 +76,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public Retrofit getRetrofit(){
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(Application.BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
 
+        return retrofit;
+    }
 
     private class RandomQuizProvider extends AsyncTask<String, Void, Quiz> {
 
@@ -90,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Quiz doInBackground(String... params) {
 
-            Retrofit retrofit = Application.getRetrofit();
+            Retrofit retrofit = getRetrofit();
             if (retrofit == null){
                 return null;
             }

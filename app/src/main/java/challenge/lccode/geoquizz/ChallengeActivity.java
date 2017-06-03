@@ -6,8 +6,11 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterViewAnimator;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import challenge.lccode.geoquizz.adapter.QuizAdapter;
 import challenge.lccode.geoquizz.helper.ApiVersionHelper;
@@ -17,16 +20,22 @@ import challenge.lccode.geoquizz.models.Quiz;
 public class ChallengeActivity extends AppCompatActivity {
 
     private ImageView back;
+    private TextView quizNumberText;
     private AdapterViewAnimator mQuizView;
     private QuizAdapter mQuizAdapter;
     private Quiz quiz;
-    private int selection = 0;
+    private int quizCount;
+    private Animation slide_in_left, slide_in_right, slide_out_left, slide_out_right;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_challenge);
+        quiz = FakeQuiz.getQuiz();
+        quizCount = -1;
+        quizNumberText = (TextView) findViewById(R.id.toolbar_count);
+        setQuestionNumber();
         back = (ImageView) findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,12 +44,22 @@ public class ChallengeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        quiz = FakeQuiz.getQuiz();
 
         mQuizView = (AdapterViewAnimator) findViewById(R.id.quiz_view);
-        mQuizView.setAdapter(getQuizAdapter());
-        mQuizView.setSelection(selection++);
         setQuizAnimations();
+        mQuizView.setAdapter(getQuizAdapter());
+        mQuizView.setSelection(0);
+
+        slide_in_left = AnimationUtils.loadAnimation(this, R.anim.slide_in_left);
+        slide_out_right = AnimationUtils.loadAnimation(this, R.anim.slide_out_right);
+
+    }
+
+    private void setQuestionNumber() {
+        if (quizCount == -1){
+            quizCount = 1;
+        }
+        quizNumberText.setText(quizCount++ + "/" + quiz.getQuizItems().size());
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
@@ -48,8 +67,7 @@ public class ChallengeActivity extends AppCompatActivity {
         if (ApiVersionHelper.isEqualOrHigher(Build.VERSION_CODES.LOLLIPOP)) {
             return;
         }
-        mQuizView.setInAnimation(this, R.animator.slide_in_bottom);
-        mQuizView.setOutAnimation(this, R.animator.slide_out_top);
+
     }
 
     private QuizAdapter getQuizAdapter() {
@@ -68,7 +86,10 @@ public class ChallengeActivity extends AppCompatActivity {
         final int count = mQuizView.getAdapter().getCount();
         System.out.println(nextItem + " : " + count);
         if (nextItem < count) {
+            mQuizView.getInAnimation().start();
+            mQuizView.getOutAnimation().start();
             mQuizView.showNext();
+            setQuestionNumber();
             return;
         }
 

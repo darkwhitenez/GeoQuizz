@@ -6,14 +6,14 @@ package challenge.lccode.geoquizz.models;
 
 public class UserLogin {
     public String _id;
-    public String name;
+    public String username;
     public String password;
 
     public UserLogin() {
     }
 
     public UserLogin(String name, String password) {
-        this.name = name;
+        this.username = name;
         this.password = password;
     }
 }

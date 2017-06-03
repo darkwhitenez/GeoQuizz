@@ -70,11 +70,13 @@ public class QuizView extends FrameLayout {
     protected void createQuizQuestionView() {
         mQuestionView = (TextView) mLayoutInflater.inflate(R.layout.question, this, false);
         mQuestionView.setText(quizItem.question);
-        mQuestionView.setGravity(Gravity.START);
+        mQuestionView.setGravity(Gravity.CENTER);
     }
 
     protected void createQuizOptionsView() {
         gridView = new GridView(context);
+        gridView.setTextAlignment(TEXT_ALIGNMENT_VIEW_START);
+        gridView.setGravity(Gravity.START);
         gridView.setSelector(R.drawable.selector_button);
         gridView.setNumColumns(1);
         gridView.setAdapter(new OptionsAdapter(quizItem.answers, R.layout.item_answer, context));
