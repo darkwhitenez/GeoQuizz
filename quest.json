@@ -1,1170 +1,1170 @@
 {
   "main": [
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": false,
-          "text": "a) North Sea\n"
+          "text": "North Sea",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Black Sea "
+          "text": "Black Sea",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Caspian Sea\n"
+          "text": "Caspian Sea",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Dead Sea\n"
+          "text": "Dead Sea",
+          "correct": false
         }
       ],
-      "question": "1) Which sea is to the north of Turkey?\n",
-      "country": "Turkey\n"
+      "question": "Which sea is to the north of Turkey?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": false,
-          "text": "a) 1260\n"
+          "text": "1260",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) 1425\n"
+          "text": "1425",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) 1453 "
+          "text": "1453",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) 1526\n"
+          "text": "1526",
+          "correct": false
         }
       ],
-      "question": "2) When did the Turks conquer Constantinople?\n",
-      "country": "Turkey\n"
+      "question": "When did the Turks conquer Constantinople?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Guardian of Europe\n"
+          "text": "Guardian of Europe",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Leader of Europe\n"
+          "text": "Leader of Europe",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Sick man of Europe "
+          "text": "Sick man of Europe",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Playground of Europe\n"
+          "text": "Playground of Europe",
+          "correct": false
         }
       ],
-      "question": "3) How was Turkey known in the beginning of the 20th century?\n",
-      "country": "Turkey\n"
+      "question": "How was Turkey known in the beginning of the 20th century?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Tansu Ciller\n"
+          "text": "Tansu Ciller",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Mustafa Kemal "
+          "text": "Mustafa Kemal",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Buland Ecevit\n"
+          "text": "Buland Ecevit",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Deniz Baykal\n"
+          "text": "Deniz Baykal",
+          "correct": false
         }
       ],
-      "question": "4) Who led the founding of the Republic of Turkey?\n",
-      "country": "Turkey\n"
+      "question": "Who led the founding of the Republic of Turkey?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Ankara "
+          "text": "Ankara",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Istanbul\n"
+          "text": "Istanbul",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Izmir\n"
+          "text": "Izmir",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Adana\n"
+          "text": "Adana",
+          "correct": false
         }
       ],
-      "question": "5) Which is the capital of Turkey?\n",
-      "country": "Turkey\n"
+      "question": "Which is the capital of Turkey?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Malta\n"
+          "text": "Malta",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Syria\n"
+          "text": "Syria",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Cyprus "
+          "text": "Cyprus",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Israel\n"
+          "text": "Israel",
+          "correct": false
         }
       ],
-      "question": "6) Which country was attacked by Turkey in 1974?\n",
-      "country": "Turkey\n"
+      "question": "Which country was attacked by Turkey in 1974?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Turkish Republic of Northern Cyprus "
+          "text": "Turkish Republic of Northern Cyprus",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Republic of China\n"
+          "text": "Republic of China",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Republic of Ireland\n"
+          "text": "Republic of Ireland",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Former Yugoslav Republic of Macedonia\n"
+          "text": "Former Yugoslav Republic of Macedonia",
+          "correct": false
         }
       ],
-      "question": "7) Which of the following republics only Turkey recognizes?\n",
-      "country": "Turkey\n"
+      "question": "Which of the following republics only Turkey recognizes?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Abdul Mejid II "
+          "text": "Abdul Mejid II",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Mehmed VI\n"
+          "text": "Mehmed VI",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Abdul Aziz\n"
+          "text": "Abdul Aziz",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Mehmed V\n"
+          "text": "Mehmed V",
+          "correct": false
         }
       ],
-      "question": "8) Who is the last Caliph?\n",
-      "country": "Turkey\n"
+      "question": "Who is the last Caliph?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Red Mosque\n"
+          "text": "Red Mosque",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) White Mosque\n"
+          "text": "White Mosque",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Blue Mosque "
+          "text": "Blue Mosque",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Green Mosque\n"
+          "text": "Green Mosque",
+          "correct": false
         }
       ],
-      "question": "9) At which mosque did Pope Benedict XVI pray in November 2006?\n",
-      "country": "Turkey\n"
+      "question": "At which mosque did Pope Benedict XVI pray in November 2006?"
     },
     {
+      "country": "Turkey",
       "answers": [
         {
-          "correct": false,
-          "text": "a) 1948\n"
+          "text": "1948",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) 1949\n"
+          "text": "1949",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) 1952 "
+          "text": "1952",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) 1954\n"
+          "text": "1954",
+          "correct": false
         }
       ],
-      "question": "10) When did Turkey enter NATO?\n",
-      "country": "Turkey\n"
+      "question": " When did Turkey enter NATO?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) 12 February 1964\n"
+          "text": "12 February 1964",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) 30 April 1975 "
+          "text": "30 April 1975",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) 22 July 1952\n"
+          "text": "22 July 1952",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) 19 December 1956\n"
+          "text": "19 December 1956",
+          "correct": false
         }
       ],
-      "question": "1. When did North Vietnamese troops enter Saigon?\n",
-      "country": "Vietnam\n"
+      "question": "When did North Vietnamese troops enter Saigon?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": true,
-          "text": "a) China "
+          "text": "China",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Burma\n"
+          "text": "Burma",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Papua New Guinea\n"
+          "text": "Papua New Guinea",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Singapore\n"
+          "text": "Singapore",
+          "correct": false
         }
       ],
-      "question": "2. Which country is to the north of Vietnam?\n",
-      "country": "Vietnam\n"
+      "question": "Which country is to the north of Vietnam?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Yellow\n"
+          "text": "Yellow",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) South China "
+          "text": "South China",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Arabian\n"
+          "text": "Arabian",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Bering\n"
+          "text": "Bering",
+          "correct": false
         }
       ],
-      "question": "3. Which sea is to the east of Vietnam?\n",
-      "country": "Vietnam\n"
+      "question": "Which sea is to the east of Vietnam?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Hue\n"
+          "text": "Hue",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Haiphong\n"
+          "text": "Haiphong",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Hanoi "
+          "text": "Hanoi",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Dien Chau\n"
+          "text": "Dien Chau",
+          "correct": false
         }
       ],
-      "question": "4. Which is the capital of Vietnam?\n",
-      "country": "Vietnam\n"
+      "question": "Which is the capital of Vietnam?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Baht\n"
+          "text": "Baht",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Dong "
+          "text": "Dong",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Yen\n"
+          "text": "Yen",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Rupee\n"
+          "text": "Rupee",
+          "correct": false
         }
       ],
-      "question": "5. Which is the currency of Vietnam?\n",
-      "country": "Vietnam\n"
+      "question": "Which is the currency of Vietnam?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Chinese\n"
+          "text": "Chinese",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Japanese\n"
+          "text": "Japanese",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) French\n"
+          "text": "French",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) Vietnamese "
+          "text": "Vietnamese",
+          "correct": true
         }
       ],
-      "question": "6. Which is the official language of Vietnam?\n",
-      "country": "Vietnam\n"
+      "question": "Which is the official language of Vietnam?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Gia Long\n"
+          "text": "Gia Long",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Alexandre de Rhodes "
+          "text": "Alexandre de Rhodes",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Pigneau de Behaine\n"
+          "text": "Pigneau de Behaine",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Minh Mang\n"
+          "text": "Minh Mang",
+          "correct": false
         }
       ],
-      "question": "7. Who perfected the Vietnamese writing system Quoc-ngu?\n",
-      "country": "Vietnam\n"
+      "question": "Who perfected the Vietnamese writing system Quoc-ngu?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Paul Doumer\n"
+          "text": "Paul Doumer",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Francis Garnier\n"
+          "text": "Francis Garnier",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Rigault de Genouilly "
+          "text": "Rigault de Genouilly",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Albert Sarraut\n"
+          "text": "Albert Sarraut",
+          "correct": false
         }
       ],
-      "question": "8. Who conquered Saigon in 1859?\n",
-      "country": "Vietnam\n"
+      "question": "Who conquered Saigon in 1859?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) 1763\n"
+          "text": "1763",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) 1883 "
+          "text": "1883",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) I789\n"
+          "text": "I789",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) 1564\n"
+          "text": "1564",
+          "correct": false
         }
       ],
-      "question": "9. When did Tonkin and Annam become French protectorates?\n",
-      "country": "Vietnam\n"
+      "question": "When did Tonkin and Annam become French protectorates?"
     },
     {
+      "country": "Vietnam",
       "answers": [
         {
-          "correct": false,
-          "text": "a) 15 January 1942\n"
+          "text": "15 January 1942",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) 7 May 1954 "
+          "text": "7 May 1954",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) 21 August 1918\n"
+          "text": "21 August 1918",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) 2 November 1963\n"
+          "text": "2 November 1963",
+          "correct": false
         }
       ],
-      "question": "10. When was the Battle of Dien Bien Phu?\n",
-      "country": "Vietnam\n"
+      "question": " When was the Battle of Dien Bien Phu?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Cymru\n"
+          "text": "Cymru",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Sverige\n"
+          "text": "Sverige",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Gaul "
+          "text": "Gaul",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Britannia\n"
+          "text": "Britannia",
+          "correct": false
         }
       ],
-      "question": "1) How was France known?\n",
-      "country": "France\n"
+      "question": "How was France known?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Charles Martel "
+          "text": "Charles Martel",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Napoleon\n"
+          "text": "Napoleon",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Louis XVI\n"
+          "text": "Louis XVI",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) William of Normandy\n"
+          "text": "William of Normandy",
+          "correct": false
         }
       ],
-      "question": "2) Who won the Battle of Tours in 732?\n",
-      "country": "France\n"
+      "question": "Who won the Battle of Tours in 732?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Normans\n"
+          "text": "Normans",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Vikings\n"
+          "text": "Vikings",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Danes\n"
+          "text": "Danes",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) Franks "
+          "text": "Franks",
+          "correct": true
         }
       ],
-      "question": "3) From which people France got its name?\n",
-      "country": "France\n"
+      "question": "From which people France got its name?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Tipu Sultan "
+          "text": "Tipu Sultan",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Arthur Wellesley\n"
+          "text": "Arthur Wellesley",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Horatio Nelson\n"
+          "text": "Horatio Nelson",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) George Washington\n"
+          "text": "George Washington",
+          "correct": false
         }
       ],
-      "question": "4) Who of the following was a member of the Jacobin Club?\n",
-      "country": "France\n"
+      "question": "Who of the following was a member of the Jacobin Club?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Paris\n"
+          "text": "Paris",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Cannes\n"
+          "text": "Cannes",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Boredaux\n"
+          "text": "Boredaux",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) Avignon "
+          "text": "Avignon",
+          "correct": true
         }
       ],
-      "question": "5) Which city had Popes as residents during \u201cBabylonish captivity\u201d?\n",
-      "country": "France\n"
+      "question": "Which city had Popes as residents during \u201cBabylonish captivity\u201d?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Paris\n"
+          "text": "Paris",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Cannes "
+          "text": "Cannes",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Bordeaux\n"
+          "text": "Bordeaux",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Avignon\n"
+          "text": "Avignon",
+          "correct": false
         }
       ],
-      "question": "6) Which city is famous for Film Festival?\n",
-      "country": "France\n"
+      "question": "Which city is famous for Film Festival?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Voltaire\n"
+          "text": "Voltaire",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Rousseau\n"
+          "text": "Rousseau",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Louis XIV "
+          "text": "Louis XIV",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Napoleon\n"
+          "text": "Napoleon",
+          "correct": false
         }
       ],
-      "question": "7) Who said \u201cI am the State.\u201d?\n",
-      "country": "France\n"
+      "question": "Who said \u201cI am the State.\u201d?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Louis XV "
+          "text": "Louis XV",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Louis XVI\n"
+          "text": "Louis XVI",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Diderot\n"
+          "text": "Diderot",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Charlemagne\n"
+          "text": "Charlemagne",
+          "correct": false
         }
       ],
-      "question": "8) Who said \u201cAfter me the deluge\u201d?\n",
-      "country": "France\n"
+      "question": "Who said \u201cAfter me the deluge\u201d?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Bruno\n"
+          "text": "Bruno",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) John Wyclif\n"
+          "text": "John Wyclif",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Joan of Arc "
+          "text": "Joan of Arc",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) John Calvin\n"
+          "text": "John Calvin",
+          "correct": false
         }
       ],
-      "question": "9) Which saint was burnt at stake in 1431 as a heretic?\n",
-      "country": "France\n"
+      "question": "Which saint was burnt at stake in 1431 as a heretic?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Victor Hugo\n"
+          "text": "Victor Hugo",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Alexandre Dumas "
+          "text": "Alexandre Dumas",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Arthur Conan Doyle\n"
+          "text": "Arthur Conan Doyle",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Jean Paul Sartre\n"
+          "text": "Jean Paul Sartre",
+          "correct": false
         }
       ],
-      "question": "10) Who is the author of \u201cThe Count of Monte Cristo\u201c?\n",
-      "country": "France\n"
+      "question": " Who is the author of \u201cThe Count of Monte Cristo\u201c?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) January 1\n"
+          "text": "January 1",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) March 25\n"
+          "text": "March 25",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) May 1\n"
+          "text": "May 1",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) July 14 "
+          "text": "July 14",
+          "correct": true
         }
       ],
-      "question": "11) When is Bastille Day?\n",
-      "country": "France\n"
+      "question": " When is Bastille Day?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Sword\n"
+          "text": "Sword",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Axe\n"
+          "text": "Axe",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Guillotine "
+          "text": "Guillotine",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Dagger\n"
+          "text": "Dagger",
+          "correct": false
         }
       ],
-      "question": "12) Which instrument was used during French Revolution for beheading?\n",
-      "country": "France\n"
+      "question": " Which instrument was used during French Revolution for beheading?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Alaska\n"
+          "text": "Alaska",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) California\n"
+          "text": "California",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Maryland\n"
+          "text": "Maryland",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) Louisiana "
+          "text": "Louisiana",
+          "correct": true
         }
       ],
-      "question": "13) Which State of USA was once a French colony?\n",
-      "country": "France\n"
+      "question": " Which State of USA was once a French colony?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Argentina\n"
+          "text": "Argentina",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Brazil "
+          "text": "Brazil",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Chile\n"
+          "text": "Chile",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Denmark\n"
+          "text": "Denmark",
+          "correct": false
         }
       ],
-      "question": "14) Which country was defeated by France to win Football World Cup in 1998?\n",
-      "country": "France\n"
+      "question": " Which country was defeated by France to win Football World Cup in 1998?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) British Columbia\n"
+          "text": "British Columbia",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Prince Edward Island\n"
+          "text": "Prince Edward Island",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Labrador\n"
+          "text": "Labrador",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) Quebec "
+          "text": "Quebec",
+          "correct": true
         }
       ],
-      "question": "15) Which province of Canada has a large French population?\n",
-      "country": "France\n"
+      "question": " Which province of Canada has a large French population?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Napoleon I "
+          "text": "Napoleon I",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Napoleon II\n"
+          "text": "Napoleon II",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Napoleon III\n"
+          "text": "Napoleon III",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Louis XVI\n"
+          "text": "Louis XVI",
+          "correct": false
         }
       ],
-      "question": "16) Which French Emperor died in St. Helena?\n",
-      "country": "France\n"
+      "question": " Which French Emperor died in St. Helena?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) USSR\n"
+          "text": "USSR",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Germany "
+          "text": "Germany",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Italy\n"
+          "text": "Italy",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Japan\n"
+          "text": "Japan",
+          "correct": false
         }
       ],
-      "question": "17) Which country occupied France during World War II?\n",
-      "country": "France\n"
+      "question": " Which country occupied France during World War II?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Pierre Curie and Marie Curie "
+          "text": "Pierre Curie and Marie Curie",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Jacques Curie\n"
+          "text": "Jacques Curie",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Pierre Louis Dulong\n"
+          "text": "Pierre Louis Dulong",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Francis Perrin\n"
+          "text": "Francis Perrin",
+          "correct": false
         }
       ],
-      "question": "18) Who discovered radium?\n",
-      "country": "France\n"
+      "question": " Who discovered radium?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) 5\n"
+          "text": "5",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) 7\n"
+          "text": "7",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) 11 "
+          "text": "11",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) 15\n"
+          "text": "15",
+          "correct": false
         }
       ],
-      "question": "19) How many gold medals were won by France in 2004 Athens Olympics?\n",
-      "country": "France\n"
+      "question": " How many gold medals were won by France in 2004 Athens Olympics?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Thames\n"
+          "text": "Thames",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Seine "
+          "text": "Seine",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Danube\n"
+          "text": "Danube",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Volga\n"
+          "text": "Volga",
+          "correct": false
         }
       ],
-      "question": "20) Which of the following is a river of France ?\n",
-      "country": "France\n"
+      "question": " Which of the following is a river of France ?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Philip II\n"
+          "text": "Philip II",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Louis XIV\n"
+          "text": "Louis XIV",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Louis IX "
+          "text": "Louis IX",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Philip IV\n"
+          "text": "Philip IV",
+          "correct": false
         }
       ],
-      "question": "21) Which French King took part in the Seventh and Eighth Crusades?\n",
-      "country": "France\n"
+      "question": " Which French King took part in the Seventh and Eighth Crusades?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Leaning Tower of Pisa\n"
+          "text": "Leaning Tower of Pisa",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Eiffel Tower "
+          "text": "Eiffel Tower",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Petronas Towers\n"
+          "text": "Petronas Towers",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Westminster Abbey\n"
+          "text": "Westminster Abbey",
+          "correct": false
         }
       ],
-      "question": "22) France is famous for which structure?\n",
-      "country": "France\n"
+      "question": " France is famous for which structure?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Tour de Force\n"
+          "text": "Tour de Force",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Tour de France "
+          "text": "Tour de France",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Tour de Beauce\n"
+          "text": "Tour de Beauce",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Tour of Britain\n"
+          "text": "Tour of Britain",
+          "correct": false
         }
       ],
-      "question": "23) Which is the world\u2019s best known cycling race?\n",
-      "country": "France\n"
+      "question": " Which is the world\u2019s best known cycling race?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Red rose\n"
+          "text": "Red rose",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Blue River\n"
+          "text": "Blue River",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) White lightning\n"
+          "text": "White lightning",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) Our Lady "
+          "text": "Our Lady",
+          "correct": true
         }
       ],
-      "question": "24) What does Notre Dame mean?\n",
-      "country": "France\n"
+      "question": " What does Notre Dame mean?"
     },
     {
+      "country": "France",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Sicily\n"
+          "text": "Sicily",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Sardinia\n"
+          "text": "Sardinia",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Corsica "
+          "text": "Corsica",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Isle of Man\n"
+          "text": "Isle of Man",
+          "correct": false
         }
       ],
-      "question": "25) In which island there is a demand for independence from France?\n",
-      "country": "France\n"
+      "question": " In which island there is a demand for independence from France?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": true,
-          "text": "a) Mikael Agricola "
+          "text": "Mikael Agricola",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) Erik Exelsson\n"
+          "text": "Erik Exelsson",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Aleksis Kivi\n"
+          "text": "Aleksis Kivi",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Emma Irene Astrom\n"
+          "text": "Emma Irene Astrom",
+          "correct": false
         }
       ],
-      "question": "2) Who produced the first Finnish language book, a book of Finnish grammar?\n",
-      "country": "Finland\n"
+      "question": "Who produced the first Finnish language book, a book of Finnish grammar?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": false,
-          "text": "a) J. K. Paasikivi\n"
+          "text": "J. K. Paasikivi",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "b) Urho Kekkonen "
+          "text": "Urho Kekkonen",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "c) Tarja Halonen\n"
+          "text": "Tarja Halonen",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) Matti Vanhanen\n"
+          "text": "Matti Vanhanen",
+          "correct": false
         }
       ],
-      "question": "3) Who was the President of Finland from 1956 to 1981?\n",
-      "country": "Finland\n"
+      "question": "Who was the President of Finland from 1956 to 1981?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Turku\n"
+          "text": "Turku",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Lahti\n"
+          "text": "Lahti",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Helsinki "
+          "text": "Helsinki",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Kemi\n"
+          "text": "Kemi",
+          "correct": false
         }
       ],
-      "question": "4) Which is the capital of Finland?\n",
-      "country": "Finland\n"
+      "question": "Which is the capital of Finland?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Krone\n"
+          "text": "Krone",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Mark\n"
+          "text": "Mark",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) Pound\n"
+          "text": "Pound",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "d) Markka "
+          "text": "Markka",
+          "correct": true
         }
       ],
-      "question": "5) Which was Finland\u2019s currency before Euro?\n",
-      "country": "Finland\n"
+      "question": "Which was Finland\u2019s currency before Euro?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Lake Ladoga\n"
+          "text": "Lake Ladoga",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Lake Peipus\n"
+          "text": "Lake Peipus",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Gulf of Finland "
+          "text": "Gulf of Finland",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Barents Sea\n"
+          "text": "Barents Sea",
+          "correct": false
         }
       ],
-      "question": "6) Which water body separates Finland and Estonia?\n",
-      "country": "Finland\n"
+      "question": "Which water body separates Finland and Estonia?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": true,
-          "text": "a) 6 December "
+          "text": "6 December",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "b) 5 November\n"
+          "text": "5 November",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "c) 24 June\n"
+          "text": "24 June",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "d) 15 May\n"
+          "text": "15 May",
+          "correct": false
         }
       ],
-      "question": "7) When is the Independence Day of Finland?\n",
-      "country": "Finland\n"
+      "question": "When is the Independence Day of Finland?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Baptist Church\n"
+          "text": "Baptist Church",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Anglican Church\n"
+          "text": "Anglican Church",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Evangelical Lutheran Church of Finland "
+          "text": "Evangelical Lutheran Church of Finland",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Roman Catholic Church\n"
+          "text": "Roman Catholic Church",
+          "correct": false
         }
       ],
-      "question": "8) Which Church has the highest number of members in Finland?\n",
-      "country": "Finland\n"
+      "question": "Which Church has the highest number of members in Finland?"
     },
     {
+      "country": "Finland",
       "answers": [
         {
-          "correct": false,
-          "text": "a) Four years\n"
+          "text": "Four years",
+          "correct": false
         },
         {
-          "correct": false,
-          "text": "b) Five years\n"
+          "text": "Five years",
+          "correct": false
         },
         {
-          "correct": true,
-          "text": "c) Six years "
+          "text": "Six years",
+          "correct": true
         },
         {
-          "correct": false,
-          "text": "d) Seven years\n"
+          "text": "Seven years",
+          "correct": false
         }
       ],
-      "question": "9) What is the term of the President of the Finland?\n",
-      "country": "Finland\n"
+      "question": "What is the term of the President of the Finland?"
     }
   ]
 }
