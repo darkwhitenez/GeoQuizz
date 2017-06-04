@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">GeoQuizz</string>
+    <string name="activity_info_info">This \'POC\' application was developed exclusively for the purposes of the LC Challenge 2017.
+        \n\nDevelopers who participated in the implementation:
+        \n\nSebastijan Janko\n
+        Natko Katić\n
+        Zvonimir Lončarić\n
+
+        \n\n\n Carry on.
+    </string>
 </resources>

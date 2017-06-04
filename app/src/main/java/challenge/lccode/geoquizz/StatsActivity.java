@@ -45,7 +45,7 @@ public class StatsActivity extends AppCompatActivity {
 
         bar = (ProgressBar) findViewById(R.id.progressbar);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        userStatsAdapter = new UserStatsAdapter();
+        userStatsAdapter = new UserStatsAdapter(this);
         fetchStatsData = new FetchStatsData();
         fetchStatsData.execute();
 

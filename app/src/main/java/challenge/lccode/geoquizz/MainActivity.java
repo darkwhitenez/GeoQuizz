@@ -1,6 +1,5 @@
 package challenge.lccode.geoquizz;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -10,8 +9,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -45,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     TextView frame_map;
 
     private Menu menu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         if (Application.isLoggedIn) {
             frame_register.setVisibility(View.GONE);
-        }else{
+        } else {
             frame_stats.setVisibility(View.GONE);
         }
 
@@ -160,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
         MenuItem bedMenuItem = menu.findItem(R.id.actionbar_user_login);
         if (Application.isLoggedIn) {
             bedMenuItem.setTitle("Log out");
-        }else{
+        } else {
             bedMenuItem.setTitle("Login");
         }
         return true;
@@ -173,8 +171,14 @@ public class MainActivity extends AppCompatActivity {
         switch (id) {
             case R.id.actionbar_settings_settings:
                 break;
-            case R.id.actionbar_settings_info:
+
+            case R.id.actionbar_settings_info: {
+                Intent intentInfo = new Intent(this, InfoActivity.class);
+                startActivity(intentInfo);
+                finish();
                 break;
+            }
+
             case R.id.actionbar_user_login: {
                 if (Application.isLoggedIn) {
                     logOut();
@@ -184,7 +188,6 @@ public class MainActivity extends AppCompatActivity {
                     finish();
                 }
                 break;
-
             }
 
         }

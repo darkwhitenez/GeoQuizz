@@ -3,21 +3,14 @@ package challenge.lccode.geoquizz;
 import android.annotation.TargetApi;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Build;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.AdapterViewAnimator;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -28,14 +21,13 @@ import challenge.lccode.geoquizz.helper.ApiVersionHelper;
 import challenge.lccode.geoquizz.helper.Util;
 import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.QuizItem;
-import challenge.lccode.geoquizz.models.UserStats;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
 
-public class ChallengeActivity extends AppCompatActivity {
+public class QuizActivity extends AppCompatActivity {
 
     private ImageView back;
     private TextView quizNumberText;
@@ -47,16 +39,19 @@ public class ChallengeActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private ProgressDialog dialog;
     private Retrofit retrofit;
+    private String countryCode;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_challenge);
+        setContentView(R.layout.activity_quiz);
+
+        countryCode = (String)getIntent().getExtras().get("country_code");
+        toolbar.setTitle(countryCode + " QUIZ");
 
         toolbar = (Toolbar) findViewById(R.id.toolbar_challenge);
-        toolbar.setTitle("Challenge");
         dialog = new ProgressDialog(this, R.style.ProgressbarTheme);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         dialog.setCancelable(true);
@@ -68,7 +63,7 @@ public class ChallengeActivity extends AppCompatActivity {
 
     }
 
-    private void initQuiz(){
+    private void initQuiz() {
         System.out.println(quiz.getQuizItems());
         quizCount = -1;
         quizCorrect = new ArrayList<>();
@@ -78,7 +73,7 @@ public class ChallengeActivity extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ChallengeActivity.this, MainActivity.class);
+                Intent intent = new Intent(QuizActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -142,7 +137,8 @@ public class ChallengeActivity extends AppCompatActivity {
 
     private void fetchQuiz() {
         QuizRestInterface apiService = retrofit.create(QuizRestInterface.class);
-        final Call<List<QuizItem>> callQuiz = apiService.getRandomQuiz(Application.token);
+        final Call<List<QuizItem>> callQuiz = apiService.getQuizForCountry(countryCode, Application.token);
+        System.out.println(Application.token);
         callQuiz.enqueue(new Callback<List<QuizItem>>() {
             @Override
             public void onResponse(Call<List<QuizItem>> call, Response<List<QuizItem>> response) {

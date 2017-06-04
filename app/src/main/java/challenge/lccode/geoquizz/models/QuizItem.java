@@ -9,20 +9,20 @@ import java.util.List;
 public class QuizItem {
 
     public List<Answer> answers;
-    public Question question;
+    public String text;
     public Long _id;
 
 
     public QuizItem() {
     }
 
-    public String getQuestion(){
-        return question.text;
+    public String getQuestion() {
+        return text;
     }
 
     public QuizItem(Long _id, String question, List<Answer> answers) {
         this._id = _id;
-        this.question = new Question(question);
+        this.text = question;
         this.answers = answers;
     }
 

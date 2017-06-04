@@ -35,7 +35,7 @@ public interface QuizRestInterface {
 
     // slanje rezultata kviza
     @POST("/api/quiz/result/{id}")
-    Call<Void> sendQuizResult(@Path("id") String userId, @Body QuizResult quizResult );
+    Call<Void> sendQuizResult(@Path("id") String userId, @Body QuizResult quizResult);
 
     // statistika o korisniku općenito
     @GET("/api/user/get_stats")
@@ -46,8 +46,9 @@ public interface QuizRestInterface {
     Call<List<QuizItem>> getRandomQuiz(@Header("x-auth-token") String token);
 
     // dohvat random kviza neke države
-    @GET("/api/quiz/getforcountry/{id}")
-    Call<Quiz> getQuizForCountry(@Path("id") String id);
+    @FormUrlEncoded
+    @POST("/api/quiz/get_for_country")
+    Call<List<QuizItem>> getQuizForCountry(@Field("country_code") String countryCode, @Header("x-auth-token") String token);
 
     // dohvat općenite statistike svih korisnika
     @GET("/api/quiz/getgeneralstats")
