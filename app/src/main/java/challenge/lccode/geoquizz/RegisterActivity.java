@@ -10,6 +10,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.SwitchCompat;
 import android.text.Editable;
 import android.text.LoginFilter;
 import android.text.TextWatcher;
@@ -32,16 +33,20 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RegisterActivity extends AppCompatActivity {
 
+    boolean isSignIn;
     boolean isDone;
     FloatingActionButton done;
     private EditText name;
     private EditText password;
+    private TextView activity_register_label;
     private CoordinatorLayout coordinatorLayout;
+    private SwitchCompat login_register_switch;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        isSignIn = true;
         setContentView(R.layout.activity_register);
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id
                 .coordinatorLayout);
@@ -74,6 +79,19 @@ public class RegisterActivity extends AppCompatActivity {
                 }
             }
         };
+        activity_register_label = (TextView) findViewById(R.id.activity_register_label);
+        login_register_switch = (SwitchCompat) findViewById(R.id.login_register_switch);
+        login_register_switch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchFormMode();
+            }
+        });
+        if (isSignIn){
+            activity_register_label.setText("SIGN UP");
+        }else{
+            activity_register_label.setText("LOGIN");
+        }
         done = (FloatingActionButton) findViewById(R.id.done);
         name = (EditText) findViewById(R.id.activity_register_name);
         name.addTextChangedListener(textWatcher);
@@ -82,10 +100,24 @@ public class RegisterActivity extends AppCompatActivity {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                registerUser();
+                if (isSignIn){
+                    registerUser();
+                }else{
+                    loginUser();
+                }
             }
         });
 
+    }
+
+    private void switchFormMode() {
+        if (isSignIn){
+            activity_register_label.setText("LOGIN");
+        }else{
+            activity_register_label.setText("SIGN UP");
+        }
+
+        isSignIn = !isSignIn;
     }
 
     public static void start(Activity activity, Boolean isInEditMode) {
@@ -105,7 +137,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void loginUser() {
-        String userName = name.getText().toString().trim();
+        final String userName = name.getText().toString().trim();
         String userPass = password.getText().toString().trim();
         QuizRestInterface apiService = getRetrofit().create(QuizRestInterface.class);
         Call<Object> call = apiService.loginUser(userName, userPass);
@@ -118,6 +150,10 @@ public class RegisterActivity extends AppCompatActivity {
                     String gson = new Gson().toJson(response.body());
                     String token = new Gson().fromJson(gson, JsonObject.class).get("token").toString();
                     Application.token = token;
+                    Application.isLoggedIn = true;
+                    Application.name = userName;
+                    Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                    startActivity(intent);
 
                 } else {
                     Snackbar snackbar = Snackbar
@@ -153,7 +189,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if (statusCode == 200) {
                     Snackbar snackbar = Snackbar
-                            .make(coordinatorLayout, "Status: " + statusCode, Snackbar.LENGTH_LONG);
+                            .make(coordinatorLayout, "User sucessfully registered: " + statusCode, Snackbar.LENGTH_SHORT);
                     snackbar.show();
                     loginUser();
 

@@ -36,14 +36,6 @@
                     android:textColor="@color/primary_dark"
                     android:textSize="28sp" />
 
-                <ImageView
-                    android:id="@+id/settings"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="top|end"
-                    android:layout_toRightOf="@+id/app_title"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_menu_black_24dp" />
             </FrameLayout>
 
         </android.support.v7.widget.Toolbar>
@@ -106,6 +98,7 @@
         </FrameLayout>
 
         <FrameLayout
+            android:id="@+id/activity_main_frame_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="40dp"
@@ -124,6 +117,30 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="Register"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/activity_main_frame_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/primary_dark"
+            android:elevation="6dp">
+
+            <TextView
+                android:id="@+id/activity_main_stats"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Stats"
                 android:textColor="#fff"
                 android:textSize="22sp" />
         </FrameLayout>
