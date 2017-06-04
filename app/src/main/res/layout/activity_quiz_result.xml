@@ -22,17 +22,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:orientation="vertical">
 
         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/app_title"
+            android:id="@+id/quiz_result_msg"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:clipToPadding="false"
             android:padding="4dp"
-            android:text="Well done!"
+            android:text=""
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
             android:textColor="@color/primary_dark"
             android:textSize="28sp" />
@@ -56,6 +56,31 @@
                 android:textSize="24sp" />
         </RelativeLayout>
     </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/activity_quiz_play_another"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/accent"
+        android:elevation="6dp">
+
+        <TextView
+            android:id="@+id/activity_main_register"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ripple_effect"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Play another!"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+    </FrameLayout>
 
 
 </LinearLayout>

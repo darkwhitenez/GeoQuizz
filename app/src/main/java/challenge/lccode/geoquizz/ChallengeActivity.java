@@ -12,6 +12,10 @@ import android.widget.AdapterViewAnimator;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 import challenge.lccode.geoquizz.adapter.QuizAdapter;
 import challenge.lccode.geoquizz.helper.ApiVersionHelper;
 import challenge.lccode.geoquizz.models.Quiz;
@@ -25,7 +29,10 @@ public class ChallengeActivity extends AppCompatActivity {
     private QuizAdapter mQuizAdapter;
     private Quiz quiz;
     private int quizCount;
+    private List<Boolean> quizCorrect;
     private Animation slide_in_left, slide_in_right, slide_out_left, slide_out_right;
+
+
 
 
     @Override
@@ -34,6 +41,7 @@ public class ChallengeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_challenge);
         quiz = FakeQuiz.getQuiz();
         quizCount = -1;
+        quizCorrect = new ArrayList<>();
         quizNumberText = (TextView) findViewById(R.id.toolbar_count);
         setQuestionNumber();
         back = (ImageView) findViewById(R.id.back);
@@ -78,22 +86,28 @@ public class ChallengeActivity extends AppCompatActivity {
     }
 
 
-    public void proceed() {
+    public void proceed(boolean isCorrect) {
         if (mQuizView == null) {
             return;
         }
+        quizCorrect.add(isCorrect);
         int nextItem = mQuizView.getDisplayedChild() + 1;
         final int count = mQuizView.getAdapter().getCount();
-        System.out.println(nextItem + " : " + count);
+
         if (nextItem < count) {
+
             mQuizView.getInAnimation().start();
             mQuizView.getOutAnimation().start();
             mQuizView.showNext();
             setQuestionNumber();
             return;
+
         }
 
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("quiz_results", (Serializable) quizCorrect);
         Intent intent = new Intent(this, QuizResultActivity.class);
+        intent.putExtras(bundle);
         startActivity(intent);
 
     }
