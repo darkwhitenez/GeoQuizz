@@ -1,10 +1,11 @@
 import random
 from functools import wraps
 
+from sqlalchemy.sql.expression import func
 from flask import Blueprint, request, jsonify, g
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from geoquizz.models import db, User, QuestionStats
+from geoquizz.models import db, User, QuestionStats, Question
 
 api = Blueprint('api', __name__)
 
@@ -52,20 +53,29 @@ def register():
 @api.route('/quiz/get_random')
 @authenticate
 def get_random():
-    answers = [{'text': f'Dolor sit amet {i}', 'correct': False} for i in range(4)]
-    random.choice(answers)['correct'] = True
+    questions = Question.query.order_by(func.random()).limit(7)
     return jsonify(
-        [{'question': {'text': f'Lorem ipsum {i}'}, 'answers': answers} for i in range(10)]
+        [{'text': question.text,
+          'answers': [{
+              'text': answer.text,
+              'correct': answer.correct
+           } for answer in question.answers]
+          } for question in questions]
     )
 
 
-@api.route('/quiz/get_for_country')
+@api.route('/quiz/get_for_country', methods=['POST'])
 @authenticate
 def get_for_country():
-    answers = [{'text': f'Dolor sit amet {i}', 'correct': False} for i in range(4)]
-    random.choice(answers)['correct'] = True
+    country_code = request.form['country_code']
+    questions = Question.query.filter_by(country_code=country_code).order_by(func.random()).limit(7)
     return jsonify(
-        [{'question': {'text': f'Lorem ipsum {i}'},'answers': answers} for i in range(10)]
+        [{'text': question.text,
+          'answers': [{
+              'text': answer.text,
+              'correct': answer.correct
+           } for answer in question.answers]
+          } for question in questions]
     )
 
 
