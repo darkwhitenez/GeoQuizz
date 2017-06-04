@@ -7,25 +7,36 @@ import java.util.List;
  */
 
 public class QuizItem {
-    public long _id;
-    public String question;
-    public List<String> answers;
-    public String correctAnswer;
 
-    public QuizItem(){}
+    public List<Answer> answers;
+    public Question question;
+    public Long _id;
 
-    public QuizItem(long _id, String question, List<String> answers, String correctAnswer){
+
+    public QuizItem() {
+    }
+
+    public String getQuestion(){
+        return question.text;
+    }
+
+    public QuizItem(Long _id, String question, List<Answer> answers) {
         this._id = _id;
-        this.question = question;
+        this.question = new Question(question);
         this.answers = answers;
-        this.correctAnswer = correctAnswer;
     }
 
     public boolean isAnswerCorrect(String playerAnswer) {
-        return playerAnswer.equals(correctAnswer);
+        for (Answer a : answers) {
+            if (a.correct && a.text.equals(playerAnswer)) {
+                return true;
+            }
+        }
+        return false;
     }
+
     public boolean isAnswerCorrect(int playerAnswer) {
-        return answers.get(playerAnswer).equals(correctAnswer);
+        return answers.get(playerAnswer).correct;
     }
 
 }

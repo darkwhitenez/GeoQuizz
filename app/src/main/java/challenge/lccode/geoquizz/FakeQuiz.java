@@ -3,6 +3,7 @@ package challenge.lccode.geoquizz;
 import java.util.ArrayList;
 import java.util.List;
 
+import challenge.lccode.geoquizz.models.Answer;
 import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.QuizItem;
 
@@ -13,8 +14,8 @@ import challenge.lccode.geoquizz.models.QuizItem;
 public class FakeQuiz {
 
     public static Quiz getQuiz() {
-        List<String> answers = new ArrayList<>();
-        answers.add("Vatican");
+        List<Answer> answers = new ArrayList<>();
+/*        answers.add("Vatican");
         answers.add("Croatia");
         answers.add("Longlonglonglonglonglong");
         answers.add("Dick");
@@ -27,7 +28,8 @@ public class FakeQuiz {
         quizItems.add(i2);
         quizItems.add(i3);
 
-        Quiz q = new Quiz("100", quizItems);
-        return q;
+        Quiz q = new Quiz(quizItems);
+        */
+        return null;
     }
 }
