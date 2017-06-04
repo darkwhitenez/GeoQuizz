@@ -112,6 +112,7 @@ public class GlRenderer implements Renderer {
         } else
             gl.glRotatef(this.mRotationAngle--, 0, 1, 0);
 
+
         this.mEarth.draw(gl);
     }
 
