@@ -1,1 +1,5548 @@
-{"main": [{"country": "Turkey", "question": "Which sea is to the north of Turkey?", "answers": [{"text": "North Sea", "correct": false}, {"text": "Black Sea", "correct": true}, {"text": "Caspian Sea", "correct": false}, {"text": "Dead Sea", "correct": false}]}, {"country": "Turkey", "question": "When did the Turks conquer Constantinople?", "answers": [{"text": "1260", "correct": false}, {"text": "1425", "correct": false}, {"text": "1453", "correct": true}, {"text": "1526", "correct": false}]}, {"country": "Turkey", "question": "How was Turkey known in the beginning of the 20th century?", "answers": [{"text": "Guardian of Europe", "correct": false}, {"text": "Leader of Europe", "correct": false}, {"text": "Sick man of Europe", "correct": true}, {"text": "Playground of Europe", "correct": false}]}, {"country": "Turkey", "question": "Who led the founding of the Republic of Turkey?", "answers": [{"text": "Tansu Ciller", "correct": false}, {"text": "Mustafa Kemal", "correct": true}, {"text": "Buland Ecevit", "correct": false}, {"text": "Deniz Baykal", "correct": false}]}, {"country": "Turkey", "question": "Which is the capital of Turkey?", "answers": [{"text": "Ankara", "correct": true}, {"text": "Istanbul", "correct": false}, {"text": "Izmir", "correct": false}, {"text": "Adana", "correct": false}]}, {"country": "Turkey", "question": "Which country was attacked by Turkey in 1974?", "answers": [{"text": "Malta", "correct": false}, {"text": "Syria", "correct": false}, {"text": "Cyprus", "correct": true}, {"text": "Israel", "correct": false}]}, {"country": "Turkey", "question": "Which of the following republics only Turkey recognizes?", "answers": [{"text": "Turkish Republic of Northern Cyprus", "correct": true}, {"text": "Republic of China", "correct": false}, {"text": "Republic of Ireland", "correct": false}, {"text": "Former Yugoslav Republic of Macedonia", "correct": false}]}, {"country": "Turkey", "question": "Who is the last Caliph?", "answers": [{"text": "Abdul Mejid II", "correct": true}, {"text": "Mehmed VI", "correct": false}, {"text": "Abdul Aziz", "correct": false}, {"text": "Mehmed V", "correct": false}]}, {"country": "Turkey", "question": "At which mosque did Pope Benedict XVI pray in November 2006?", "answers": [{"text": "Red Mosque", "correct": false}, {"text": "White Mosque", "correct": false}, {"text": "Blue Mosque", "correct": true}, {"text": "Green Mosque", "correct": false}]}, {"country": "Turkey", "question": " When did Turkey enter NATO?", "answers": [{"text": "1948", "correct": false}, {"text": "1949", "correct": false}, {"text": "1952", "correct": true}, {"text": "1954", "correct": false}]}, {"country": "Vietnam", "question": "When did North Vietnamese troops enter Saigon?", "answers": [{"text": "12 February 1964", "correct": false}, {"text": "30 April 1975", "correct": true}, {"text": "22 July 1952", "correct": false}, {"text": "19 December 1956", "correct": false}]}, {"country": "Vietnam", "question": "Which country is to the north of Vietnam?", "answers": [{"text": "China", "correct": true}, {"text": "Burma", "correct": false}, {"text": "Papua New Guinea", "correct": false}, {"text": "Singapore", "correct": false}]}, {"country": "Vietnam", "question": "Which sea is to the east of Vietnam?", "answers": [{"text": "Yellow", "correct": false}, {"text": "South China", "correct": true}, {"text": "Arabian", "correct": false}, {"text": "Bering", "correct": false}]}, {"country": "Vietnam", "question": "Which is the capital of Vietnam?", "answers": [{"text": "Hue", "correct": false}, {"text": "Haiphong", "correct": false}, {"text": "Hanoi", "correct": true}, {"text": "Dien Chau", "correct": false}]}, {"country": "Vietnam", "question": "Which is the currency of Vietnam?", "answers": [{"text": "Baht", "correct": false}, {"text": "Dong", "correct": true}, {"text": "Yen", "correct": false}, {"text": "Rupee", "correct": false}]}, {"country": "Vietnam", "question": "Which is the official language of Vietnam?", "answers": [{"text": "Chinese", "correct": false}, {"text": "Japanese", "correct": false}, {"text": "French", "correct": false}, {"text": "Vietnamese", "correct": true}]}, {"country": "Vietnam", "question": "Who perfected the Vietnamese writing system Quoc-ngu?", "answers": [{"text": "Gia Long", "correct": false}, {"text": "Alexandre de Rhodes", "correct": true}, {"text": "Pigneau de Behaine", "correct": false}, {"text": "Minh Mang", "correct": false}]}, {"country": "Vietnam", "question": "Who conquered Saigon in 1859?", "answers": [{"text": "Paul Doumer", "correct": false}, {"text": "Francis Garnier", "correct": false}, {"text": "Rigault de Genouilly", "correct": true}, {"text": "Albert Sarraut", "correct": false}]}, {"country": "Vietnam", "question": "When did Tonkin and Annam become French protectorates?", "answers": [{"text": "1763", "correct": false}, {"text": "1883", "correct": true}, {"text": "I789", "correct": false}, {"text": "1564", "correct": false}]}, {"country": "Vietnam", "question": " When was the Battle of Dien Bien Phu?", "answers": [{"text": "15 January 1942", "correct": false}, {"text": "7 May 1954", "correct": true}, {"text": "21 August 1918", "correct": false}, {"text": "2 November 1963", "correct": false}]}, {"country": "France", "question": "How was France known?", "answers": [{"text": "Cymru", "correct": false}, {"text": "Sverige", "correct": false}, {"text": "Gaul", "correct": true}, {"text": "Britannia", "correct": false}]}, {"country": "France", "question": "Who won the Battle of Tours in 732?", "answers": [{"text": "Charles Martel", "correct": true}, {"text": "Napoleon", "correct": false}, {"text": "Louis XVI", "correct": false}, {"text": "William of Normandy", "correct": false}]}, {"country": "France", "question": "From which people France got its name?", "answers": [{"text": "Normans", "correct": false}, {"text": "Vikings", "correct": false}, {"text": "Danes", "correct": false}, {"text": "Franks", "correct": true}]}, {"country": "France", "question": "Who of the following was a member of the Jacobin Club?", "answers": [{"text": "Tipu Sultan", "correct": true}, {"text": "Arthur Wellesley", "correct": false}, {"text": "Horatio Nelson", "correct": false}, {"text": "George Washington", "correct": false}]}, {"country": "France", "question": "Which city had Popes as residents during \u201cBabylonish captivity\u201d?", "answers": [{"text": "Paris", "correct": false}, {"text": "Cannes", "correct": false}, {"text": "Boredaux", "correct": false}, {"text": "Avignon", "correct": true}]}, {"country": "France", "question": "Which city is famous for Film Festival?", "answers": [{"text": "Paris", "correct": false}, {"text": "Cannes", "correct": true}, {"text": "Bordeaux", "correct": false}, {"text": "Avignon", "correct": false}]}, {"country": "France", "question": "Who said \u201cI am the State.\u201d?", "answers": [{"text": "Voltaire", "correct": false}, {"text": "Rousseau", "correct": false}, {"text": "Louis XIV", "correct": true}, {"text": "Napoleon", "correct": false}]}, {"country": "France", "question": "Who said \u201cAfter me the deluge\u201d?", "answers": [{"text": "Louis XV", "correct": true}, {"text": "Louis XVI", "correct": false}, {"text": "Diderot", "correct": false}, {"text": "Charlemagne", "correct": false}]}, {"country": "France", "question": "Which saint was burnt at stake in 1431 as a heretic?", "answers": [{"text": "Bruno", "correct": false}, {"text": "John Wyclif", "correct": false}, {"text": "Joan of Arc", "correct": true}, {"text": "John Calvin", "correct": false}]}, {"country": "France", "question": " Who is the author of \u201cThe Count of Monte Cristo\u201c?", "answers": [{"text": "Victor Hugo", "correct": false}, {"text": "Alexandre Dumas", "correct": true}, {"text": "Arthur Conan Doyle", "correct": false}, {"text": "Jean Paul Sartre", "correct": false}]}, {"country": "France", "question": " When is Bastille Day?", "answers": [{"text": "January 1", "correct": false}, {"text": "March 25", "correct": false}, {"text": "May 1", "correct": false}, {"text": "July 14", "correct": true}]}, {"country": "France", "question": " Which instrument was used during French Revolution for beheading?", "answers": [{"text": "Sword", "correct": false}, {"text": "Axe", "correct": false}, {"text": "Guillotine", "correct": true}, {"text": "Dagger", "correct": false}]}, {"country": "France", "question": " Which State of USA was once a French colony?", "answers": [{"text": "Alaska", "correct": false}, {"text": "California", "correct": false}, {"text": "Maryland", "correct": false}, {"text": "Louisiana", "correct": true}]}, {"country": "France", "question": " Which country was defeated by France to win Football World Cup in 1998?", "answers": [{"text": "Argentina", "correct": false}, {"text": "Brazil", "correct": true}, {"text": "Chile", "correct": false}, {"text": "Denmark", "correct": false}]}, {"country": "France", "question": " Which province of Canada has a large French population?", "answers": [{"text": "British Columbia", "correct": false}, {"text": "Prince Edward Island", "correct": false}, {"text": "Labrador", "correct": false}, {"text": "Quebec", "correct": true}]}, {"country": "France", "question": " Which French Emperor died in St. Helena?", "answers": [{"text": "Napoleon I", "correct": true}, {"text": "Napoleon II", "correct": false}, {"text": "Napoleon III", "correct": false}, {"text": "Louis XVI", "correct": false}]}, {"country": "France", "question": " Which country occupied France during World War II?", "answers": [{"text": "USSR", "correct": false}, {"text": "Germany", "correct": true}, {"text": "Italy", "correct": false}, {"text": "Japan", "correct": false}]}, {"country": "France", "question": " Who discovered radium?", "answers": [{"text": "Pierre Curie and Marie Curie", "correct": true}, {"text": "Jacques Curie", "correct": false}, {"text": "Pierre Louis Dulong", "correct": false}, {"text": "Francis Perrin", "correct": false}]}, {"country": "France", "question": " How many gold medals were won by France in 2004 Athens Olympics?", "answers": [{"text": "5", "correct": false}, {"text": "7", "correct": false}, {"text": "11", "correct": true}, {"text": "15", "correct": false}]}, {"country": "France", "question": " Which of the following is a river of France ?", "answers": [{"text": "Thames", "correct": false}, {"text": "Seine", "correct": true}, {"text": "Danube", "correct": false}, {"text": "Volga", "correct": false}]}, {"country": "France", "question": " Which French King took part in the Seventh and Eighth Crusades?", "answers": [{"text": "Philip II", "correct": false}, {"text": "Louis XIV", "correct": false}, {"text": "Louis IX", "correct": true}, {"text": "Philip IV", "correct": false}]}, {"country": "France", "question": " France is famous for which structure?", "answers": [{"text": "Leaning Tower of Pisa", "correct": false}, {"text": "Eiffel Tower", "correct": true}, {"text": "Petronas Towers", "correct": false}, {"text": "Westminster Abbey", "correct": false}]}, {"country": "France", "question": " Which is the world\u2019s best known cycling race?", "answers": [{"text": "Tour de Force", "correct": false}, {"text": "Tour de France", "correct": true}, {"text": "Tour de Beauce", "correct": false}, {"text": "Tour of Britain", "correct": false}]}, {"country": "France", "question": " What does Notre Dame mean?", "answers": [{"text": "Red rose", "correct": false}, {"text": "Blue River", "correct": false}, {"text": "White lightning", "correct": false}, {"text": "Our Lady", "correct": true}]}, {"country": "France", "question": " In which island there is a demand for independence from France?", "answers": [{"text": "Sicily", "correct": false}, {"text": "Sardinia", "correct": false}, {"text": "Corsica", "correct": true}, {"text": "Isle of Man", "correct": false}]}, {"country": "Finland", "question": "Who produced the first Finnish language book, a book of Finnish grammar?", "answers": [{"text": "Mikael Agricola", "correct": true}, {"text": "Erik Exelsson", "correct": false}, {"text": "Aleksis Kivi", "correct": false}, {"text": "Emma Irene Astrom", "correct": false}]}, {"country": "Finland", "question": "Who was the President of Finland from 1956 to 1981?", "answers": [{"text": "J. K. Paasikivi", "correct": false}, {"text": "Urho Kekkonen", "correct": true}, {"text": "Tarja Halonen", "correct": false}, {"text": "Matti Vanhanen", "correct": false}]}, {"country": "Finland", "question": "Which is the capital of Finland?", "answers": [{"text": "Turku", "correct": false}, {"text": "Lahti", "correct": false}, {"text": "Helsinki", "correct": true}, {"text": "Kemi", "correct": false}]}, {"country": "Finland", "question": "Which was Finland\u2019s currency before Euro?", "answers": [{"text": "Krone", "correct": false}, {"text": "Mark", "correct": false}, {"text": "Pound", "correct": false}, {"text": "Markka", "correct": true}]}, {"country": "Finland", "question": "Which water body separates Finland and Estonia?", "answers": [{"text": "Lake Ladoga", "correct": false}, {"text": "Lake Peipus", "correct": false}, {"text": "Gulf of Finland", "correct": true}, {"text": "Barents Sea", "correct": false}]}, {"country": "Finland", "question": "When is the Independence Day of Finland?", "answers": [{"text": "6 December", "correct": true}, {"text": "5 November", "correct": false}, {"text": "24 June", "correct": false}, {"text": "15 May", "correct": false}]}, {"country": "Finland", "question": "Which Church has the highest number of members in Finland?", "answers": [{"text": "Baptist Church", "correct": false}, {"text": "Anglican Church", "correct": false}, {"text": "Evangelical Lutheran Church of Finland", "correct": true}, {"text": "Roman Catholic Church", "correct": false}]}, {"country": "Finland", "question": "What is the term of the President of the Finland?", "answers": [{"text": "Four years", "correct": false}, {"text": "Five years", "correct": false}, {"text": "Six years", "correct": true}, {"text": "Seven years", "correct": false}]}, {"country": "Finland", "question": " Who are the oldest known inhabitants of Finland?", "answers": [{"text": "Saxons", "correct": false}, {"text": "Goths", "correct": false}, {"text": "Romans", "correct": false}, {"text": "Lapps", "correct": true}]}, {"country": "Argentina", "question": "Who is the first woman to be elected as the President of Argentina?", "answers": [{"text": "Corazin Aquino", "correct": false}, {"text": "Eva Peron", "correct": false}, {"text": "Cristina Fernandez de Kirchner", "correct": true}, {"text": "Isabella Peron", "correct": false}]}, {"country": "Argentina", "question": "Which islands are known as Islas Malvinas in Argentina?", "answers": [{"text": "Virgin Islands", "correct": false}, {"text": "Maldives", "correct": false}, {"text": "Falkland Islands", "correct": true}, {"text": "Channel Islands", "correct": false}]}, {"country": "Argentina", "question": "Who was the President of Argentina during its war with UK in 1982?", "answers": [{"text": "Juan Peron", "correct": false}, {"text": "Carlos Menem", "correct": false}, {"text": "Leopoldo Galtieri", "correct": true}, {"text": "Raul Alfonsin", "correct": false}]}, {"country": "Argentina", "question": "What is the land between Parana and Uruguay rivers called?", "answers": [{"text": "Assyria", "correct": false}, {"text": "Mesopotamia", "correct": true}, {"text": "Patagonia", "correct": false}, {"text": "Babylonia", "correct": false}]}, {"country": "Argentina", "question": "When did Argentina host the Football World Cup?", "answers": [{"text": "1974", "correct": false}, {"text": "1986", "correct": false}, {"text": "1978", "correct": true}, {"text": "1994", "correct": false}]}, {"country": "Argentina", "question": "How many gold medals did Argentina win in Athene Olympics 2004?", "answers": [{"text": "Two", "correct": true}, {"text": "One", "correct": false}, {"text": "Three", "correct": false}, {"text": "Five", "correct": false}]}, {"country": "Argentina", "question": "When is the Independence Day of Argentina?", "answers": [{"text": "4 July", "correct": false}, {"text": "9 July", "correct": true}, {"text": "1 September", "correct": false}, {"text": "3 December", "correct": false}]}, {"country": "Argentina", "question": "What is 20 June in Argentina?", "answers": [{"text": "Constitution Day", "correct": false}, {"text": "Flag Day", "correct": true}, {"text": "Labour Day", "correct": false}, {"text": "Army Day", "correct": false}]}, {"country": "Argentina", "question": "Who was the leading goal scorer in Football World Cup 1978?", "answers": [{"text": "Diego Maradona", "correct": false}, {"text": "Danial Passarella", "correct": false}, {"text": "Mario Kempes", "correct": true}, {"text": "Roberto Carlos", "correct": false}]}, {"country": "Argentina", "question": " Who deposed Isabel Peron in 1976?", "answers": [{"text": "Jorge Videla", "correct": true}, {"text": "Agustino Pinochet", "correct": false}, {"text": "Roberto Viola", "correct": false}, {"text": "Manuel Belgrano", "correct": false}]}, {"country": "Austria", "question": "Who ruled Austria from 1278 to 1918?", "answers": [{"text": "Tudors", "correct": false}, {"text": "Lancastrians", "correct": false}, {"text": "Habsburgs", "correct": true}, {"text": "Hohenzollerns", "correct": false}]}, {"country": "Austria", "question": "Where was Archduke Francis Ferdinand assassinated in 1914?", "answers": [{"text": "Rome", "correct": false}, {"text": "Berlin", "correct": false}, {"text": "Skopje", "correct": false}, {"text": "Sarajevo", "correct": true}]}, {"country": "Austria", "question": "In which battle Austria and its allies defeated Turks led by Kara Mustafa?", "answers": [{"text": "Vienna 1683", "correct": true}, {"text": "Lepanto 1571", "correct": false}, {"text": "Tours 732", "correct": false}, {"text": "Blenheim 1704", "correct": false}]}, {"country": "Austria", "question": "Which country annexed Austria in 1938?", "answers": [{"text": "USSR", "correct": false}, {"text": "Germany", "correct": true}, {"text": "Italy", "correct": false}, {"text": "Bulgaria", "correct": false}]}, {"country": "Austria", "question": "Which Austrian became the Governor of California?", "answers": [{"text": "Arnold Schwarzenegger", "correct": true}, {"text": "Madeleine Albright", "correct": false}, {"text": "Daniel Swarovski", "correct": false}, {"text": "Ingeborg Bachmann", "correct": false}]}, {"country": "Austria", "question": "Who was the Secretary General of UN and President of Austria?", "answers": [{"text": "U Thant", "correct": false}, {"text": "Heinz Fischer", "correct": false}, {"text": "Kurt Waldheim", "correct": true}, {"text": "Jorg Haider", "correct": false}]}, {"country": "Austria", "question": "Which British historian was sentenced to three years imprisonment for denying holocaust?", "answers": [{"text": "Julian Huxley", "correct": false}, {"text": "Ernest Hemingway", "correct": false}, {"text": "David Irving", "correct": true}, {"text": "Arnold Toynbee", "correct": false}]}, {"country": "Austria", "question": "Which is the official language of Austria?", "answers": [{"text": "English", "correct": false}, {"text": "German", "correct": true}, {"text": "French", "correct": false}, {"text": "Italian", "correct": false}]}, {"country": "Austria", "question": "Which is the currency of Austria?", "answers": [{"text": "Euro", "correct": true}, {"text": "Schilling", "correct": false}, {"text": "Mark", "correct": false}, {"text": "Lira", "correct": false}]}, {"country": "Austria", "question": " Which is the main river in Austria?", "answers": [{"text": "Vistula", "correct": false}, {"text": "Danube", "correct": true}, {"text": "Po", "correct": false}, {"text": "Volga", "correct": false}]}, {"country": "Barbados", "question": "When did Barbados become independent?", "answers": [{"text": "12 January 1948", "correct": false}, {"text": "26 May 1966", "correct": false}, {"text": "18 September1952", "correct": false}, {"text": "30 November 1966", "correct": true}]}, {"country": "Barbados", "question": "Who was Barbados\u2019 head of state in 1984?", "answers": [{"text": "Clifford Husbands", "correct": false}, {"text": "Elizabeth II", "correct": true}, {"text": "Owen Arthur", "correct": false}, {"text": "Grantley Adams", "correct": false}]}, {"country": "Barbados", "question": "When was Barbados Labour Party founded?", "answers": [{"text": "1938", "correct": true}, {"text": "1945", "correct": false}, {"text": "1948", "correct": false}, {"text": "1956", "correct": false}]}, {"country": "Barbados", "question": "Who was Barbados\u2019 prime minister in 1966-1976?", "answers": [{"text": "Clyde Mascoll", "correct": false}, {"text": "Elizabeth Thompson", "correct": false}, {"text": "Errol Barrow", "correct": true}, {"text": "Geoffrey Howe", "correct": false}]}, {"country": "Barbados", "question": "Which is the capital of Barbados?", "answers": [{"text": "Portland", "correct": false}, {"text": "Bridgetown", "correct": true}, {"text": "Hillcrest", "correct": false}, {"text": "Prospect", "correct": false}]}, {"country": "Barbados", "question": "Who of the following Test cricketers was born in Bridgetown?", "answers": [{"text": "Brian Lara", "correct": false}, {"text": "Clive Lloyd", "correct": false}, {"text": "Garfield Sobers", "correct": true}, {"text": "Vivian Richards", "correct": false}]}, {"country": "Barbados", "question": "When was slavery abolished in Barbados?", "answers": [{"text": "1863", "correct": false}, {"text": "1845", "correct": false}, {"text": "1834", "correct": true}, {"text": "1868", "correct": false}]}, {"country": "Barbados", "question": "Which is the currency of Barbados?", "answers": [{"text": "Yen", "correct": false}, {"text": "Dollar", "correct": true}, {"text": "Pound", "correct": false}, {"text": "Renminbi", "correct": false}]}, {"country": "Barbados", "question": "Which is the official language of Barbados?", "answers": [{"text": "English", "correct": true}, {"text": "Berber", "correct": false}, {"text": "Punic", "correct": false}, {"text": "Italian", "correct": false}]}, {"country": "Barbados", "question": " What is the area of Barbados?", "answers": [{"text": "360 sq. mi.", "correct": false}, {"text": "166 sq. mi.", "correct": true}, {"text": "204 sq. mi.", "correct": false}, {"text": "786 sq. mi.", "correct": false}]}, {"country": "Belgium", "question": "Which military alliance has its headquarters in Brussels?", "answers": [{"text": "ANZUS", "correct": false}, {"text": "OAS", "correct": false}, {"text": "NATO", "correct": true}, {"text": "SEATO", "correct": false}]}, {"country": "Belgium", "question": "Which is the official language of Wallonia?", "answers": [{"text": "Dutch", "correct": false}, {"text": "French", "correct": true}, {"text": "German", "correct": false}, {"text": "Flemish", "correct": false}]}, {"country": "Belgium", "question": "Which is the capital of European Union?", "answers": [{"text": "Brussels", "correct": true}, {"text": "Arlon", "correct": false}, {"text": "Dinant", "correct": false}, {"text": "Liege", "correct": false}]}, {"country": "Belgium", "question": "Which sea is to the west of Belgium?", "answers": [{"text": "North Sea", "correct": true}, {"text": "Baltic Sea", "correct": false}, {"text": "Irish Sea", "correct": false}, {"text": "East Sea", "correct": false}]}, {"country": "Belgium", "question": "Which part of Belgium is German-speaking?", "answers": [{"text": "Ghent", "correct": false}, {"text": "Hasselt", "correct": false}, {"text": "Mechelen", "correct": false}, {"text": "Ostbelgien", "correct": true}]}, {"country": "Belgium", "question": "When did Belgium become independent?", "answers": [{"text": "1798", "correct": false}, {"text": "1815", "correct": false}, {"text": "1830", "correct": true}, {"text": "1848", "correct": false}]}, {"country": "Belgium", "question": "From which people Belgium has derived its name?", "answers": [{"text": "Romans", "correct": false}, {"text": "Belgae", "correct": true}, {"text": "Danes", "correct": false}, {"text": "Vikings", "correct": false}]}, {"country": "Belgium", "question": "Which King of Belgium was held prisoner by Germany during World War II?", "answers": [{"text": "Albert II", "correct": false}, {"text": "Badouin", "correct": false}, {"text": "Leopold II", "correct": false}, {"text": "Leopold III", "correct": true}]}, {"country": "Belgium", "question": "Where was Napoleon defeated in 1815?", "answers": [{"text": "Brussels", "correct": false}, {"text": "Bruges", "correct": false}, {"text": "Namur", "correct": false}, {"text": "Waterloo", "correct": true}]}, {"country": "Belgium", "question": " Which country is to the south of Belgium?", "answers": [{"text": "Netherlands", "correct": false}, {"text": "Germany", "correct": false}, {"text": "France", "correct": true}, {"text": "Luxembourg", "correct": false}]}, {"country": "Bulgaria", "question": "From which people Bulgaria has derived its name?", "answers": [{"text": "Bulgars", "correct": true}, {"text": "Goths", "correct": false}, {"text": "Huns", "correct": false}, {"text": "Vandals", "correct": false}]}, {"country": "Bulgaria", "question": "Which of the following countries is not a neighbour of Bulgaria?", "answers": [{"text": "Greece", "correct": false}, {"text": "Italy", "correct": true}, {"text": "Macedonia", "correct": false}, {"text": "Romania", "correct": false}]}, {"country": "Bulgaria", "question": "Which is the main river of Bulgaria?", "answers": [{"text": "Maritsa", "correct": true}, {"text": "Danube", "correct": false}, {"text": "Tigris", "correct": false}, {"text": "Nile", "correct": false}]}, {"country": "Bulgaria", "question": "When did Bulgaria become independent?", "answers": [{"text": "1878", "correct": false}, {"text": "1887", "correct": false}, {"text": "1908", "correct": true}, {"text": "1912", "correct": false}]}, {"country": "Bulgaria", "question": "When did Byzantine Empire conquer Bulgaria?", "answers": [{"text": "865", "correct": false}, {"text": "927", "correct": false}, {"text": "1000", "correct": false}, {"text": "1018", "correct": true}]}, {"country": "Bulgaria", "question": "Which King of Bulgaria later became its Prime Minister?", "answers": [{"text": "Boris II", "correct": false}, {"text": "Boris III", "correct": false}, {"text": "Simeon I", "correct": false}, {"text": "Simeon II", "correct": true}]}, {"country": "Bulgaria", "question": "When did Bulgaria become a member of NATO?", "answers": [{"text": "1945", "correct": false}, {"text": "1989", "correct": false}, {"text": "1994", "correct": false}, {"text": "2004", "correct": true}]}, {"country": "Bulgaria", "question": "Which treaty is celebrated by Bulgaria as its Independence Day?", "answers": [{"text": "Treaty of San Stefano", "correct": true}, {"text": "Treaty of Berlin", "correct": false}, {"text": "Treaty of Versailles", "correct": false}, {"text": "Treaty of Rome", "correct": false}]}, {"country": "Bulgaria", "question": "Where was the Constituent Assembly convened in 1879?", "answers": [{"text": "Sofia", "correct": false}, {"text": "Varna", "correct": false}, {"text": "Ruse", "correct": false}, {"text": "Turnovo", "correct": true}]}, {"country": "Bulgaria", "question": " Who won the gold medal in 94kg weightlifting in Athens Olympics 2004?", "answers": [{"text": "Eduard Tjukin", "correct": false}, {"text": "Khadjimourad Akkaev", "correct": false}, {"text": "Milen Dobrev", "correct": true}, {"text": "Akakios Kakisvili", "correct": false}]}, {"country": "Croatia", "question": "When did Croatia become independent?", "answers": [{"text": "19 February 1968", "correct": false}, {"text": "25 June 1991", "correct": true}, {"text": "12 August 1972", "correct": false}, {"text": "17 December 1961", "correct": false}]}, {"country": "Croatia", "question": "Who was Croatia\u2019s president in 1991-1999?", "answers": [{"text": "Franjo Tudjman", "correct": true}, {"text": "Stipe Mesic", "correct": false}, {"text": "Josip Manolic", "correct": false}, {"text": "Jadranka Kosor", "correct": false}]}, {"country": "Croatia", "question": "Which country is to the east of Croatia?", "answers": [{"text": "France", "correct": false}, {"text": "Spain", "correct": false}, {"text": "Serbia", "correct": true}, {"text": "Portugal", "correct": false}]}, {"country": "Croatia", "question": "Which sea is to the west of Croatia?", "answers": [{"text": "Adriatic", "correct": true}, {"text": "Baltic", "correct": false}, {"text": "Irish", "correct": false}, {"text": "Norwegian", "correct": false}]}, {"country": "Croatia", "question": "Which is the capital of Croatia?", "answers": [{"text": "Karlovac", "correct": false}, {"text": "Sisac", "correct": false}, {"text": "Dubrovnic", "correct": false}, {"text": "Zagreb", "correct": true}]}, {"country": "Croatia", "question": "Where was former Croatian general Ante Gotovina arrested on 7 December 2005?", "answers": [{"text": "Belgrade", "correct": false}, {"text": "Skopje", "correct": false}, {"text": "Canary Islands", "correct": true}, {"text": "Falkland Islands", "correct": false}]}, {"country": "Croatia", "question": "What is the area of Croatia?", "answers": [{"text": "12,342 sq. mi.", "correct": false}, {"text": "21,851 sq. mi.", "correct": true}, {"text": "6,282 sq. mi.", "correct": false}, {"text": "5,126 sq. mi.", "correct": false}]}, {"country": "Croatia", "question": "Which is the currency of Croatia?", "answers": [{"text": "Drachma", "correct": false}, {"text": "Kuna", "correct": true}, {"text": "Lira", "correct": false}, {"text": "Punt", "correct": false}]}, {"country": "Croatia", "question": "Which is the official language of Croatia?", "answers": [{"text": "Croatian", "correct": true}, {"text": "Russian", "correct": false}, {"text": "Portuguese", "correct": false}, {"text": "Spanish", "correct": false}]}, {"country": "Croatia", "question": " Who was Croatia\u2019s prime minister in 2000-2003?", "answers": [{"text": "Nikica Valentic", "correct": false}, {"text": "Ivica Racan", "correct": true}, {"text": "Miomir Zuzul", "correct": false}, {"text": "Zlatko Matesa", "correct": false}]}, {"country": "Denmark", "question": "Which city is the capital of Denmark?", "answers": [{"text": "Berne", "correct": false}, {"text": "Berlin", "correct": false}, {"text": "Copenhagen", "correct": true}, {"text": "London", "correct": false}]}, {"country": "Denmark", "question": "In which drama of William Shakespeare it is said \u201cSomething is rotten in the state of Denmark.\"?", "answers": [{"text": "Macbeth", "correct": false}, {"text": "Othello", "correct": false}, {"text": "Julius Caesar", "correct": false}, {"text": "Hamlet", "correct": true}]}, {"country": "Denmark", "question": "How many goals were scored by Denmark against Uruguay in 1986 Football World Cup?", "answers": [{"text": "Six", "correct": true}, {"text": "Eight", "correct": false}, {"text": "Four", "correct": false}, {"text": "Nine", "correct": false}]}, {"country": "Denmark", "question": "Which city in West Bengal was a Danish colony?", "answers": [{"text": "Chandranagore", "correct": false}, {"text": "Serampore", "correct": true}, {"text": "Calcutta", "correct": false}, {"text": "Darjeeling", "correct": false}]}, {"country": "Denmark", "question": "Which country conquered Denmark during World War II?", "answers": [{"text": "Russia", "correct": false}, {"text": "Japan", "correct": false}, {"text": "Italy", "correct": false}, {"text": "Germany", "correct": true}]}, {"country": "Denmark", "question": "Which King of England was King of Denmark (1018-1035)?", "answers": [{"text": "Canute", "correct": true}, {"text": "Henry V", "correct": false}, {"text": "Edward VI", "correct": false}, {"text": "James II", "correct": false}]}, {"country": "Denmark", "question": "What is the colour of cross in the flag of Denmark?", "answers": [{"text": "Blue", "correct": false}, {"text": "Green", "correct": false}, {"text": "White", "correct": true}, {"text": "Yellow", "correct": false}]}, {"country": "Denmark", "question": "Who became the Queen of Denmark in 1972?", "answers": [{"text": "Elizabeth II", "correct": false}, {"text": "Beatrix", "correct": false}, {"text": "Alexandra", "correct": false}, {"text": "Margrethe II", "correct": true}]}, {"country": "Denmark", "question": "When is Constitution Day in Denmark?", "answers": [{"text": "1 May", "correct": false}, {"text": "5 June", "correct": true}, {"text": "4 July", "correct": false}, {"text": "15 August", "correct": false}]}, {"country": "Denmark", "question": " Which is the national tree of Denmark?", "answers": [{"text": "Beech", "correct": true}, {"text": "Cedar", "correct": false}, {"text": "Oak", "correct": false}, {"text": "Mango", "correct": false}]}, {"country": "Italy", "question": "Which two countries are surrounded on all sides by Italy?", "answers": [{"text": "Gibraltar and Andorra", "correct": false}, {"text": "Monaco and Andorra", "correct": false}, {"text": "Vatican and San Marino", "correct": true}, {"text": "Luxembourg and Monaco", "correct": false}]}, {"country": "Italy", "question": "Which is the largest island of Italy?", "answers": [{"text": "Sicily", "correct": true}, {"text": "Sardinia", "correct": false}, {"text": "Elba", "correct": false}, {"text": "Crete", "correct": false}]}, {"country": "Italy", "question": "Which is Italy\u2019s main river?", "answers": [{"text": "Arno", "correct": false}, {"text": "Po", "correct": true}, {"text": "Tiber", "correct": false}, {"text": "Rhine", "correct": false}]}, {"country": "Italy", "question": "Who was proclaimed the King of Italy in 1861?", "answers": [{"text": "Charlemagne", "correct": false}, {"text": "Pepin", "correct": false}, {"text": "Clovis", "correct": false}, {"text": "Victor Emmanuel II", "correct": true}]}, {"country": "Italy", "question": "When were Papal States annexed?", "answers": [{"text": "1861", "correct": false}, {"text": "1870", "correct": true}, {"text": "1875", "correct": false}, {"text": "1900", "correct": false}]}, {"country": "Italy", "question": "Who is the last Italian Pope?", "answers": [{"text": "Pius XII", "correct": false}, {"text": "Benedict XV", "correct": false}, {"text": "Adrian VI", "correct": false}, {"text": "John Paul I", "correct": true}]}, {"country": "Italy", "question": "Which islands were ceded to Greece by Italy after World War II?", "answers": [{"text": "Balearic", "correct": false}, {"text": "Azores", "correct": false}, {"text": "Dodecanese", "correct": true}, {"text": "Cocos", "correct": false}]}, {"country": "Italy", "question": "Who succeeded Silvio Berlusconi as Prime Minister of Italy in 2006?", "answers": [{"text": "Giulio Andreotti", "correct": false}, {"text": "Giorgio Napolitano", "correct": false}, {"text": "Romano Prodi", "correct": true}, {"text": "Roberto Baggio", "correct": false}]}, {"country": "Italy", "question": "Who won the Football World Cup 2006?", "answers": [{"text": "Brazil", "correct": false}, {"text": "France", "correct": false}, {"text": "Italy", "correct": true}, {"text": "Portugal", "correct": false}]}, {"country": "Italy", "question": " Where is the leaning tower?", "answers": [{"text": "Venice", "correct": false}, {"text": "Milan", "correct": false}, {"text": "Genoa", "correct": false}, {"text": "Pis", "correct": true}]}, {"country": "Jamaica", "question": "When did Jamaica become independent?", "answers": [{"text": "11 March 1958", "correct": false}, {"text": "26 May 1969", "correct": false}, {"text": "6 August 1962", "correct": true}, {"text": "18 December 1971", "correct": false}]}, {"country": "Jamaica", "question": "What did Christopher Columbus call Jamaica?", "answers": [{"text": "Trinidad", "correct": false}, {"text": "Santiago", "correct": true}, {"text": "Valparaiso", "correct": false}, {"text": "Lima", "correct": false}]}, {"country": "Jamaica", "question": "Who was Jamaica\u2019s governor general in 2007?", "answers": [{"text": "Howard Cooke", "correct": false}, {"text": "William Penn", "correct": false}, {"text": "Kenneth Hall", "correct": true}, {"text": "Henry Morgan", "correct": false}]}, {"country": "Jamaica", "question": "Who was Jamaica\u2019s prime minister in 2001?", "answers": [{"text": "Bruce Golding", "correct": false}, {"text": "Portia Simpson Miller", "correct": false}, {"text": "Samuel Hood", "correct": false}, {"text": "Percival Patterson", "correct": true}]}, {"country": "Jamaica", "question": "Which is the capital of Jamaica?", "answers": [{"text": "Falmouth", "correct": false}, {"text": "Port Maria", "correct": false}, {"text": "Kingston", "correct": true}, {"text": "Port Antonio", "correct": false}]}, {"country": "Jamaica", "question": "Which party won Jamaica\u2019s general election in 2007?", "answers": [{"text": "Conservative Party", "correct": false}, {"text": "Jamaica Revolutionary Party", "correct": false}, {"text": "Jamaica Labour Party", "correct": true}, {"text": "Progressive Party", "correct": false}]}, {"country": "Jamaica", "question": "Who got Jamaica its first gold medal in a women\u2019s event in Olympics?", "answers": [{"text": "Marion Jones", "correct": false}, {"text": "Sanya Richards", "correct": false}, {"text": "Deon Hemmings", "correct": true}, {"text": "Jacqueline Joyner", "correct": false}]}, {"country": "Jamaica", "question": "Which is the currency of Jamaica?", "answers": [{"text": "Pound", "correct": false}, {"text": "Dollar", "correct": true}, {"text": "Shilling", "correct": false}, {"text": "Mark", "correct": false}]}, {"country": "Jamaica", "question": "Which is the official language of Jamaica?", "answers": [{"text": "English", "correct": true}, {"text": "Basque", "correct": false}, {"text": "Catalan", "correct": false}, {"text": "Galician", "correct": false}]}, {"country": "Jamaica", "question": " What is the area of Jamaica?", "answers": [{"text": "4,244 sq. mi.", "correct": true}, {"text": "6,324 sq. mi.", "correct": false}, {"text": "1,926 sq. mi.", "correct": false}, {"text": "5,322 sq. mi.", "correct": false}]}, {"country": "Japan", "question": "Which is Japan\u2019s national dress?", "answers": [{"text": "Kimono", "correct": true}, {"text": "Kilt", "correct": false}, {"text": "Chador", "correct": false}, {"text": "Sarong", "correct": false}]}, {"country": "Japan", "question": "What is ikebana?", "answers": [{"text": "Art of flower arrangement", "correct": true}, {"text": "Game", "correct": false}, {"text": "Building", "correct": false}, {"text": "Painting", "correct": false}]}, {"country": "Japan", "question": "When did Hirohito rule Japan?", "answers": [{"text": "1846-1867", "correct": false}, {"text": "1926-1989", "correct": true}, {"text": "1867-1912", "correct": false}, {"text": "1817-1846", "correct": false}]}, {"country": "Japan", "question": "Which country was defeated by Japan in 1904-1905?", "answers": [{"text": "USA", "correct": false}, {"text": "China", "correct": false}, {"text": "Philippines", "correct": false}, {"text": "Russia", "correct": true}]}, {"country": "Japan", "question": "Which is the capital of Japan?", "answers": [{"text": "Osaka", "correct": false}, {"text": "Nagasaki", "correct": false}, {"text": "Tokyo", "correct": true}, {"text": "Kobe", "correct": false}]}, {"country": "Japan", "question": "Which Japanese film was remade as The Magnificent Seven?", "answers": [{"text": "Rashomon", "correct": false}, {"text": "Seven Samurai", "correct": true}, {"text": "Sansho the Bailiff", "correct": false}, {"text": "Ikiru", "correct": false}]}, {"country": "Japan", "question": "Who became the Prime Minister of Japan on 26 April 2001?", "answers": [{"text": "Shinzo Abe", "correct": false}, {"text": "Keizo Obuchi", "correct": false}, {"text": "Junichiro Koizumi", "correct": true}, {"text": "Kakuei Tanama", "correct": false}]}, {"country": "Japan", "question": "How is Japanese Emperor\u2019s Throne known?", "answers": [{"text": "Peacock Throne", "correct": false}, {"text": "Chrysanthemum Throne", "correct": true}, {"text": "Viceregal Throne", "correct": false}, {"text": "White Throne", "correct": false}]}, {"country": "Japan", "question": "Which is National Foundation Day?", "answers": [{"text": "11 February", "correct": true}, {"text": "29 April", "correct": false}, {"text": "4 May", "correct": false}, {"text": "15 September", "correct": false}]}, {"country": "Japan", "question": " Which is Japan\u2019s national legislature?", "answers": [{"text": "Diet", "correct": true}, {"text": "Congress", "correct": false}, {"text": "Duma", "correct": false}, {"text": "Parliament", "correct": false}]}, {"country": "Lebanon", "question": "How was Lebanon formerly known?", "answers": [{"text": "Gaul", "correct": false}, {"text": "Teutonia", "correct": false}, {"text": "Mesopotamia", "correct": false}, {"text": "Phoenicia", "correct": true}]}, {"country": "Lebanon", "question": "Which country is to the east of Lebanon?", "answers": [{"text": "Turkey", "correct": false}, {"text": "Syria", "correct": true}, {"text": "Bulgaria", "correct": false}, {"text": "Cyprus", "correct": false}]}, {"country": "Lebanon", "question": "Which sea is to the west of Lebanon?", "answers": [{"text": "Irish", "correct": false}, {"text": "Baltic", "correct": false}, {"text": "Mediterranean", "correct": true}, {"text": "Greenland", "correct": false}]}, {"country": "Lebanon", "question": "Who conquered Tyre in 332 BC?", "answers": [{"text": "Julius Caesar", "correct": false}, {"text": "Alexander", "correct": true}, {"text": "Hannibal", "correct": false}, {"text": "Cleopatra", "correct": false}]}, {"country": "Lebanon", "question": "Which country ruled Lebanon under League of Nations mandate?", "answers": [{"text": "Italy", "correct": false}, {"text": "France", "correct": true}, {"text": "UK", "correct": false}, {"text": "USSR", "correct": false}]}, {"country": "Lebanon", "question": "Which language replaced Phoenician as the vernacular when Lebanon was part of the Roman Empire?", "answers": [{"text": "Hebrew", "correct": false}, {"text": "Persian", "correct": false}, {"text": "Aramaic", "correct": true}, {"text": "French", "correct": false}]}, {"country": "Lebanon", "question": "Which is the capital of Lebanon?", "answers": [{"text": "Beirut", "correct": true}, {"text": "Tyre", "correct": false}, {"text": "Sidon", "correct": false}, {"text": "Nazareth", "correct": false}]}, {"country": "Lebanon", "question": "Which is the currency of Lebanon?", "answers": [{"text": "Euro", "correct": false}, {"text": "Pound", "correct": true}, {"text": "Drachma", "correct": false}, {"text": "Lira", "correct": false}]}, {"country": "Lebanon", "question": "Which is the official language of Lebanon?", "answers": [{"text": "Persian", "correct": false}, {"text": "Turkish", "correct": false}, {"text": "Arabic", "correct": true}, {"text": "Hebrew", "correct": false}]}, {"country": "Lebanon", "question": " Which tree is shown on Lebanon\u2019s flag?", "answers": [{"text": "Apple", "correct": false}, {"text": "Cedar", "correct": true}, {"text": "Guava", "correct": false}, {"text": "Mango", "correct": false}]}, {"country": "Macedonia", "question": "When did the Macedonian Parliament adopt a Declaration on the International Recognition of the Republic of Macedonia as a Sovereign and Independent State?", "answers": [{"text": "17 January 1857", "correct": false}, {"text": "10 May 1914", "correct": false}, {"text": "18 September1980", "correct": false}, {"text": "19 December 1991", "correct": true}]}, {"country": "Macedonia", "question": "Who was the greatest Macedonian conqueror?", "answers": [{"text": "Hannibal", "correct": false}, {"text": "Napoleon", "correct": false}, {"text": "Alexander", "correct": true}, {"text": "Julius Caesar", "correct": false}]}, {"country": "Macedonia", "question": "Which is the capital of Macedonia?", "answers": [{"text": "Bitola", "correct": false}, {"text": "Skopje", "correct": true}, {"text": "Prilep", "correct": false}, {"text": "Kumanovo", "correct": false}]}, {"country": "Macedonia", "question": "Of which country was Macedonia a constituent republic in 1945-1991?", "answers": [{"text": "Czechoslovakia", "correct": false}, {"text": "USSR", "correct": false}, {"text": "UAR", "correct": false}, {"text": "Yugoslavia", "correct": true}]}, {"country": "Macedonia", "question": "Which country is to the south of Macedonia?", "answers": [{"text": "Austria", "correct": false}, {"text": "Norway", "correct": false}, {"text": "Greece", "correct": true}, {"text": "Italy", "correct": false}]}, {"country": "Macedonia", "question": "In which script is Macedonian written?", "answers": [{"text": "Aramaic", "correct": false}, {"text": "Cyrilic", "correct": true}, {"text": "Hebrew", "correct": false}, {"text": "Phoenician", "correct": false}]}, {"country": "Macedonia", "question": "When was the Internal Macedonian Revolutionary Organization founded?", "answers": [{"text": "1911", "correct": false}, {"text": "1874", "correct": false}, {"text": "1893", "correct": true}, {"text": "1909", "correct": false}]}, {"country": "Macedonia", "question": "Which is the currency of Macedonia?", "answers": [{"text": "Euro", "correct": false}, {"text": "Denar", "correct": true}, {"text": "Mark", "correct": false}, {"text": "Drachma", "correct": false}]}, {"country": "Macedonia", "question": "Which of the following is an official language of Macedonia?", "answers": [{"text": "Greek", "correct": false}, {"text": "Macedonian", "correct": true}, {"text": "Italian", "correct": false}, {"text": "Maltese", "correct": false}]}, {"country": "Macedonia", "question": " When did Macedonia join UN?", "answers": [{"text": "1964", "correct": false}, {"text": "1976", "correct": false}, {"text": "1989", "correct": false}, {"text": "1993", "correct": true}]}, {"country": "Mauritius", "question": "When did Mauritius become independent?", "answers": [{"text": "12 March 1968", "correct": true}, {"text": "14 April 1962", "correct": false}, {"text": "18 July 1984", "correct": false}, {"text": "16 December 1975", "correct": false}]}, {"country": "Mauritius", "question": "When was Mauritius under Dutch rule?", "answers": [{"text": "1444-1498", "correct": false}, {"text": "1502-1568", "correct": false}, {"text": "1598-1710", "correct": true}, {"text": "1776-1824", "correct": false}]}, {"country": "Mauritius", "question": "When did the French occupy Mauritius?", "answers": [{"text": "1721", "correct": true}, {"text": "1510", "correct": false}, {"text": "1685", "correct": false}, {"text": "1848", "correct": false}]}, {"country": "Mauritius", "question": "When did the British conquer Mauritius?", "answers": [{"text": "1757", "correct": false}, {"text": "1810", "correct": true}, {"text": "1870", "correct": false}, {"text": "1898", "correct": false}]}, {"country": "Mauritius", "question": "When was slavery abolished in Mauritius?", "answers": [{"text": "1763", "correct": false}, {"text": "1545", "correct": false}, {"text": "1835", "correct": true}, {"text": "1908", "correct": false}]}, {"country": "Mauritius", "question": "Which is the capital of Mauritius?", "answers": [{"text": "Tamarin", "correct": false}, {"text": "Rose Hill", "correct": false}, {"text": "Bel Ombre", "correct": false}, {"text": "Port Louis", "correct": true}]}, {"country": "Mauritius", "question": "Which is the currency of Mauritius?", "answers": [{"text": "Baht", "correct": false}, {"text": "Yen", "correct": false}, {"text": "Rupee", "correct": true}, {"text": "Dinar", "correct": false}]}, {"country": "Mauritius", "question": "Which is the official language of Mauritius?", "answers": [{"text": "Hindi", "correct": false}, {"text": "English", "correct": true}, {"text": "Marathi", "correct": false}, {"text": "Tamil", "correct": false}]}, {"country": "Mauritius", "question": "Who was Mauritius\u2019s president in 2007?", "answers": [{"text": "Cassam Uteem", "correct": false}, {"text": "Mahyendrah Utchanah", "correct": false}, {"text": "Anerood Jugnauth", "correct": true}, {"text": "Pieter Both", "correct": false}]}, {"country": "Mauritius", "question": " Who was Mauritius\u2019s prime minister in 2004?", "answers": [{"text": "Shivsagar Ramgoolam", "correct": false}, {"text": "Paul Berenger", "correct": true}, {"text": "Jan Coen", "correct": false}, {"text": "Navin Ramgoolam", "correct": false}]}, {"country": "Morocco", "question": "Which is the capital of Morocco?", "answers": [{"text": "Tripoli", "correct": false}, {"text": "Rabat", "correct": true}, {"text": "Khartoum", "correct": false}, {"text": "Addis Ababa", "correct": false}]}, {"country": "Morocco", "question": "Which territory under Morocco is disputed?", "answers": [{"text": "Abkhazia", "correct": false}, {"text": "Somaliland", "correct": false}, {"text": "South Ossetia", "correct": false}, {"text": "Western Sahara", "correct": true}]}, {"country": "Morocco", "question": "Which famous film has the name of a city of Morocco?", "answers": [{"text": "Casablanca", "correct": true}, {"text": "New York New York", "correct": false}, {"text": "Tangier", "correct": false}, {"text": "Marrakesh", "correct": false}]}, {"country": "Morocco", "question": "When did France and Spain divide Morocco into their zones of influence?", "answers": [{"text": "1900", "correct": false}, {"text": "1904", "correct": true}, {"text": "1912", "correct": false}, {"text": "1918", "correct": false}]}, {"country": "Morocco", "question": "Which country is to the east of Morocco?", "answers": [{"text": "Algeria", "correct": true}, {"text": "Angola", "correct": false}, {"text": "Ghana", "correct": false}, {"text": "Ivory Coast", "correct": false}]}, {"country": "Morocco", "question": "Which is the currency of Morocco?", "answers": [{"text": "Dinar", "correct": false}, {"text": "Riyal", "correct": false}, {"text": "Dirham", "correct": true}, {"text": "Rupee", "correct": false}]}, {"country": "Morocco", "question": "Which is the official language of Morocco?", "answers": [{"text": "Arabic", "correct": true}, {"text": "Persian", "correct": false}, {"text": "Turkish", "correct": false}, {"text": "Dari", "correct": false}]}, {"country": "Morocco", "question": "Who became the King of Morocco in 1999?", "answers": [{"text": "Mohammed VI", "correct": true}, {"text": "Mohammed III", "correct": false}, {"text": "Hassan I", "correct": false}, {"text": "Idris", "correct": false}]}, {"country": "Morocco", "question": "What is in the centre of Morocco\u2019s national flag?", "answers": [{"text": "Red star", "correct": false}, {"text": "Sun", "correct": false}, {"text": "Wheel", "correct": false}, {"text": "Five pointed green star", "correct": true}]}, {"country": "Morocco", "question": " What is the date of Marrakesh Declaration?", "answers": [{"text": "20 September 1986", "correct": false}, {"text": "15 April 1994", "correct": true}, {"text": "1 January 1999", "correct": false}, {"text": "1 January 2002", "correct": false}]}, {"country": "Netherlands", "question": "How is the Netherlands popularly known?", "answers": [{"text": "Deutschland", "correct": false}, {"text": "Holland", "correct": true}, {"text": "Jetland", "correct": false}, {"text": "Zealand", "correct": false}]}, {"country": "Netherlands", "question": "Which country withdrew from Kingdom of the United Netherlands?", "answers": [{"text": "Luxembourg", "correct": false}, {"text": "Denmark", "correct": false}, {"text": "Belgium", "correct": true}, {"text": "Iceland", "correct": false}]}, {"country": "Netherlands", "question": "Which is the official language of the Netherlands?", "answers": [{"text": "Dutch", "correct": true}, {"text": "French", "correct": false}, {"text": "German", "correct": false}, {"text": "Flemish", "correct": false}]}, {"country": "Netherlands", "question": "Which is the capital of the Netherlands?", "answers": [{"text": "Amsterdam", "correct": true}, {"text": "Rotterdam", "correct": false}, {"text": "Utretch", "correct": false}, {"text": "Eindhoven", "correct": false}]}, {"country": "Netherlands", "question": "Who annexed Dutch East Indies during World War II?", "answers": [{"text": "Australia", "correct": false}, {"text": "Japan", "correct": true}, {"text": "Korea", "correct": false}, {"text": "Germany", "correct": false}]}, {"country": "Netherlands", "question": "Who was the captain of the Netherlands Football team for World Cup 1974?", "answers": [{"text": "Johan Cruyff", "correct": true}, {"text": "Piet Keizer", "correct": false}, {"text": "Wim Suurbier", "correct": false}, {"text": "Barry Hulshoff", "correct": false}]}, {"country": "Netherlands", "question": "Which was the currency of the Netherlands before Euro was adopted?", "answers": [{"text": "Pound", "correct": false}, {"text": "Leu", "correct": false}, {"text": "Mark", "correct": false}, {"text": "Guilder", "correct": true}]}, {"country": "Netherlands", "question": "Who reigned as regent from 1890 to 1898?", "answers": [{"text": "Beatrix", "correct": false}, {"text": "Emma", "correct": true}, {"text": "Juliana", "correct": false}, {"text": "Alexandra", "correct": false}]}, {"country": "Netherlands", "question": "Which colony of the Netherlands became independent in 1975?", "answers": [{"text": "Irian Jaya", "correct": false}, {"text": "Curacao", "correct": false}, {"text": "Aruba", "correct": false}, {"text": "Suriname", "correct": true}]}, {"country": "Netherlands", "question": " When did the Netherlands abandon neutrality?", "answers": [{"text": "1914", "correct": false}, {"text": "1918", "correct": false}, {"text": "1939", "correct": false}, {"text": "1945", "correct": true}]}, {"country": "New Zealand", "question": "Who is the Head of State of New Zealand?", "answers": [{"text": "President", "correct": false}, {"text": "Governor General", "correct": false}, {"text": "Monarch of UK", "correct": true}, {"text": "Prime Minister", "correct": false}]}, {"country": "New Zealand", "question": "When did the New Zealand win gold medal in hockey in Olympics?", "answers": [{"text": "1964", "correct": false}, {"text": "1972", "correct": false}, {"text": "1976", "correct": true}, {"text": "1984", "correct": false}]}, {"country": "New Zealand", "question": "How many wickets did Richard Hadlee take in Test cricket?", "answers": [{"text": "307", "correct": false}, {"text": "355", "correct": false}, {"text": "373", "correct": false}, {"text": "431", "correct": true}]}, {"country": "New Zealand", "question": "Who became the Governor General of New Zealand in 2006?", "answers": [{"text": "Anand Satyanand", "correct": true}, {"text": "Catherine Ann Tizard", "correct": false}, {"text": "Michael Hardie Boys", "correct": false}, {"text": "Paul Alfred Reeves", "correct": false}]}, {"country": "New Zealand", "question": "Which of the following is an official language of New Zealand?", "answers": [{"text": "Swahili", "correct": false}, {"text": "Maori", "correct": true}, {"text": "Basotho", "correct": false}, {"text": "Zulu", "correct": false}]}, {"country": "New Zealand", "question": "Which military alliance has New Zealand as its member?", "answers": [{"text": "ANZUS", "correct": true}, {"text": "NATO", "correct": false}, {"text": "OAS", "correct": false}, {"text": "CENTO", "correct": false}]}, {"country": "New Zealand", "question": "Who of the following cricketers played for New Zealand in 1987 World Cup?", "answers": [{"text": "Gladstone Small", "correct": false}, {"text": "Dipak Patel", "correct": true}, {"text": "Mark Ramprakash", "correct": false}, {"text": "Philip Defreitas", "correct": false}]}, {"country": "New Zealand", "question": "Who along with Tenzing Norgay is the first to reach the summit of Mt. Everest?", "answers": [{"text": "Edmund Hillary", "correct": true}, {"text": "George Everest", "correct": false}, {"text": "Eric Shipton", "correct": false}, {"text": "John Hunt", "correct": false}]}, {"country": "New Zealand", "question": "How many stars are in the flag of New Zealand?", "answers": [{"text": "Three", "correct": false}, {"text": "Four", "correct": true}, {"text": "Five", "correct": false}, {"text": "Six", "correct": false}]}, {"country": "New Zealand", "question": " Where did New Zealand send its troops in 1999 as part of the UN peace keeping force?", "answers": [{"text": "East Timor", "correct": true}, {"text": "Somalia", "correct": false}, {"text": "Haiti", "correct": false}, {"text": "Sudan", "correct": false}]}, {"country": "Peru", "question": "Who conquered Peru for Spain in 1531-1533?", "answers": [{"text": "Hernando Cortez", "correct": false}, {"text": "Francisco Pizarro", "correct": true}, {"text": "Simon Bolivar", "correct": false}, {"text": "Christopher Columbus", "correct": false}]}, {"country": "Peru", "question": "When did Peru proclaim its independence?", "answers": [{"text": "28 July 1821", "correct": true}, {"text": "15 April 1832", "correct": false}, {"text": "18 May 1860", "correct": false}, {"text": "11 November 1911", "correct": false}]}, {"country": "Peru", "question": "Who won the Presidential election in 1990?", "answers": [{"text": "Alan Garcia", "correct": false}, {"text": "Jose Luis Bustamente", "correct": false}, {"text": "Alberto Fujimori", "correct": true}, {"text": "Manuel Odria", "correct": false}]}, {"country": "Peru", "question": "Which ocean is to the west of Peru?", "answers": [{"text": "Atlantic", "correct": false}, {"text": "Pacific", "correct": true}, {"text": "Indian", "correct": false}, {"text": "Arctic", "correct": false}]}, {"country": "Peru", "question": "Which is the capital of Peru?", "answers": [{"text": "Arequipa", "correct": false}, {"text": "Trujillo", "correct": false}, {"text": "Lima", "correct": true}, {"text": "Chiclayo", "correct": false}]}, {"country": "Peru", "question": "Which group was vanquished by Alberto Fujimori?", "answers": [{"text": "Black September", "correct": false}, {"text": "Shining Path", "correct": true}, {"text": "Red Brigade", "correct": false}, {"text": "Hamas", "correct": false}]}, {"country": "Peru", "question": "Which of the following wonders is in Peru?", "answers": [{"text": "Petra", "correct": false}, {"text": "Pyramids of Giza", "correct": false}, {"text": "Machu Picchu", "correct": true}, {"text": "Rock of Gibraltar", "correct": false}]}, {"country": "Peru", "question": "Which is the currency of Peru?", "answers": [{"text": "Dollar", "correct": false}, {"text": "Nuevo Sol", "correct": true}, {"text": "Escuda", "correct": false}, {"text": "Peso", "correct": false}]}, {"country": "Peru", "question": "Which language, apart from Spanish, is official language of Peru?", "answers": [{"text": "Apache", "correct": false}, {"text": "Iroquis", "correct": false}, {"text": "Aymara", "correct": false}, {"text": "Quechua", "correct": true}]}, {"country": "Peru", "question": " Who was the last king of Incas?", "answers": [{"text": "Atahulappa", "correct": true}, {"text": "Pachacuti", "correct": false}, {"text": "Topa", "correct": false}, {"text": "Huayna", "correct": false}]}, {"country": "Qatar", "question": "What is the official name of Qatar?", "answers": [{"text": "Emirate of Qatar", "correct": false}, {"text": "Kingdom of Qatar", "correct": false}, {"text": "State of Qatar", "correct": true}, {"text": "Sultanate of Qatar", "correct": false}]}, {"country": "Qatar", "question": "When did Qatar become independent?", "answers": [{"text": "1 May 1965", "correct": false}, {"text": "24 June 1967", "correct": false}, {"text": "1 December 1969", "correct": false}, {"text": "3 September 1971", "correct": true}]}, {"country": "Qatar", "question": "Which channel is based in Qatar?", "answers": [{"text": "Al Arabiya", "correct": false}, {"text": "Al Jazeera", "correct": true}, {"text": "Geo TV", "correct": false}, {"text": "ARY TV", "correct": false}]}, {"country": "Qatar", "question": "Where were 15th Asian Games held?", "answers": [{"text": "Doha", "correct": true}, {"text": "Bangkok", "correct": false}, {"text": "Tokyo", "correct": false}, {"text": "Seoul", "correct": false}]}, {"country": "Qatar", "question": "When did Doha Round Talks of WTO begin?", "answers": [{"text": "1991", "correct": false}, {"text": "1995", "correct": false}, {"text": "1997", "correct": false}, {"text": "2001", "correct": true}]}, {"country": "Qatar", "question": "Who was overthrown in 1995?", "answers": [{"text": "Khalifa bin Hamad", "correct": true}, {"text": "Muhammed bin Thani", "correct": false}, {"text": "Haroon Al Rashid", "correct": false}, {"text": "Hafeez Assad", "correct": false}]}, {"country": "Qatar", "question": "When did Ottomans conquer Qatar?", "answers": [{"text": "711", "correct": false}, {"text": "1191", "correct": false}, {"text": "1206", "correct": false}, {"text": "1538", "correct": true}]}, {"country": "Qatar", "question": "When did Qatar become a British Protectorate?", "answers": [{"text": "1876", "correct": false}, {"text": "1896", "correct": false}, {"text": "1904", "correct": false}, {"text": "1916", "correct": true}]}, {"country": "Qatar", "question": "Who rules Qatar?", "answers": [{"text": "Sultan", "correct": false}, {"text": "Emir", "correct": true}, {"text": "Nawab", "correct": false}, {"text": "Raja", "correct": false}]}, {"country": "Qatar", "question": " When was Qatar\u2019s constitution introduced?", "answers": [{"text": "9 June 2005", "correct": true}, {"text": "1 January 2001", "correct": false}, {"text": "11 September 1975", "correct": false}, {"text": "4 July 1976", "correct": false}]}, {"country": "Serbia", "question": "Which country is to the north of Serbia?", "answers": [{"text": "Albania", "correct": false}, {"text": "Bulgaria", "correct": false}, {"text": "Hungary", "correct": true}, {"text": "Macedonia", "correct": false}]}, {"country": "Serbia", "question": "Who conferred the title \u201cKing of Serbia, Dalmatia and Bosnia\" on Stefan in 1217?", "answers": [{"text": "Honorius III", "correct": true}, {"text": "Martin IV", "correct": false}, {"text": "Lucius II", "correct": false}, {"text": "Alexander III", "correct": false}]}, {"country": "Serbia", "question": "Who founded the Serbian Orthodox Church?", "answers": [{"text": "St. Cyril", "correct": false}, {"text": "St. Sava", "correct": true}, {"text": "St. Methodius", "correct": false}, {"text": "St. Jerome", "correct": false}]}, {"country": "Serbia", "question": "Who was the king of Serbia in 1889-1903?", "answers": [{"text": "Michael III", "correct": false}, {"text": "Milan IV", "correct": false}, {"text": "Milan II", "correct": false}, {"text": "Alexander", "correct": true}]}, {"country": "Serbia", "question": "Of which country was Serbia part of in 1945-2003?", "answers": [{"text": "Czechoslovakia", "correct": false}, {"text": "USSR", "correct": false}, {"text": "Yugoslavia", "correct": true}, {"text": "Romania", "correct": false}]}, {"country": "Serbia", "question": "Which region of Serbia came under UN administration in 1999?", "answers": [{"text": "Vojvodina", "correct": false}, {"text": "Kosovo", "correct": true}, {"text": "Bor", "correct": false}, {"text": "Pirot", "correct": false}]}, {"country": "Serbia", "question": "When did Montenegro secede from the federation of Serbia and Montenegro?", "answers": [{"text": "9 March 1995", "correct": false}, {"text": "3 June 2006", "correct": true}, {"text": "17 July 1993", "correct": false}, {"text": "22 December 2001", "correct": false}]}, {"country": "Serbia", "question": "Which is the capital of Serbia?", "answers": [{"text": "Belgrade", "correct": true}, {"text": "Kragujevac", "correct": false}, {"text": "Smederevo", "correct": false}, {"text": "Novi Sad", "correct": false}]}, {"country": "Serbia", "question": "Which is the currency of Serbia?", "answers": [{"text": "Euro", "correct": false}, {"text": "Dinar", "correct": true}, {"text": "Mark", "correct": false}, {"text": "Shilling", "correct": false}]}, {"country": "Serbia", "question": " Which is the official language of Serbia?", "answers": [{"text": "German", "correct": false}, {"text": "Italian", "correct": false}, {"text": "Greek", "correct": false}, {"text": "Serbian", "correct": true}]}, {"country": "Sweden", "question": "When did Sweden become a member of the European Union?", "answers": [{"text": "1992", "correct": false}, {"text": "1995", "correct": true}, {"text": "2000", "correct": false}, {"text": "2002", "correct": false}]}, {"country": "Sweden", "question": "Which Swedish Prime Minister was assassinated on 28 February 1986?", "answers": [{"text": "Olof Palme", "correct": true}, {"text": "Tage Erlander", "correct": false}, {"text": "Thorbjorn Falldin", "correct": false}, {"text": "Ola Ullsten", "correct": false}]}, {"country": "Sweden", "question": "Who won 33 Davis Cup Singles for Sweden between 1973 and 1980?", "answers": [{"text": "Bjorn Borg", "correct": true}, {"text": "Mats Wilander", "correct": false}, {"text": "Stefan Edberg", "correct": false}, {"text": "Jonas Bjorkman", "correct": false}]}, {"country": "Sweden", "question": "Which of the following actresses was born in Stockholm?", "answers": [{"text": "Marilyn Monroe", "correct": false}, {"text": "Jodie Foster", "correct": false}, {"text": "Greta Garbo", "correct": true}, {"text": "Sharon Stone", "correct": false}]}, {"country": "Sweden", "question": "Which is the largest island of Sweden?", "answers": [{"text": "Oland", "correct": false}, {"text": "Gotland", "correct": true}, {"text": "Kattegat", "correct": false}, {"text": "Bear Island", "correct": false}]}, {"country": "Sweden", "question": "Which water body separates Sweden and Finland?", "answers": [{"text": "North Sea", "correct": false}, {"text": "Norwegian Sea", "correct": false}, {"text": "Gulf of Bothnia", "correct": true}, {"text": "Irish Sea", "correct": false}]}, {"country": "Sweden", "question": "Sweden had a colony in North America, known as New Sweden. Who was its last Governor?", "answers": [{"text": "Johan Printz", "correct": false}, {"text": "Johan Rising", "correct": true}, {"text": "Peter Stuyvesant", "correct": false}, {"text": "William Penn", "correct": false}]}, {"country": "Sweden", "question": "Which is the capital of Sweden?", "answers": [{"text": "Vasteras", "correct": false}, {"text": "Stockholm", "correct": true}, {"text": "Lulea", "correct": false}, {"text": "Linkoping", "correct": false}]}]}
+{
+  "main": [
+    {
+      "country": "Turkey",
+      "question": "Which sea is to the north of Turkey?",
+      "answers": [
+        {
+          "text": "North Sea",
+          "correct": false
+        },
+        {
+          "text": "Black Sea",
+          "correct": true
+        },
+        {
+          "text": "Caspian Sea",
+          "correct": false
+        },
+        {
+          "text": "Dead Sea",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "When did the Turks conquer Constantinople?",
+      "answers": [
+        {
+          "text": "1260",
+          "correct": false
+        },
+        {
+          "text": "1425",
+          "correct": false
+        },
+        {
+          "text": "1453",
+          "correct": true
+        },
+        {
+          "text": "1526",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "How was Turkey known in the beginning of the 20th century?",
+      "answers": [
+        {
+          "text": "Guardian of Europe",
+          "correct": false
+        },
+        {
+          "text": "Leader of Europe",
+          "correct": false
+        },
+        {
+          "text": "Sick man of Europe",
+          "correct": true
+        },
+        {
+          "text": "Playground of Europe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "Who led the founding of the Republic of Turkey?",
+      "answers": [
+        {
+          "text": "Tansu Ciller",
+          "correct": false
+        },
+        {
+          "text": "Mustafa Kemal",
+          "correct": true
+        },
+        {
+          "text": "Buland Ecevit",
+          "correct": false
+        },
+        {
+          "text": "Deniz Baykal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "Which is the capital of Turkey?",
+      "answers": [
+        {
+          "text": "Ankara",
+          "correct": true
+        },
+        {
+          "text": "Istanbul",
+          "correct": false
+        },
+        {
+          "text": "Izmir",
+          "correct": false
+        },
+        {
+          "text": "Adana",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "Which country was attacked by Turkey in 1974?",
+      "answers": [
+        {
+          "text": "Malta",
+          "correct": false
+        },
+        {
+          "text": "Syria",
+          "correct": false
+        },
+        {
+          "text": "Cyprus",
+          "correct": true
+        },
+        {
+          "text": "Israel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "Which of the following republics only Turkey recognizes?",
+      "answers": [
+        {
+          "text": "Turkish Republic of Northern Cyprus",
+          "correct": true
+        },
+        {
+          "text": "Republic of China",
+          "correct": false
+        },
+        {
+          "text": "Republic of Ireland",
+          "correct": false
+        },
+        {
+          "text": "Former Yugoslav Republic of Macedonia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "Who is the last Caliph?",
+      "answers": [
+        {
+          "text": "Abdul Mejid II",
+          "correct": true
+        },
+        {
+          "text": "Mehmed VI",
+          "correct": false
+        },
+        {
+          "text": "Abdul Aziz",
+          "correct": false
+        },
+        {
+          "text": "Mehmed V",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": "At which mosque did Pope Benedict XVI pray in November 2006?",
+      "answers": [
+        {
+          "text": "Red Mosque",
+          "correct": false
+        },
+        {
+          "text": "White Mosque",
+          "correct": false
+        },
+        {
+          "text": "Blue Mosque",
+          "correct": true
+        },
+        {
+          "text": "Green Mosque",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "question": " When did Turkey enter NATO?",
+      "answers": [
+        {
+          "text": "1948",
+          "correct": false
+        },
+        {
+          "text": "1949",
+          "correct": false
+        },
+        {
+          "text": "1952",
+          "correct": true
+        },
+        {
+          "text": "1954",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "When did North Vietnamese troops enter Saigon?",
+      "answers": [
+        {
+          "text": "12 February 1964",
+          "correct": false
+        },
+        {
+          "text": "30 April 1975",
+          "correct": true
+        },
+        {
+          "text": "22 July 1952",
+          "correct": false
+        },
+        {
+          "text": "19 December 1956",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "Which country is to the north of Vietnam?",
+      "answers": [
+        {
+          "text": "China",
+          "correct": true
+        },
+        {
+          "text": "Burma",
+          "correct": false
+        },
+        {
+          "text": "Papua New Guinea",
+          "correct": false
+        },
+        {
+          "text": "Singapore",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "Which sea is to the east of Vietnam?",
+      "answers": [
+        {
+          "text": "Yellow",
+          "correct": false
+        },
+        {
+          "text": "South China",
+          "correct": true
+        },
+        {
+          "text": "Arabian",
+          "correct": false
+        },
+        {
+          "text": "Bering",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "Which is the capital of Vietnam?",
+      "answers": [
+        {
+          "text": "Hue",
+          "correct": false
+        },
+        {
+          "text": "Haiphong",
+          "correct": false
+        },
+        {
+          "text": "Hanoi",
+          "correct": true
+        },
+        {
+          "text": "Dien Chau",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "Which is the currency of Vietnam?",
+      "answers": [
+        {
+          "text": "Baht",
+          "correct": false
+        },
+        {
+          "text": "Dong",
+          "correct": true
+        },
+        {
+          "text": "Yen",
+          "correct": false
+        },
+        {
+          "text": "Rupee",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "Which is the official language of Vietnam?",
+      "answers": [
+        {
+          "text": "Chinese",
+          "correct": false
+        },
+        {
+          "text": "Japanese",
+          "correct": false
+        },
+        {
+          "text": "French",
+          "correct": false
+        },
+        {
+          "text": "Vietnamese",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "Who perfected the Vietnamese writing system Quoc-ngu?",
+      "answers": [
+        {
+          "text": "Gia Long",
+          "correct": false
+        },
+        {
+          "text": "Alexandre de Rhodes",
+          "correct": true
+        },
+        {
+          "text": "Pigneau de Behaine",
+          "correct": false
+        },
+        {
+          "text": "Minh Mang",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "Who conquered Saigon in 1859?",
+      "answers": [
+        {
+          "text": "Paul Doumer",
+          "correct": false
+        },
+        {
+          "text": "Francis Garnier",
+          "correct": false
+        },
+        {
+          "text": "Rigault de Genouilly",
+          "correct": true
+        },
+        {
+          "text": "Albert Sarraut",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": "When did Tonkin and Annam become French protectorates?",
+      "answers": [
+        {
+          "text": "1763",
+          "correct": false
+        },
+        {
+          "text": "1883",
+          "correct": true
+        },
+        {
+          "text": "I789",
+          "correct": false
+        },
+        {
+          "text": "1564",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "question": " When was the Battle of Dien Bien Phu?",
+      "answers": [
+        {
+          "text": "15 January 1942",
+          "correct": false
+        },
+        {
+          "text": "7 May 1954",
+          "correct": true
+        },
+        {
+          "text": "21 August 1918",
+          "correct": false
+        },
+        {
+          "text": "2 November 1963",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "How was France known?",
+      "answers": [
+        {
+          "text": "Cymru",
+          "correct": false
+        },
+        {
+          "text": "Sverige",
+          "correct": false
+        },
+        {
+          "text": "Gaul",
+          "correct": true
+        },
+        {
+          "text": "Britannia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "Who won the Battle of Tours in 732?",
+      "answers": [
+        {
+          "text": "Charles Martel",
+          "correct": true
+        },
+        {
+          "text": "Napoleon",
+          "correct": false
+        },
+        {
+          "text": "Louis XVI",
+          "correct": false
+        },
+        {
+          "text": "William of Normandy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "From which people France got its name?",
+      "answers": [
+        {
+          "text": "Normans",
+          "correct": false
+        },
+        {
+          "text": "Vikings",
+          "correct": false
+        },
+        {
+          "text": "Danes",
+          "correct": false
+        },
+        {
+          "text": "Franks",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "Who of the following was a member of the Jacobin Club?",
+      "answers": [
+        {
+          "text": "Tipu Sultan",
+          "correct": true
+        },
+        {
+          "text": "Arthur Wellesley",
+          "correct": false
+        },
+        {
+          "text": "Horatio Nelson",
+          "correct": false
+        },
+        {
+          "text": "George Washington",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "Which city had Popes as residents during \u201cBabylonish captivity\u201d?",
+      "answers": [
+        {
+          "text": "Paris",
+          "correct": false
+        },
+        {
+          "text": "Cannes",
+          "correct": false
+        },
+        {
+          "text": "Boredaux",
+          "correct": false
+        },
+        {
+          "text": "Avignon",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "Which city is famous for Film Festival?",
+      "answers": [
+        {
+          "text": "Paris",
+          "correct": false
+        },
+        {
+          "text": "Cannes",
+          "correct": true
+        },
+        {
+          "text": "Bordeaux",
+          "correct": false
+        },
+        {
+          "text": "Avignon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "Who said \u201cI am the State.\u201d?",
+      "answers": [
+        {
+          "text": "Voltaire",
+          "correct": false
+        },
+        {
+          "text": "Rousseau",
+          "correct": false
+        },
+        {
+          "text": "Louis XIV",
+          "correct": true
+        },
+        {
+          "text": "Napoleon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "Who said \u201cAfter me the deluge\u201d?",
+      "answers": [
+        {
+          "text": "Louis XV",
+          "correct": true
+        },
+        {
+          "text": "Louis XVI",
+          "correct": false
+        },
+        {
+          "text": "Diderot",
+          "correct": false
+        },
+        {
+          "text": "Charlemagne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": "Which saint was burnt at stake in 1431 as a heretic?",
+      "answers": [
+        {
+          "text": "Bruno",
+          "correct": false
+        },
+        {
+          "text": "John Wyclif",
+          "correct": false
+        },
+        {
+          "text": "Joan of Arc",
+          "correct": true
+        },
+        {
+          "text": "John Calvin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Who is the author of \u201cThe Count of Monte Cristo\u201c?",
+      "answers": [
+        {
+          "text": "Victor Hugo",
+          "correct": false
+        },
+        {
+          "text": "Alexandre Dumas",
+          "correct": true
+        },
+        {
+          "text": "Arthur Conan Doyle",
+          "correct": false
+        },
+        {
+          "text": "Jean Paul Sartre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " When is Bastille Day?",
+      "answers": [
+        {
+          "text": "January 1",
+          "correct": false
+        },
+        {
+          "text": "March 25",
+          "correct": false
+        },
+        {
+          "text": "May 1",
+          "correct": false
+        },
+        {
+          "text": "July 14",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which instrument was used during French Revolution for beheading?",
+      "answers": [
+        {
+          "text": "Sword",
+          "correct": false
+        },
+        {
+          "text": "Axe",
+          "correct": false
+        },
+        {
+          "text": "Guillotine",
+          "correct": true
+        },
+        {
+          "text": "Dagger",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which State of USA was once a French colony?",
+      "answers": [
+        {
+          "text": "Alaska",
+          "correct": false
+        },
+        {
+          "text": "California",
+          "correct": false
+        },
+        {
+          "text": "Maryland",
+          "correct": false
+        },
+        {
+          "text": "Louisiana",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which country was defeated by France to win Football World Cup in 1998?",
+      "answers": [
+        {
+          "text": "Argentina",
+          "correct": false
+        },
+        {
+          "text": "Brazil",
+          "correct": true
+        },
+        {
+          "text": "Chile",
+          "correct": false
+        },
+        {
+          "text": "Denmark",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which province of Canada has a large French population?",
+      "answers": [
+        {
+          "text": "British Columbia",
+          "correct": false
+        },
+        {
+          "text": "Prince Edward Island",
+          "correct": false
+        },
+        {
+          "text": "Labrador",
+          "correct": false
+        },
+        {
+          "text": "Quebec",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which French Emperor died in St. Helena?",
+      "answers": [
+        {
+          "text": "Napoleon I",
+          "correct": true
+        },
+        {
+          "text": "Napoleon II",
+          "correct": false
+        },
+        {
+          "text": "Napoleon III",
+          "correct": false
+        },
+        {
+          "text": "Louis XVI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which country occupied France during World War II?",
+      "answers": [
+        {
+          "text": "USSR",
+          "correct": false
+        },
+        {
+          "text": "Germany",
+          "correct": true
+        },
+        {
+          "text": "Italy",
+          "correct": false
+        },
+        {
+          "text": "Japan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Who discovered radium?",
+      "answers": [
+        {
+          "text": "Pierre Curie and Marie Curie",
+          "correct": true
+        },
+        {
+          "text": "Jacques Curie",
+          "correct": false
+        },
+        {
+          "text": "Pierre Louis Dulong",
+          "correct": false
+        },
+        {
+          "text": "Francis Perrin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " How many gold medals were won by France in 2004 Athens Olympics?",
+      "answers": [
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "7",
+          "correct": false
+        },
+        {
+          "text": "11",
+          "correct": true
+        },
+        {
+          "text": "15",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which of the following is a river of France ?",
+      "answers": [
+        {
+          "text": "Thames",
+          "correct": false
+        },
+        {
+          "text": "Seine",
+          "correct": true
+        },
+        {
+          "text": "Danube",
+          "correct": false
+        },
+        {
+          "text": "Volga",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which French King took part in the Seventh and Eighth Crusades?",
+      "answers": [
+        {
+          "text": "Philip II",
+          "correct": false
+        },
+        {
+          "text": "Louis XIV",
+          "correct": false
+        },
+        {
+          "text": "Louis IX",
+          "correct": true
+        },
+        {
+          "text": "Philip IV",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " France is famous for which structure?",
+      "answers": [
+        {
+          "text": "Leaning Tower of Pisa",
+          "correct": false
+        },
+        {
+          "text": "Eiffel Tower",
+          "correct": true
+        },
+        {
+          "text": "Petronas Towers",
+          "correct": false
+        },
+        {
+          "text": "Westminster Abbey",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " Which is the world\u2019s best known cycling race?",
+      "answers": [
+        {
+          "text": "Tour de Force",
+          "correct": false
+        },
+        {
+          "text": "Tour de France",
+          "correct": true
+        },
+        {
+          "text": "Tour de Beauce",
+          "correct": false
+        },
+        {
+          "text": "Tour of Britain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " What does Notre Dame mean?",
+      "answers": [
+        {
+          "text": "Red rose",
+          "correct": false
+        },
+        {
+          "text": "Blue River",
+          "correct": false
+        },
+        {
+          "text": "White lightning",
+          "correct": false
+        },
+        {
+          "text": "Our Lady",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "question": " In which island there is a demand for independence from France?",
+      "answers": [
+        {
+          "text": "Sicily",
+          "correct": false
+        },
+        {
+          "text": "Sardinia",
+          "correct": false
+        },
+        {
+          "text": "Corsica",
+          "correct": true
+        },
+        {
+          "text": "Isle of Man",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "Who produced the first Finnish language book, a book of Finnish grammar?",
+      "answers": [
+        {
+          "text": "Mikael Agricola",
+          "correct": true
+        },
+        {
+          "text": "Erik Exelsson",
+          "correct": false
+        },
+        {
+          "text": "Aleksis Kivi",
+          "correct": false
+        },
+        {
+          "text": "Emma Irene Astrom",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "Who was the President of Finland from 1956 to 1981?",
+      "answers": [
+        {
+          "text": "J. K. Paasikivi",
+          "correct": false
+        },
+        {
+          "text": "Urho Kekkonen",
+          "correct": true
+        },
+        {
+          "text": "Tarja Halonen",
+          "correct": false
+        },
+        {
+          "text": "Matti Vanhanen",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "Which is the capital of Finland?",
+      "answers": [
+        {
+          "text": "Turku",
+          "correct": false
+        },
+        {
+          "text": "Lahti",
+          "correct": false
+        },
+        {
+          "text": "Helsinki",
+          "correct": true
+        },
+        {
+          "text": "Kemi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "Which was Finland\u2019s currency before Euro?",
+      "answers": [
+        {
+          "text": "Krone",
+          "correct": false
+        },
+        {
+          "text": "Mark",
+          "correct": false
+        },
+        {
+          "text": "Pound",
+          "correct": false
+        },
+        {
+          "text": "Markka",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "Which water body separates Finland and Estonia?",
+      "answers": [
+        {
+          "text": "Lake Ladoga",
+          "correct": false
+        },
+        {
+          "text": "Lake Peipus",
+          "correct": false
+        },
+        {
+          "text": "Gulf of Finland",
+          "correct": true
+        },
+        {
+          "text": "Barents Sea",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "When is the Independence Day of Finland?",
+      "answers": [
+        {
+          "text": "6 December",
+          "correct": true
+        },
+        {
+          "text": "5 November",
+          "correct": false
+        },
+        {
+          "text": "24 June",
+          "correct": false
+        },
+        {
+          "text": "15 May",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "Which Church has the highest number of members in Finland?",
+      "answers": [
+        {
+          "text": "Baptist Church",
+          "correct": false
+        },
+        {
+          "text": "Anglican Church",
+          "correct": false
+        },
+        {
+          "text": "Evangelical Lutheran Church of Finland",
+          "correct": true
+        },
+        {
+          "text": "Roman Catholic Church",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": "What is the term of the President of the Finland?",
+      "answers": [
+        {
+          "text": "Four years",
+          "correct": false
+        },
+        {
+          "text": "Five years",
+          "correct": false
+        },
+        {
+          "text": "Six years",
+          "correct": true
+        },
+        {
+          "text": "Seven years",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "question": " Who are the oldest known inhabitants of Finland?",
+      "answers": [
+        {
+          "text": "Saxons",
+          "correct": false
+        },
+        {
+          "text": "Goths",
+          "correct": false
+        },
+        {
+          "text": "Romans",
+          "correct": false
+        },
+        {
+          "text": "Lapps",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "Who is the first woman to be elected as the President of Argentina?",
+      "answers": [
+        {
+          "text": "Corazin Aquino",
+          "correct": false
+        },
+        {
+          "text": "Eva Peron",
+          "correct": false
+        },
+        {
+          "text": "Cristina Fernandez de Kirchner",
+          "correct": true
+        },
+        {
+          "text": "Isabella Peron",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "Which islands are known as Islas Malvinas in Argentina?",
+      "answers": [
+        {
+          "text": "Virgin Islands",
+          "correct": false
+        },
+        {
+          "text": "Maldives",
+          "correct": false
+        },
+        {
+          "text": "Falkland Islands",
+          "correct": true
+        },
+        {
+          "text": "Channel Islands",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "Who was the President of Argentina during its war with UK in 1982?",
+      "answers": [
+        {
+          "text": "Juan Peron",
+          "correct": false
+        },
+        {
+          "text": "Carlos Menem",
+          "correct": false
+        },
+        {
+          "text": "Leopoldo Galtieri",
+          "correct": true
+        },
+        {
+          "text": "Raul Alfonsin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "What is the land between Parana and Uruguay rivers called?",
+      "answers": [
+        {
+          "text": "Assyria",
+          "correct": false
+        },
+        {
+          "text": "Mesopotamia",
+          "correct": true
+        },
+        {
+          "text": "Patagonia",
+          "correct": false
+        },
+        {
+          "text": "Babylonia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "When did Argentina host the Football World Cup?",
+      "answers": [
+        {
+          "text": "1974",
+          "correct": false
+        },
+        {
+          "text": "1986",
+          "correct": false
+        },
+        {
+          "text": "1978",
+          "correct": true
+        },
+        {
+          "text": "1994",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "How many gold medals did Argentina win in Athene Olympics 2004?",
+      "answers": [
+        {
+          "text": "Two",
+          "correct": true
+        },
+        {
+          "text": "One",
+          "correct": false
+        },
+        {
+          "text": "Three",
+          "correct": false
+        },
+        {
+          "text": "Five",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "When is the Independence Day of Argentina?",
+      "answers": [
+        {
+          "text": "4 July",
+          "correct": false
+        },
+        {
+          "text": "9 July",
+          "correct": true
+        },
+        {
+          "text": "1 September",
+          "correct": false
+        },
+        {
+          "text": "3 December",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "What is 20 June in Argentina?",
+      "answers": [
+        {
+          "text": "Constitution Day",
+          "correct": false
+        },
+        {
+          "text": "Flag Day",
+          "correct": true
+        },
+        {
+          "text": "Labour Day",
+          "correct": false
+        },
+        {
+          "text": "Army Day",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": "Who was the leading goal scorer in Football World Cup 1978?",
+      "answers": [
+        {
+          "text": "Diego Maradona",
+          "correct": false
+        },
+        {
+          "text": "Danial Passarella",
+          "correct": false
+        },
+        {
+          "text": "Mario Kempes",
+          "correct": true
+        },
+        {
+          "text": "Roberto Carlos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "question": " Who deposed Isabel Peron in 1976?",
+      "answers": [
+        {
+          "text": "Jorge Videla",
+          "correct": true
+        },
+        {
+          "text": "Agustino Pinochet",
+          "correct": false
+        },
+        {
+          "text": "Roberto Viola",
+          "correct": false
+        },
+        {
+          "text": "Manuel Belgrano",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Who ruled Austria from 1278 to 1918?",
+      "answers": [
+        {
+          "text": "Tudors",
+          "correct": false
+        },
+        {
+          "text": "Lancastrians",
+          "correct": false
+        },
+        {
+          "text": "Habsburgs",
+          "correct": true
+        },
+        {
+          "text": "Hohenzollerns",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Where was Archduke Francis Ferdinand assassinated in 1914?",
+      "answers": [
+        {
+          "text": "Rome",
+          "correct": false
+        },
+        {
+          "text": "Berlin",
+          "correct": false
+        },
+        {
+          "text": "Skopje",
+          "correct": false
+        },
+        {
+          "text": "Sarajevo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "In which battle Austria and its allies defeated Turks led by Kara Mustafa?",
+      "answers": [
+        {
+          "text": "Vienna 1683",
+          "correct": true
+        },
+        {
+          "text": "Lepanto 1571",
+          "correct": false
+        },
+        {
+          "text": "Tours 732",
+          "correct": false
+        },
+        {
+          "text": "Blenheim 1704",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Which country annexed Austria in 1938?",
+      "answers": [
+        {
+          "text": "USSR",
+          "correct": false
+        },
+        {
+          "text": "Germany",
+          "correct": true
+        },
+        {
+          "text": "Italy",
+          "correct": false
+        },
+        {
+          "text": "Bulgaria",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Which Austrian became the Governor of California?",
+      "answers": [
+        {
+          "text": "Arnold Schwarzenegger",
+          "correct": true
+        },
+        {
+          "text": "Madeleine Albright",
+          "correct": false
+        },
+        {
+          "text": "Daniel Swarovski",
+          "correct": false
+        },
+        {
+          "text": "Ingeborg Bachmann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Who was the Secretary General of UN and President of Austria?",
+      "answers": [
+        {
+          "text": "U Thant",
+          "correct": false
+        },
+        {
+          "text": "Heinz Fischer",
+          "correct": false
+        },
+        {
+          "text": "Kurt Waldheim",
+          "correct": true
+        },
+        {
+          "text": "Jorg Haider",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Which British historian was sentenced to three years imprisonment for denying holocaust?",
+      "answers": [
+        {
+          "text": "Julian Huxley",
+          "correct": false
+        },
+        {
+          "text": "Ernest Hemingway",
+          "correct": false
+        },
+        {
+          "text": "David Irving",
+          "correct": true
+        },
+        {
+          "text": "Arnold Toynbee",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Which is the official language of Austria?",
+      "answers": [
+        {
+          "text": "English",
+          "correct": false
+        },
+        {
+          "text": "German",
+          "correct": true
+        },
+        {
+          "text": "French",
+          "correct": false
+        },
+        {
+          "text": "Italian",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": "Which is the currency of Austria?",
+      "answers": [
+        {
+          "text": "Euro",
+          "correct": true
+        },
+        {
+          "text": "Schilling",
+          "correct": false
+        },
+        {
+          "text": "Mark",
+          "correct": false
+        },
+        {
+          "text": "Lira",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "question": " Which is the main river in Austria?",
+      "answers": [
+        {
+          "text": "Vistula",
+          "correct": false
+        },
+        {
+          "text": "Danube",
+          "correct": true
+        },
+        {
+          "text": "Po",
+          "correct": false
+        },
+        {
+          "text": "Volga",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "When did Barbados become independent?",
+      "answers": [
+        {
+          "text": "12 January 1948",
+          "correct": false
+        },
+        {
+          "text": "26 May 1966",
+          "correct": false
+        },
+        {
+          "text": "18 September1952",
+          "correct": false
+        },
+        {
+          "text": "30 November 1966",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "Who was Barbados\u2019 head of state in 1984?",
+      "answers": [
+        {
+          "text": "Clifford Husbands",
+          "correct": false
+        },
+        {
+          "text": "Elizabeth II",
+          "correct": true
+        },
+        {
+          "text": "Owen Arthur",
+          "correct": false
+        },
+        {
+          "text": "Grantley Adams",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "When was Barbados Labour Party founded?",
+      "answers": [
+        {
+          "text": "1938",
+          "correct": true
+        },
+        {
+          "text": "1945",
+          "correct": false
+        },
+        {
+          "text": "1948",
+          "correct": false
+        },
+        {
+          "text": "1956",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "Who was Barbados\u2019 prime minister in 1966-1976?",
+      "answers": [
+        {
+          "text": "Clyde Mascoll",
+          "correct": false
+        },
+        {
+          "text": "Elizabeth Thompson",
+          "correct": false
+        },
+        {
+          "text": "Errol Barrow",
+          "correct": true
+        },
+        {
+          "text": "Geoffrey Howe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "Which is the capital of Barbados?",
+      "answers": [
+        {
+          "text": "Portland",
+          "correct": false
+        },
+        {
+          "text": "Bridgetown",
+          "correct": true
+        },
+        {
+          "text": "Hillcrest",
+          "correct": false
+        },
+        {
+          "text": "Prospect",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "Who of the following Test cricketers was born in Bridgetown?",
+      "answers": [
+        {
+          "text": "Brian Lara",
+          "correct": false
+        },
+        {
+          "text": "Clive Lloyd",
+          "correct": false
+        },
+        {
+          "text": "Garfield Sobers",
+          "correct": true
+        },
+        {
+          "text": "Vivian Richards",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "When was slavery abolished in Barbados?",
+      "answers": [
+        {
+          "text": "1863",
+          "correct": false
+        },
+        {
+          "text": "1845",
+          "correct": false
+        },
+        {
+          "text": "1834",
+          "correct": true
+        },
+        {
+          "text": "1868",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "Which is the currency of Barbados?",
+      "answers": [
+        {
+          "text": "Yen",
+          "correct": false
+        },
+        {
+          "text": "Dollar",
+          "correct": true
+        },
+        {
+          "text": "Pound",
+          "correct": false
+        },
+        {
+          "text": "Renminbi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": "Which is the official language of Barbados?",
+      "answers": [
+        {
+          "text": "English",
+          "correct": true
+        },
+        {
+          "text": "Berber",
+          "correct": false
+        },
+        {
+          "text": "Punic",
+          "correct": false
+        },
+        {
+          "text": "Italian",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "question": " What is the area of Barbados?",
+      "answers": [
+        {
+          "text": "360 sq. mi.",
+          "correct": false
+        },
+        {
+          "text": "166 sq. mi.",
+          "correct": true
+        },
+        {
+          "text": "204 sq. mi.",
+          "correct": false
+        },
+        {
+          "text": "786 sq. mi.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "Which military alliance has its headquarters in Brussels?",
+      "answers": [
+        {
+          "text": "ANZUS",
+          "correct": false
+        },
+        {
+          "text": "OAS",
+          "correct": false
+        },
+        {
+          "text": "NATO",
+          "correct": true
+        },
+        {
+          "text": "SEATO",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "Which is the official language of Wallonia?",
+      "answers": [
+        {
+          "text": "Dutch",
+          "correct": false
+        },
+        {
+          "text": "French",
+          "correct": true
+        },
+        {
+          "text": "German",
+          "correct": false
+        },
+        {
+          "text": "Flemish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "Which is the capital of European Union?",
+      "answers": [
+        {
+          "text": "Brussels",
+          "correct": true
+        },
+        {
+          "text": "Arlon",
+          "correct": false
+        },
+        {
+          "text": "Dinant",
+          "correct": false
+        },
+        {
+          "text": "Liege",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "Which sea is to the west of Belgium?",
+      "answers": [
+        {
+          "text": "North Sea",
+          "correct": true
+        },
+        {
+          "text": "Baltic Sea",
+          "correct": false
+        },
+        {
+          "text": "Irish Sea",
+          "correct": false
+        },
+        {
+          "text": "East Sea",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "Which part of Belgium is German-speaking?",
+      "answers": [
+        {
+          "text": "Ghent",
+          "correct": false
+        },
+        {
+          "text": "Hasselt",
+          "correct": false
+        },
+        {
+          "text": "Mechelen",
+          "correct": false
+        },
+        {
+          "text": "Ostbelgien",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "When did Belgium become independent?",
+      "answers": [
+        {
+          "text": "1798",
+          "correct": false
+        },
+        {
+          "text": "1815",
+          "correct": false
+        },
+        {
+          "text": "1830",
+          "correct": true
+        },
+        {
+          "text": "1848",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "From which people Belgium has derived its name?",
+      "answers": [
+        {
+          "text": "Romans",
+          "correct": false
+        },
+        {
+          "text": "Belgae",
+          "correct": true
+        },
+        {
+          "text": "Danes",
+          "correct": false
+        },
+        {
+          "text": "Vikings",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "Which King of Belgium was held prisoner by Germany during World War II?",
+      "answers": [
+        {
+          "text": "Albert II",
+          "correct": false
+        },
+        {
+          "text": "Badouin",
+          "correct": false
+        },
+        {
+          "text": "Leopold II",
+          "correct": false
+        },
+        {
+          "text": "Leopold III",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": "Where was Napoleon defeated in 1815?",
+      "answers": [
+        {
+          "text": "Brussels",
+          "correct": false
+        },
+        {
+          "text": "Bruges",
+          "correct": false
+        },
+        {
+          "text": "Namur",
+          "correct": false
+        },
+        {
+          "text": "Waterloo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "question": " Which country is to the south of Belgium?",
+      "answers": [
+        {
+          "text": "Netherlands",
+          "correct": false
+        },
+        {
+          "text": "Germany",
+          "correct": false
+        },
+        {
+          "text": "France",
+          "correct": true
+        },
+        {
+          "text": "Luxembourg",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "From which people Bulgaria has derived its name?",
+      "answers": [
+        {
+          "text": "Bulgars",
+          "correct": true
+        },
+        {
+          "text": "Goths",
+          "correct": false
+        },
+        {
+          "text": "Huns",
+          "correct": false
+        },
+        {
+          "text": "Vandals",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "Which of the following countries is not a neighbour of Bulgaria?",
+      "answers": [
+        {
+          "text": "Greece",
+          "correct": false
+        },
+        {
+          "text": "Italy",
+          "correct": true
+        },
+        {
+          "text": "Macedonia",
+          "correct": false
+        },
+        {
+          "text": "Romania",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "Which is the main river of Bulgaria?",
+      "answers": [
+        {
+          "text": "Maritsa",
+          "correct": true
+        },
+        {
+          "text": "Danube",
+          "correct": false
+        },
+        {
+          "text": "Tigris",
+          "correct": false
+        },
+        {
+          "text": "Nile",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "When did Bulgaria become independent?",
+      "answers": [
+        {
+          "text": "1878",
+          "correct": false
+        },
+        {
+          "text": "1887",
+          "correct": false
+        },
+        {
+          "text": "1908",
+          "correct": true
+        },
+        {
+          "text": "1912",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "When did Byzantine Empire conquer Bulgaria?",
+      "answers": [
+        {
+          "text": "865",
+          "correct": false
+        },
+        {
+          "text": "927",
+          "correct": false
+        },
+        {
+          "text": "1000",
+          "correct": false
+        },
+        {
+          "text": "1018",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "Which King of Bulgaria later became its Prime Minister?",
+      "answers": [
+        {
+          "text": "Boris II",
+          "correct": false
+        },
+        {
+          "text": "Boris III",
+          "correct": false
+        },
+        {
+          "text": "Simeon I",
+          "correct": false
+        },
+        {
+          "text": "Simeon II",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "When did Bulgaria become a member of NATO?",
+      "answers": [
+        {
+          "text": "1945",
+          "correct": false
+        },
+        {
+          "text": "1989",
+          "correct": false
+        },
+        {
+          "text": "1994",
+          "correct": false
+        },
+        {
+          "text": "2004",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "Which treaty is celebrated by Bulgaria as its Independence Day?",
+      "answers": [
+        {
+          "text": "Treaty of San Stefano",
+          "correct": true
+        },
+        {
+          "text": "Treaty of Berlin",
+          "correct": false
+        },
+        {
+          "text": "Treaty of Versailles",
+          "correct": false
+        },
+        {
+          "text": "Treaty of Rome",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": "Where was the Constituent Assembly convened in 1879?",
+      "answers": [
+        {
+          "text": "Sofia",
+          "correct": false
+        },
+        {
+          "text": "Varna",
+          "correct": false
+        },
+        {
+          "text": "Ruse",
+          "correct": false
+        },
+        {
+          "text": "Turnovo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "question": " Who won the gold medal in 94kg weightlifting in Athens Olympics 2004?",
+      "answers": [
+        {
+          "text": "Eduard Tjukin",
+          "correct": false
+        },
+        {
+          "text": "Khadjimourad Akkaev",
+          "correct": false
+        },
+        {
+          "text": "Milen Dobrev",
+          "correct": true
+        },
+        {
+          "text": "Akakios Kakisvili",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "When did Croatia become independent?",
+      "answers": [
+        {
+          "text": "19 February 1968",
+          "correct": false
+        },
+        {
+          "text": "25 June 1991",
+          "correct": true
+        },
+        {
+          "text": "12 August 1972",
+          "correct": false
+        },
+        {
+          "text": "17 December 1961",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "Who was Croatia\u2019s president in 1991-1999?",
+      "answers": [
+        {
+          "text": "Franjo Tudjman",
+          "correct": true
+        },
+        {
+          "text": "Stipe Mesic",
+          "correct": false
+        },
+        {
+          "text": "Josip Manolic",
+          "correct": false
+        },
+        {
+          "text": "Jadranka Kosor",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "Which country is to the east of Croatia?",
+      "answers": [
+        {
+          "text": "France",
+          "correct": false
+        },
+        {
+          "text": "Spain",
+          "correct": false
+        },
+        {
+          "text": "Serbia",
+          "correct": true
+        },
+        {
+          "text": "Portugal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "Which sea is to the west of Croatia?",
+      "answers": [
+        {
+          "text": "Adriatic",
+          "correct": true
+        },
+        {
+          "text": "Baltic",
+          "correct": false
+        },
+        {
+          "text": "Irish",
+          "correct": false
+        },
+        {
+          "text": "Norwegian",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "Which is the capital of Croatia?",
+      "answers": [
+        {
+          "text": "Karlovac",
+          "correct": false
+        },
+        {
+          "text": "Sisac",
+          "correct": false
+        },
+        {
+          "text": "Dubrovnic",
+          "correct": false
+        },
+        {
+          "text": "Zagreb",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "Where was former Croatian general Ante Gotovina arrested on 7 December 2005?",
+      "answers": [
+        {
+          "text": "Belgrade",
+          "correct": false
+        },
+        {
+          "text": "Skopje",
+          "correct": false
+        },
+        {
+          "text": "Canary Islands",
+          "correct": true
+        },
+        {
+          "text": "Falkland Islands",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "What is the area of Croatia?",
+      "answers": [
+        {
+          "text": "12,342 sq. mi.",
+          "correct": false
+        },
+        {
+          "text": "21,851 sq. mi.",
+          "correct": true
+        },
+        {
+          "text": "6,282 sq. mi.",
+          "correct": false
+        },
+        {
+          "text": "5,126 sq. mi.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "Which is the currency of Croatia?",
+      "answers": [
+        {
+          "text": "Drachma",
+          "correct": false
+        },
+        {
+          "text": "Kuna",
+          "correct": true
+        },
+        {
+          "text": "Lira",
+          "correct": false
+        },
+        {
+          "text": "Punt",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": "Which is the official language of Croatia?",
+      "answers": [
+        {
+          "text": "Croatian",
+          "correct": true
+        },
+        {
+          "text": "Russian",
+          "correct": false
+        },
+        {
+          "text": "Portuguese",
+          "correct": false
+        },
+        {
+          "text": "Spanish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "question": " Who was Croatia\u2019s prime minister in 2000-2003?",
+      "answers": [
+        {
+          "text": "Nikica Valentic",
+          "correct": false
+        },
+        {
+          "text": "Ivica Racan",
+          "correct": true
+        },
+        {
+          "text": "Miomir Zuzul",
+          "correct": false
+        },
+        {
+          "text": "Zlatko Matesa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "Which city is the capital of Denmark?",
+      "answers": [
+        {
+          "text": "Berne",
+          "correct": false
+        },
+        {
+          "text": "Berlin",
+          "correct": false
+        },
+        {
+          "text": "Copenhagen",
+          "correct": true
+        },
+        {
+          "text": "London",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "In which drama of William Shakespeare it is said \u201cSomething is rotten in the state of Denmark.\"?",
+      "answers": [
+        {
+          "text": "Macbeth",
+          "correct": false
+        },
+        {
+          "text": "Othello",
+          "correct": false
+        },
+        {
+          "text": "Julius Caesar",
+          "correct": false
+        },
+        {
+          "text": "Hamlet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "How many goals were scored by Denmark against Uruguay in 1986 Football World Cup?",
+      "answers": [
+        {
+          "text": "Six",
+          "correct": true
+        },
+        {
+          "text": "Eight",
+          "correct": false
+        },
+        {
+          "text": "Four",
+          "correct": false
+        },
+        {
+          "text": "Nine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "Which city in West Bengal was a Danish colony?",
+      "answers": [
+        {
+          "text": "Chandranagore",
+          "correct": false
+        },
+        {
+          "text": "Serampore",
+          "correct": true
+        },
+        {
+          "text": "Calcutta",
+          "correct": false
+        },
+        {
+          "text": "Darjeeling",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "Which country conquered Denmark during World War II?",
+      "answers": [
+        {
+          "text": "Russia",
+          "correct": false
+        },
+        {
+          "text": "Japan",
+          "correct": false
+        },
+        {
+          "text": "Italy",
+          "correct": false
+        },
+        {
+          "text": "Germany",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "Which King of England was King of Denmark (1018-1035)?",
+      "answers": [
+        {
+          "text": "Canute",
+          "correct": true
+        },
+        {
+          "text": "Henry V",
+          "correct": false
+        },
+        {
+          "text": "Edward VI",
+          "correct": false
+        },
+        {
+          "text": "James II",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "What is the colour of cross in the flag of Denmark?",
+      "answers": [
+        {
+          "text": "Blue",
+          "correct": false
+        },
+        {
+          "text": "Green",
+          "correct": false
+        },
+        {
+          "text": "White",
+          "correct": true
+        },
+        {
+          "text": "Yellow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "Who became the Queen of Denmark in 1972?",
+      "answers": [
+        {
+          "text": "Elizabeth II",
+          "correct": false
+        },
+        {
+          "text": "Beatrix",
+          "correct": false
+        },
+        {
+          "text": "Alexandra",
+          "correct": false
+        },
+        {
+          "text": "Margrethe II",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": "When is Constitution Day in Denmark?",
+      "answers": [
+        {
+          "text": "1 May",
+          "correct": false
+        },
+        {
+          "text": "5 June",
+          "correct": true
+        },
+        {
+          "text": "4 July",
+          "correct": false
+        },
+        {
+          "text": "15 August",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "question": " Which is the national tree of Denmark?",
+      "answers": [
+        {
+          "text": "Beech",
+          "correct": true
+        },
+        {
+          "text": "Cedar",
+          "correct": false
+        },
+        {
+          "text": "Oak",
+          "correct": false
+        },
+        {
+          "text": "Mango",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Which two countries are surrounded on all sides by Italy?",
+      "answers": [
+        {
+          "text": "Gibraltar and Andorra",
+          "correct": false
+        },
+        {
+          "text": "Monaco and Andorra",
+          "correct": false
+        },
+        {
+          "text": "Vatican and San Marino",
+          "correct": true
+        },
+        {
+          "text": "Luxembourg and Monaco",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Which is the largest island of Italy?",
+      "answers": [
+        {
+          "text": "Sicily",
+          "correct": true
+        },
+        {
+          "text": "Sardinia",
+          "correct": false
+        },
+        {
+          "text": "Elba",
+          "correct": false
+        },
+        {
+          "text": "Crete",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Which is Italy\u2019s main river?",
+      "answers": [
+        {
+          "text": "Arno",
+          "correct": false
+        },
+        {
+          "text": "Po",
+          "correct": true
+        },
+        {
+          "text": "Tiber",
+          "correct": false
+        },
+        {
+          "text": "Rhine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Who was proclaimed the King of Italy in 1861?",
+      "answers": [
+        {
+          "text": "Charlemagne",
+          "correct": false
+        },
+        {
+          "text": "Pepin",
+          "correct": false
+        },
+        {
+          "text": "Clovis",
+          "correct": false
+        },
+        {
+          "text": "Victor Emmanuel II",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "When were Papal States annexed?",
+      "answers": [
+        {
+          "text": "1861",
+          "correct": false
+        },
+        {
+          "text": "1870",
+          "correct": true
+        },
+        {
+          "text": "1875",
+          "correct": false
+        },
+        {
+          "text": "1900",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Who is the last Italian Pope?",
+      "answers": [
+        {
+          "text": "Pius XII",
+          "correct": false
+        },
+        {
+          "text": "Benedict XV",
+          "correct": false
+        },
+        {
+          "text": "Adrian VI",
+          "correct": false
+        },
+        {
+          "text": "John Paul I",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Which islands were ceded to Greece by Italy after World War II?",
+      "answers": [
+        {
+          "text": "Balearic",
+          "correct": false
+        },
+        {
+          "text": "Azores",
+          "correct": false
+        },
+        {
+          "text": "Dodecanese",
+          "correct": true
+        },
+        {
+          "text": "Cocos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Who succeeded Silvio Berlusconi as Prime Minister of Italy in 2006?",
+      "answers": [
+        {
+          "text": "Giulio Andreotti",
+          "correct": false
+        },
+        {
+          "text": "Giorgio Napolitano",
+          "correct": false
+        },
+        {
+          "text": "Romano Prodi",
+          "correct": true
+        },
+        {
+          "text": "Roberto Baggio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": "Who won the Football World Cup 2006?",
+      "answers": [
+        {
+          "text": "Brazil",
+          "correct": false
+        },
+        {
+          "text": "France",
+          "correct": false
+        },
+        {
+          "text": "Italy",
+          "correct": true
+        },
+        {
+          "text": "Portugal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "question": " Where is the leaning tower?",
+      "answers": [
+        {
+          "text": "Venice",
+          "correct": false
+        },
+        {
+          "text": "Milan",
+          "correct": false
+        },
+        {
+          "text": "Genoa",
+          "correct": false
+        },
+        {
+          "text": "Pis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "When did Jamaica become independent?",
+      "answers": [
+        {
+          "text": "11 March 1958",
+          "correct": false
+        },
+        {
+          "text": "26 May 1969",
+          "correct": false
+        },
+        {
+          "text": "6 August 1962",
+          "correct": true
+        },
+        {
+          "text": "18 December 1971",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "What did Christopher Columbus call Jamaica?",
+      "answers": [
+        {
+          "text": "Trinidad",
+          "correct": false
+        },
+        {
+          "text": "Santiago",
+          "correct": true
+        },
+        {
+          "text": "Valparaiso",
+          "correct": false
+        },
+        {
+          "text": "Lima",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "Who was Jamaica\u2019s governor general in 2007?",
+      "answers": [
+        {
+          "text": "Howard Cooke",
+          "correct": false
+        },
+        {
+          "text": "William Penn",
+          "correct": false
+        },
+        {
+          "text": "Kenneth Hall",
+          "correct": true
+        },
+        {
+          "text": "Henry Morgan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "Who was Jamaica\u2019s prime minister in 2001?",
+      "answers": [
+        {
+          "text": "Bruce Golding",
+          "correct": false
+        },
+        {
+          "text": "Portia Simpson Miller",
+          "correct": false
+        },
+        {
+          "text": "Samuel Hood",
+          "correct": false
+        },
+        {
+          "text": "Percival Patterson",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "Which is the capital of Jamaica?",
+      "answers": [
+        {
+          "text": "Falmouth",
+          "correct": false
+        },
+        {
+          "text": "Port Maria",
+          "correct": false
+        },
+        {
+          "text": "Kingston",
+          "correct": true
+        },
+        {
+          "text": "Port Antonio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "Which party won Jamaica\u2019s general election in 2007?",
+      "answers": [
+        {
+          "text": "Conservative Party",
+          "correct": false
+        },
+        {
+          "text": "Jamaica Revolutionary Party",
+          "correct": false
+        },
+        {
+          "text": "Jamaica Labour Party",
+          "correct": true
+        },
+        {
+          "text": "Progressive Party",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "Who got Jamaica its first gold medal in a women\u2019s event in Olympics?",
+      "answers": [
+        {
+          "text": "Marion Jones",
+          "correct": false
+        },
+        {
+          "text": "Sanya Richards",
+          "correct": false
+        },
+        {
+          "text": "Deon Hemmings",
+          "correct": true
+        },
+        {
+          "text": "Jacqueline Joyner",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "Which is the currency of Jamaica?",
+      "answers": [
+        {
+          "text": "Pound",
+          "correct": false
+        },
+        {
+          "text": "Dollar",
+          "correct": true
+        },
+        {
+          "text": "Shilling",
+          "correct": false
+        },
+        {
+          "text": "Mark",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": "Which is the official language of Jamaica?",
+      "answers": [
+        {
+          "text": "English",
+          "correct": true
+        },
+        {
+          "text": "Basque",
+          "correct": false
+        },
+        {
+          "text": "Catalan",
+          "correct": false
+        },
+        {
+          "text": "Galician",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "question": " What is the area of Jamaica?",
+      "answers": [
+        {
+          "text": "4,244 sq. mi.",
+          "correct": true
+        },
+        {
+          "text": "6,324 sq. mi.",
+          "correct": false
+        },
+        {
+          "text": "1,926 sq. mi.",
+          "correct": false
+        },
+        {
+          "text": "5,322 sq. mi.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "Which is Japan\u2019s national dress?",
+      "answers": [
+        {
+          "text": "Kimono",
+          "correct": true
+        },
+        {
+          "text": "Kilt",
+          "correct": false
+        },
+        {
+          "text": "Chador",
+          "correct": false
+        },
+        {
+          "text": "Sarong",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "What is ikebana?",
+      "answers": [
+        {
+          "text": "Art of flower arrangement",
+          "correct": true
+        },
+        {
+          "text": "Game",
+          "correct": false
+        },
+        {
+          "text": "Building",
+          "correct": false
+        },
+        {
+          "text": "Painting",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "When did Hirohito rule Japan?",
+      "answers": [
+        {
+          "text": "1846-1867",
+          "correct": false
+        },
+        {
+          "text": "1926-1989",
+          "correct": true
+        },
+        {
+          "text": "1867-1912",
+          "correct": false
+        },
+        {
+          "text": "1817-1846",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "Which country was defeated by Japan in 1904-1905?",
+      "answers": [
+        {
+          "text": "USA",
+          "correct": false
+        },
+        {
+          "text": "China",
+          "correct": false
+        },
+        {
+          "text": "Philippines",
+          "correct": false
+        },
+        {
+          "text": "Russia",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "Which is the capital of Japan?",
+      "answers": [
+        {
+          "text": "Osaka",
+          "correct": false
+        },
+        {
+          "text": "Nagasaki",
+          "correct": false
+        },
+        {
+          "text": "Tokyo",
+          "correct": true
+        },
+        {
+          "text": "Kobe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "Which Japanese film was remade as The Magnificent Seven?",
+      "answers": [
+        {
+          "text": "Rashomon",
+          "correct": false
+        },
+        {
+          "text": "Seven Samurai",
+          "correct": true
+        },
+        {
+          "text": "Sansho the Bailiff",
+          "correct": false
+        },
+        {
+          "text": "Ikiru",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "Who became the Prime Minister of Japan on 26 April 2001?",
+      "answers": [
+        {
+          "text": "Shinzo Abe",
+          "correct": false
+        },
+        {
+          "text": "Keizo Obuchi",
+          "correct": false
+        },
+        {
+          "text": "Junichiro Koizumi",
+          "correct": true
+        },
+        {
+          "text": "Kakuei Tanama",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "How is Japanese Emperor\u2019s Throne known?",
+      "answers": [
+        {
+          "text": "Peacock Throne",
+          "correct": false
+        },
+        {
+          "text": "Chrysanthemum Throne",
+          "correct": true
+        },
+        {
+          "text": "Viceregal Throne",
+          "correct": false
+        },
+        {
+          "text": "White Throne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": "Which is National Foundation Day?",
+      "answers": [
+        {
+          "text": "11 February",
+          "correct": true
+        },
+        {
+          "text": "29 April",
+          "correct": false
+        },
+        {
+          "text": "4 May",
+          "correct": false
+        },
+        {
+          "text": "15 September",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "question": " Which is Japan\u2019s national legislature?",
+      "answers": [
+        {
+          "text": "Diet",
+          "correct": true
+        },
+        {
+          "text": "Congress",
+          "correct": false
+        },
+        {
+          "text": "Duma",
+          "correct": false
+        },
+        {
+          "text": "Parliament",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "How was Lebanon formerly known?",
+      "answers": [
+        {
+          "text": "Gaul",
+          "correct": false
+        },
+        {
+          "text": "Teutonia",
+          "correct": false
+        },
+        {
+          "text": "Mesopotamia",
+          "correct": false
+        },
+        {
+          "text": "Phoenicia",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Which country is to the east of Lebanon?",
+      "answers": [
+        {
+          "text": "Turkey",
+          "correct": false
+        },
+        {
+          "text": "Syria",
+          "correct": true
+        },
+        {
+          "text": "Bulgaria",
+          "correct": false
+        },
+        {
+          "text": "Cyprus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Which sea is to the west of Lebanon?",
+      "answers": [
+        {
+          "text": "Irish",
+          "correct": false
+        },
+        {
+          "text": "Baltic",
+          "correct": false
+        },
+        {
+          "text": "Mediterranean",
+          "correct": true
+        },
+        {
+          "text": "Greenland",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Who conquered Tyre in 332 BC?",
+      "answers": [
+        {
+          "text": "Julius Caesar",
+          "correct": false
+        },
+        {
+          "text": "Alexander",
+          "correct": true
+        },
+        {
+          "text": "Hannibal",
+          "correct": false
+        },
+        {
+          "text": "Cleopatra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Which country ruled Lebanon under League of Nations mandate?",
+      "answers": [
+        {
+          "text": "Italy",
+          "correct": false
+        },
+        {
+          "text": "France",
+          "correct": true
+        },
+        {
+          "text": "UK",
+          "correct": false
+        },
+        {
+          "text": "USSR",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Which language replaced Phoenician as the vernacular when Lebanon was part of the Roman Empire?",
+      "answers": [
+        {
+          "text": "Hebrew",
+          "correct": false
+        },
+        {
+          "text": "Persian",
+          "correct": false
+        },
+        {
+          "text": "Aramaic",
+          "correct": true
+        },
+        {
+          "text": "French",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Which is the capital of Lebanon?",
+      "answers": [
+        {
+          "text": "Beirut",
+          "correct": true
+        },
+        {
+          "text": "Tyre",
+          "correct": false
+        },
+        {
+          "text": "Sidon",
+          "correct": false
+        },
+        {
+          "text": "Nazareth",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Which is the currency of Lebanon?",
+      "answers": [
+        {
+          "text": "Euro",
+          "correct": false
+        },
+        {
+          "text": "Pound",
+          "correct": true
+        },
+        {
+          "text": "Drachma",
+          "correct": false
+        },
+        {
+          "text": "Lira",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": "Which is the official language of Lebanon?",
+      "answers": [
+        {
+          "text": "Persian",
+          "correct": false
+        },
+        {
+          "text": "Turkish",
+          "correct": false
+        },
+        {
+          "text": "Arabic",
+          "correct": true
+        },
+        {
+          "text": "Hebrew",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "question": " Which tree is shown on Lebanon\u2019s flag?",
+      "answers": [
+        {
+          "text": "Apple",
+          "correct": false
+        },
+        {
+          "text": "Cedar",
+          "correct": true
+        },
+        {
+          "text": "Guava",
+          "correct": false
+        },
+        {
+          "text": "Mango",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "When did the Macedonian Parliament adopt a Declaration on the International Recognition of the Republic of Macedonia as a Sovereign and Independent State?",
+      "answers": [
+        {
+          "text": "17 January 1857",
+          "correct": false
+        },
+        {
+          "text": "10 May 1914",
+          "correct": false
+        },
+        {
+          "text": "18 September1980",
+          "correct": false
+        },
+        {
+          "text": "19 December 1991",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "Who was the greatest Macedonian conqueror?",
+      "answers": [
+        {
+          "text": "Hannibal",
+          "correct": false
+        },
+        {
+          "text": "Napoleon",
+          "correct": false
+        },
+        {
+          "text": "Alexander",
+          "correct": true
+        },
+        {
+          "text": "Julius Caesar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "Which is the capital of Macedonia?",
+      "answers": [
+        {
+          "text": "Bitola",
+          "correct": false
+        },
+        {
+          "text": "Skopje",
+          "correct": true
+        },
+        {
+          "text": "Prilep",
+          "correct": false
+        },
+        {
+          "text": "Kumanovo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "Of which country was Macedonia a constituent republic in 1945-1991?",
+      "answers": [
+        {
+          "text": "Czechoslovakia",
+          "correct": false
+        },
+        {
+          "text": "USSR",
+          "correct": false
+        },
+        {
+          "text": "UAR",
+          "correct": false
+        },
+        {
+          "text": "Yugoslavia",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "Which country is to the south of Macedonia?",
+      "answers": [
+        {
+          "text": "Austria",
+          "correct": false
+        },
+        {
+          "text": "Norway",
+          "correct": false
+        },
+        {
+          "text": "Greece",
+          "correct": true
+        },
+        {
+          "text": "Italy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "In which script is Macedonian written?",
+      "answers": [
+        {
+          "text": "Aramaic",
+          "correct": false
+        },
+        {
+          "text": "Cyrilic",
+          "correct": true
+        },
+        {
+          "text": "Hebrew",
+          "correct": false
+        },
+        {
+          "text": "Phoenician",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "When was the Internal Macedonian Revolutionary Organization founded?",
+      "answers": [
+        {
+          "text": "1911",
+          "correct": false
+        },
+        {
+          "text": "1874",
+          "correct": false
+        },
+        {
+          "text": "1893",
+          "correct": true
+        },
+        {
+          "text": "1909",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "Which is the currency of Macedonia?",
+      "answers": [
+        {
+          "text": "Euro",
+          "correct": false
+        },
+        {
+          "text": "Denar",
+          "correct": true
+        },
+        {
+          "text": "Mark",
+          "correct": false
+        },
+        {
+          "text": "Drachma",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": "Which of the following is an official language of Macedonia?",
+      "answers": [
+        {
+          "text": "Greek",
+          "correct": false
+        },
+        {
+          "text": "Macedonian",
+          "correct": true
+        },
+        {
+          "text": "Italian",
+          "correct": false
+        },
+        {
+          "text": "Maltese",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Macedonia",
+      "question": " When did Macedonia join UN?",
+      "answers": [
+        {
+          "text": "1964",
+          "correct": false
+        },
+        {
+          "text": "1976",
+          "correct": false
+        },
+        {
+          "text": "1989",
+          "correct": false
+        },
+        {
+          "text": "1993",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "When did Mauritius become independent?",
+      "answers": [
+        {
+          "text": "12 March 1968",
+          "correct": true
+        },
+        {
+          "text": "14 April 1962",
+          "correct": false
+        },
+        {
+          "text": "18 July 1984",
+          "correct": false
+        },
+        {
+          "text": "16 December 1975",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "When was Mauritius under Dutch rule?",
+      "answers": [
+        {
+          "text": "1444-1498",
+          "correct": false
+        },
+        {
+          "text": "1502-1568",
+          "correct": false
+        },
+        {
+          "text": "1598-1710",
+          "correct": true
+        },
+        {
+          "text": "1776-1824",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "When did the French occupy Mauritius?",
+      "answers": [
+        {
+          "text": "1721",
+          "correct": true
+        },
+        {
+          "text": "1510",
+          "correct": false
+        },
+        {
+          "text": "1685",
+          "correct": false
+        },
+        {
+          "text": "1848",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "When did the British conquer Mauritius?",
+      "answers": [
+        {
+          "text": "1757",
+          "correct": false
+        },
+        {
+          "text": "1810",
+          "correct": true
+        },
+        {
+          "text": "1870",
+          "correct": false
+        },
+        {
+          "text": "1898",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "When was slavery abolished in Mauritius?",
+      "answers": [
+        {
+          "text": "1763",
+          "correct": false
+        },
+        {
+          "text": "1545",
+          "correct": false
+        },
+        {
+          "text": "1835",
+          "correct": true
+        },
+        {
+          "text": "1908",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "Which is the capital of Mauritius?",
+      "answers": [
+        {
+          "text": "Tamarin",
+          "correct": false
+        },
+        {
+          "text": "Rose Hill",
+          "correct": false
+        },
+        {
+          "text": "Bel Ombre",
+          "correct": false
+        },
+        {
+          "text": "Port Louis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "Which is the currency of Mauritius?",
+      "answers": [
+        {
+          "text": "Baht",
+          "correct": false
+        },
+        {
+          "text": "Yen",
+          "correct": false
+        },
+        {
+          "text": "Rupee",
+          "correct": true
+        },
+        {
+          "text": "Dinar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "Which is the official language of Mauritius?",
+      "answers": [
+        {
+          "text": "Hindi",
+          "correct": false
+        },
+        {
+          "text": "English",
+          "correct": true
+        },
+        {
+          "text": "Marathi",
+          "correct": false
+        },
+        {
+          "text": "Tamil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": "Who was Mauritius\u2019s president in 2007?",
+      "answers": [
+        {
+          "text": "Cassam Uteem",
+          "correct": false
+        },
+        {
+          "text": "Mahyendrah Utchanah",
+          "correct": false
+        },
+        {
+          "text": "Anerood Jugnauth",
+          "correct": true
+        },
+        {
+          "text": "Pieter Both",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "question": " Who was Mauritius\u2019s prime minister in 2004?",
+      "answers": [
+        {
+          "text": "Shivsagar Ramgoolam",
+          "correct": false
+        },
+        {
+          "text": "Paul Berenger",
+          "correct": true
+        },
+        {
+          "text": "Jan Coen",
+          "correct": false
+        },
+        {
+          "text": "Navin Ramgoolam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "Which is the capital of Morocco?",
+      "answers": [
+        {
+          "text": "Tripoli",
+          "correct": false
+        },
+        {
+          "text": "Rabat",
+          "correct": true
+        },
+        {
+          "text": "Khartoum",
+          "correct": false
+        },
+        {
+          "text": "Addis Ababa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "Which territory under Morocco is disputed?",
+      "answers": [
+        {
+          "text": "Abkhazia",
+          "correct": false
+        },
+        {
+          "text": "Somaliland",
+          "correct": false
+        },
+        {
+          "text": "South Ossetia",
+          "correct": false
+        },
+        {
+          "text": "Western Sahara",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "Which famous film has the name of a city of Morocco?",
+      "answers": [
+        {
+          "text": "Casablanca",
+          "correct": true
+        },
+        {
+          "text": "New York New York",
+          "correct": false
+        },
+        {
+          "text": "Tangier",
+          "correct": false
+        },
+        {
+          "text": "Marrakesh",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "When did France and Spain divide Morocco into their zones of influence?",
+      "answers": [
+        {
+          "text": "1900",
+          "correct": false
+        },
+        {
+          "text": "1904",
+          "correct": true
+        },
+        {
+          "text": "1912",
+          "correct": false
+        },
+        {
+          "text": "1918",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "Which country is to the east of Morocco?",
+      "answers": [
+        {
+          "text": "Algeria",
+          "correct": true
+        },
+        {
+          "text": "Angola",
+          "correct": false
+        },
+        {
+          "text": "Ghana",
+          "correct": false
+        },
+        {
+          "text": "Ivory Coast",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "Which is the currency of Morocco?",
+      "answers": [
+        {
+          "text": "Dinar",
+          "correct": false
+        },
+        {
+          "text": "Riyal",
+          "correct": false
+        },
+        {
+          "text": "Dirham",
+          "correct": true
+        },
+        {
+          "text": "Rupee",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "Which is the official language of Morocco?",
+      "answers": [
+        {
+          "text": "Arabic",
+          "correct": true
+        },
+        {
+          "text": "Persian",
+          "correct": false
+        },
+        {
+          "text": "Turkish",
+          "correct": false
+        },
+        {
+          "text": "Dari",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "Who became the King of Morocco in 1999?",
+      "answers": [
+        {
+          "text": "Mohammed VI",
+          "correct": true
+        },
+        {
+          "text": "Mohammed III",
+          "correct": false
+        },
+        {
+          "text": "Hassan I",
+          "correct": false
+        },
+        {
+          "text": "Idris",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": "What is in the centre of Morocco\u2019s national flag?",
+      "answers": [
+        {
+          "text": "Red star",
+          "correct": false
+        },
+        {
+          "text": "Sun",
+          "correct": false
+        },
+        {
+          "text": "Wheel",
+          "correct": false
+        },
+        {
+          "text": "Five pointed green star",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "question": " What is the date of Marrakesh Declaration?",
+      "answers": [
+        {
+          "text": "20 September 1986",
+          "correct": false
+        },
+        {
+          "text": "15 April 1994",
+          "correct": true
+        },
+        {
+          "text": "1 January 1999",
+          "correct": false
+        },
+        {
+          "text": "1 January 2002",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "How is the Netherlands popularly known?",
+      "answers": [
+        {
+          "text": "Deutschland",
+          "correct": false
+        },
+        {
+          "text": "Holland",
+          "correct": true
+        },
+        {
+          "text": "Jetland",
+          "correct": false
+        },
+        {
+          "text": "Zealand",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Which country withdrew from Kingdom of the United Netherlands?",
+      "answers": [
+        {
+          "text": "Luxembourg",
+          "correct": false
+        },
+        {
+          "text": "Denmark",
+          "correct": false
+        },
+        {
+          "text": "Belgium",
+          "correct": true
+        },
+        {
+          "text": "Iceland",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Which is the official language of the Netherlands?",
+      "answers": [
+        {
+          "text": "Dutch",
+          "correct": true
+        },
+        {
+          "text": "French",
+          "correct": false
+        },
+        {
+          "text": "German",
+          "correct": false
+        },
+        {
+          "text": "Flemish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Which is the capital of the Netherlands?",
+      "answers": [
+        {
+          "text": "Amsterdam",
+          "correct": true
+        },
+        {
+          "text": "Rotterdam",
+          "correct": false
+        },
+        {
+          "text": "Utretch",
+          "correct": false
+        },
+        {
+          "text": "Eindhoven",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Who annexed Dutch East Indies during World War II?",
+      "answers": [
+        {
+          "text": "Australia",
+          "correct": false
+        },
+        {
+          "text": "Japan",
+          "correct": true
+        },
+        {
+          "text": "Korea",
+          "correct": false
+        },
+        {
+          "text": "Germany",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Who was the captain of the Netherlands Football team for World Cup 1974?",
+      "answers": [
+        {
+          "text": "Johan Cruyff",
+          "correct": true
+        },
+        {
+          "text": "Piet Keizer",
+          "correct": false
+        },
+        {
+          "text": "Wim Suurbier",
+          "correct": false
+        },
+        {
+          "text": "Barry Hulshoff",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Which was the currency of the Netherlands before Euro was adopted?",
+      "answers": [
+        {
+          "text": "Pound",
+          "correct": false
+        },
+        {
+          "text": "Leu",
+          "correct": false
+        },
+        {
+          "text": "Mark",
+          "correct": false
+        },
+        {
+          "text": "Guilder",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Who reigned as regent from 1890 to 1898?",
+      "answers": [
+        {
+          "text": "Beatrix",
+          "correct": false
+        },
+        {
+          "text": "Emma",
+          "correct": true
+        },
+        {
+          "text": "Juliana",
+          "correct": false
+        },
+        {
+          "text": "Alexandra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": "Which colony of the Netherlands became independent in 1975?",
+      "answers": [
+        {
+          "text": "Irian Jaya",
+          "correct": false
+        },
+        {
+          "text": "Curacao",
+          "correct": false
+        },
+        {
+          "text": "Aruba",
+          "correct": false
+        },
+        {
+          "text": "Suriname",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "question": " When did the Netherlands abandon neutrality?",
+      "answers": [
+        {
+          "text": "1914",
+          "correct": false
+        },
+        {
+          "text": "1918",
+          "correct": false
+        },
+        {
+          "text": "1939",
+          "correct": false
+        },
+        {
+          "text": "1945",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "Who is the Head of State of New Zealand?",
+      "answers": [
+        {
+          "text": "President",
+          "correct": false
+        },
+        {
+          "text": "Governor General",
+          "correct": false
+        },
+        {
+          "text": "Monarch of UK",
+          "correct": true
+        },
+        {
+          "text": "Prime Minister",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "When did the New Zealand win gold medal in hockey in Olympics?",
+      "answers": [
+        {
+          "text": "1964",
+          "correct": false
+        },
+        {
+          "text": "1972",
+          "correct": false
+        },
+        {
+          "text": "1976",
+          "correct": true
+        },
+        {
+          "text": "1984",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "How many wickets did Richard Hadlee take in Test cricket?",
+      "answers": [
+        {
+          "text": "307",
+          "correct": false
+        },
+        {
+          "text": "355",
+          "correct": false
+        },
+        {
+          "text": "373",
+          "correct": false
+        },
+        {
+          "text": "431",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "Who became the Governor General of New Zealand in 2006?",
+      "answers": [
+        {
+          "text": "Anand Satyanand",
+          "correct": true
+        },
+        {
+          "text": "Catherine Ann Tizard",
+          "correct": false
+        },
+        {
+          "text": "Michael Hardie Boys",
+          "correct": false
+        },
+        {
+          "text": "Paul Alfred Reeves",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "Which of the following is an official language of New Zealand?",
+      "answers": [
+        {
+          "text": "Swahili",
+          "correct": false
+        },
+        {
+          "text": "Maori",
+          "correct": true
+        },
+        {
+          "text": "Basotho",
+          "correct": false
+        },
+        {
+          "text": "Zulu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "Which military alliance has New Zealand as its member?",
+      "answers": [
+        {
+          "text": "ANZUS",
+          "correct": true
+        },
+        {
+          "text": "NATO",
+          "correct": false
+        },
+        {
+          "text": "OAS",
+          "correct": false
+        },
+        {
+          "text": "CENTO",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "Who of the following cricketers played for New Zealand in 1987 World Cup?",
+      "answers": [
+        {
+          "text": "Gladstone Small",
+          "correct": false
+        },
+        {
+          "text": "Dipak Patel",
+          "correct": true
+        },
+        {
+          "text": "Mark Ramprakash",
+          "correct": false
+        },
+        {
+          "text": "Philip Defreitas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "Who along with Tenzing Norgay is the first to reach the summit of Mt. Everest?",
+      "answers": [
+        {
+          "text": "Edmund Hillary",
+          "correct": true
+        },
+        {
+          "text": "George Everest",
+          "correct": false
+        },
+        {
+          "text": "Eric Shipton",
+          "correct": false
+        },
+        {
+          "text": "John Hunt",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": "How many stars are in the flag of New Zealand?",
+      "answers": [
+        {
+          "text": "Three",
+          "correct": false
+        },
+        {
+          "text": "Four",
+          "correct": true
+        },
+        {
+          "text": "Five",
+          "correct": false
+        },
+        {
+          "text": "Six",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "question": " Where did New Zealand send its troops in 1999 as part of the UN peace keeping force?",
+      "answers": [
+        {
+          "text": "East Timor",
+          "correct": true
+        },
+        {
+          "text": "Somalia",
+          "correct": false
+        },
+        {
+          "text": "Haiti",
+          "correct": false
+        },
+        {
+          "text": "Sudan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Who conquered Peru for Spain in 1531-1533?",
+      "answers": [
+        {
+          "text": "Hernando Cortez",
+          "correct": false
+        },
+        {
+          "text": "Francisco Pizarro",
+          "correct": true
+        },
+        {
+          "text": "Simon Bolivar",
+          "correct": false
+        },
+        {
+          "text": "Christopher Columbus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "When did Peru proclaim its independence?",
+      "answers": [
+        {
+          "text": "28 July 1821",
+          "correct": true
+        },
+        {
+          "text": "15 April 1832",
+          "correct": false
+        },
+        {
+          "text": "18 May 1860",
+          "correct": false
+        },
+        {
+          "text": "11 November 1911",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Who won the Presidential election in 1990?",
+      "answers": [
+        {
+          "text": "Alan Garcia",
+          "correct": false
+        },
+        {
+          "text": "Jose Luis Bustamente",
+          "correct": false
+        },
+        {
+          "text": "Alberto Fujimori",
+          "correct": true
+        },
+        {
+          "text": "Manuel Odria",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Which ocean is to the west of Peru?",
+      "answers": [
+        {
+          "text": "Atlantic",
+          "correct": false
+        },
+        {
+          "text": "Pacific",
+          "correct": true
+        },
+        {
+          "text": "Indian",
+          "correct": false
+        },
+        {
+          "text": "Arctic",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Which is the capital of Peru?",
+      "answers": [
+        {
+          "text": "Arequipa",
+          "correct": false
+        },
+        {
+          "text": "Trujillo",
+          "correct": false
+        },
+        {
+          "text": "Lima",
+          "correct": true
+        },
+        {
+          "text": "Chiclayo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Which group was vanquished by Alberto Fujimori?",
+      "answers": [
+        {
+          "text": "Black September",
+          "correct": false
+        },
+        {
+          "text": "Shining Path",
+          "correct": true
+        },
+        {
+          "text": "Red Brigade",
+          "correct": false
+        },
+        {
+          "text": "Hamas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Which of the following wonders is in Peru?",
+      "answers": [
+        {
+          "text": "Petra",
+          "correct": false
+        },
+        {
+          "text": "Pyramids of Giza",
+          "correct": false
+        },
+        {
+          "text": "Machu Picchu",
+          "correct": true
+        },
+        {
+          "text": "Rock of Gibraltar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Which is the currency of Peru?",
+      "answers": [
+        {
+          "text": "Dollar",
+          "correct": false
+        },
+        {
+          "text": "Nuevo Sol",
+          "correct": true
+        },
+        {
+          "text": "Escuda",
+          "correct": false
+        },
+        {
+          "text": "Peso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": "Which language, apart from Spanish, is official language of Peru?",
+      "answers": [
+        {
+          "text": "Apache",
+          "correct": false
+        },
+        {
+          "text": "Iroquis",
+          "correct": false
+        },
+        {
+          "text": "Aymara",
+          "correct": false
+        },
+        {
+          "text": "Quechua",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "question": " Who was the last king of Incas?",
+      "answers": [
+        {
+          "text": "Atahulappa",
+          "correct": true
+        },
+        {
+          "text": "Pachacuti",
+          "correct": false
+        },
+        {
+          "text": "Topa",
+          "correct": false
+        },
+        {
+          "text": "Huayna",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "What is the official name of Qatar?",
+      "answers": [
+        {
+          "text": "Emirate of Qatar",
+          "correct": false
+        },
+        {
+          "text": "Kingdom of Qatar",
+          "correct": false
+        },
+        {
+          "text": "State of Qatar",
+          "correct": true
+        },
+        {
+          "text": "Sultanate of Qatar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "When did Qatar become independent?",
+      "answers": [
+        {
+          "text": "1 May 1965",
+          "correct": false
+        },
+        {
+          "text": "24 June 1967",
+          "correct": false
+        },
+        {
+          "text": "1 December 1969",
+          "correct": false
+        },
+        {
+          "text": "3 September 1971",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "Which channel is based in Qatar?",
+      "answers": [
+        {
+          "text": "Al Arabiya",
+          "correct": false
+        },
+        {
+          "text": "Al Jazeera",
+          "correct": true
+        },
+        {
+          "text": "Geo TV",
+          "correct": false
+        },
+        {
+          "text": "ARY TV",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "Where were 15th Asian Games held?",
+      "answers": [
+        {
+          "text": "Doha",
+          "correct": true
+        },
+        {
+          "text": "Bangkok",
+          "correct": false
+        },
+        {
+          "text": "Tokyo",
+          "correct": false
+        },
+        {
+          "text": "Seoul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "When did Doha Round Talks of WTO begin?",
+      "answers": [
+        {
+          "text": "1991",
+          "correct": false
+        },
+        {
+          "text": "1995",
+          "correct": false
+        },
+        {
+          "text": "1997",
+          "correct": false
+        },
+        {
+          "text": "2001",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "Who was overthrown in 1995?",
+      "answers": [
+        {
+          "text": "Khalifa bin Hamad",
+          "correct": true
+        },
+        {
+          "text": "Muhammed bin Thani",
+          "correct": false
+        },
+        {
+          "text": "Haroon Al Rashid",
+          "correct": false
+        },
+        {
+          "text": "Hafeez Assad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "When did Ottomans conquer Qatar?",
+      "answers": [
+        {
+          "text": "711",
+          "correct": false
+        },
+        {
+          "text": "1191",
+          "correct": false
+        },
+        {
+          "text": "1206",
+          "correct": false
+        },
+        {
+          "text": "1538",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "When did Qatar become a British Protectorate?",
+      "answers": [
+        {
+          "text": "1876",
+          "correct": false
+        },
+        {
+          "text": "1896",
+          "correct": false
+        },
+        {
+          "text": "1904",
+          "correct": false
+        },
+        {
+          "text": "1916",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": "Who rules Qatar?",
+      "answers": [
+        {
+          "text": "Sultan",
+          "correct": false
+        },
+        {
+          "text": "Emir",
+          "correct": true
+        },
+        {
+          "text": "Nawab",
+          "correct": false
+        },
+        {
+          "text": "Raja",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "question": " When was Qatar\u2019s constitution introduced?",
+      "answers": [
+        {
+          "text": "9 June 2005",
+          "correct": true
+        },
+        {
+          "text": "1 January 2001",
+          "correct": false
+        },
+        {
+          "text": "11 September 1975",
+          "correct": false
+        },
+        {
+          "text": "4 July 1976",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Which country is to the north of Serbia?",
+      "answers": [
+        {
+          "text": "Albania",
+          "correct": false
+        },
+        {
+          "text": "Bulgaria",
+          "correct": false
+        },
+        {
+          "text": "Hungary",
+          "correct": true
+        },
+        {
+          "text": "Macedonia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Who conferred the title \u201cKing of Serbia, Dalmatia and Bosnia\" on Stefan in 1217?",
+      "answers": [
+        {
+          "text": "Honorius III",
+          "correct": true
+        },
+        {
+          "text": "Martin IV",
+          "correct": false
+        },
+        {
+          "text": "Lucius II",
+          "correct": false
+        },
+        {
+          "text": "Alexander III",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Who founded the Serbian Orthodox Church?",
+      "answers": [
+        {
+          "text": "St. Cyril",
+          "correct": false
+        },
+        {
+          "text": "St. Sava",
+          "correct": true
+        },
+        {
+          "text": "St. Methodius",
+          "correct": false
+        },
+        {
+          "text": "St. Jerome",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Who was the king of Serbia in 1889-1903?",
+      "answers": [
+        {
+          "text": "Michael III",
+          "correct": false
+        },
+        {
+          "text": "Milan IV",
+          "correct": false
+        },
+        {
+          "text": "Milan II",
+          "correct": false
+        },
+        {
+          "text": "Alexander",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Of which country was Serbia part of in 1945-2003?",
+      "answers": [
+        {
+          "text": "Czechoslovakia",
+          "correct": false
+        },
+        {
+          "text": "USSR",
+          "correct": false
+        },
+        {
+          "text": "Yugoslavia",
+          "correct": true
+        },
+        {
+          "text": "Romania",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Which region of Serbia came under UN administration in 1999?",
+      "answers": [
+        {
+          "text": "Vojvodina",
+          "correct": false
+        },
+        {
+          "text": "Kosovo",
+          "correct": true
+        },
+        {
+          "text": "Bor",
+          "correct": false
+        },
+        {
+          "text": "Pirot",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "When did Montenegro secede from the federation of Serbia and Montenegro?",
+      "answers": [
+        {
+          "text": "9 March 1995",
+          "correct": false
+        },
+        {
+          "text": "3 June 2006",
+          "correct": true
+        },
+        {
+          "text": "17 July 1993",
+          "correct": false
+        },
+        {
+          "text": "22 December 2001",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Which is the capital of Serbia?",
+      "answers": [
+        {
+          "text": "Belgrade",
+          "correct": true
+        },
+        {
+          "text": "Kragujevac",
+          "correct": false
+        },
+        {
+          "text": "Smederevo",
+          "correct": false
+        },
+        {
+          "text": "Novi Sad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": "Which is the currency of Serbia?",
+      "answers": [
+        {
+          "text": "Euro",
+          "correct": false
+        },
+        {
+          "text": "Dinar",
+          "correct": true
+        },
+        {
+          "text": "Mark",
+          "correct": false
+        },
+        {
+          "text": "Shilling",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "question": " Which is the official language of Serbia?",
+      "answers": [
+        {
+          "text": "German",
+          "correct": false
+        },
+        {
+          "text": "Italian",
+          "correct": false
+        },
+        {
+          "text": "Greek",
+          "correct": false
+        },
+        {
+          "text": "Serbian",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "When did Sweden become a member of the European Union?",
+      "answers": [
+        {
+          "text": "1992",
+          "correct": false
+        },
+        {
+          "text": "1995",
+          "correct": true
+        },
+        {
+          "text": "2000",
+          "correct": false
+        },
+        {
+          "text": "2002",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "Which Swedish Prime Minister was assassinated on 28 February 1986?",
+      "answers": [
+        {
+          "text": "Olof Palme",
+          "correct": true
+        },
+        {
+          "text": "Tage Erlander",
+          "correct": false
+        },
+        {
+          "text": "Thorbjorn Falldin",
+          "correct": false
+        },
+        {
+          "text": "Ola Ullsten",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "Who won 33 Davis Cup Singles for Sweden between 1973 and 1980?",
+      "answers": [
+        {
+          "text": "Bjorn Borg",
+          "correct": true
+        },
+        {
+          "text": "Mats Wilander",
+          "correct": false
+        },
+        {
+          "text": "Stefan Edberg",
+          "correct": false
+        },
+        {
+          "text": "Jonas Bjorkman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "Which of the following actresses was born in Stockholm?",
+      "answers": [
+        {
+          "text": "Marilyn Monroe",
+          "correct": false
+        },
+        {
+          "text": "Jodie Foster",
+          "correct": false
+        },
+        {
+          "text": "Greta Garbo",
+          "correct": true
+        },
+        {
+          "text": "Sharon Stone",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "Which is the largest island of Sweden?",
+      "answers": [
+        {
+          "text": "Oland",
+          "correct": false
+        },
+        {
+          "text": "Gotland",
+          "correct": true
+        },
+        {
+          "text": "Kattegat",
+          "correct": false
+        },
+        {
+          "text": "Bear Island",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "Which water body separates Sweden and Finland?",
+      "answers": [
+        {
+          "text": "North Sea",
+          "correct": false
+        },
+        {
+          "text": "Norwegian Sea",
+          "correct": false
+        },
+        {
+          "text": "Gulf of Bothnia",
+          "correct": true
+        },
+        {
+          "text": "Irish Sea",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "Sweden had a colony in North America, known as New Sweden. Who was its last Governor?",
+      "answers": [
+        {
+          "text": "Johan Printz",
+          "correct": false
+        },
+        {
+          "text": "Johan Rising",
+          "correct": true
+        },
+        {
+          "text": "Peter Stuyvesant",
+          "correct": false
+        },
+        {
+          "text": "William Penn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "question": "Which is the capital of Sweden?",
+      "answers": [
+        {
+          "text": "Vasteras",
+          "correct": false
+        },
+        {
+          "text": "Stockholm",
+          "correct": true
+        },
+        {
+          "text": "Lulea",
+          "correct": false
+        },
+        {
+          "text": "Linkoping",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

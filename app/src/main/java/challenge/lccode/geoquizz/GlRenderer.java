@@ -98,19 +98,18 @@ public class GlRenderer implements Renderer {
         gl.glTranslatef(0.0f, 0.0f, OBJECT_DISTANCE);
         gl.glRotatef(AXIAL_TILT_DEGRESS, 1, 0, 0);
 
-        Log.d("AAAAA", Integer.toString(rndStop));
-        if (this.mRotationAngle >= rndStop)
+        if (this.mRotationAngle >= rndStop) {
             this.mRotationAngle = rndStop;
-
+            //ovdje se prestaje vrtiti globus
+        }
         else
-            this.mRotationAngle += (Maths.ROTATION_SPEED);
+            this.mRotationAngle += Maths.ROTATION_SPEED;
 
-        Log.d("rot", Float.toString(Maths.ROTATION_SPEED));
-        Log.d("angle", Float.toString(this.mRotationAngle));
 
-        if (Maths.IS_STOPPING)
-            gl.glRotatef(this.mRotationAngle += -this.mRotationAngle/50.0f, 0, 1, 0);
-        else
+        if (Maths.IS_STOPPING) {
+            this.mRotationAngle += -this.mRotationAngle / 50.0f;
+            gl.glRotatef(this.mRotationAngle, 0, 1, 0);
+        } else
             gl.glRotatef(this.mRotationAngle--, 0, 1, 0);
 
         this.mEarth.draw(gl);
