@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.activity_main_register)
     public void register(View view) {
-        Intent intent = new Intent(this, RegisterActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 

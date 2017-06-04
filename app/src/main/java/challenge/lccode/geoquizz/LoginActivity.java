@@ -2,18 +2,17 @@ package challenge.lccode.geoquizz;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.SwitchCompat;
 import android.text.Editable;
-import android.text.LoginFilter;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -21,32 +20,26 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
-import butterknife.BindView;
-import butterknife.OnClick;
-import butterknife.OnTextChanged;
-import challenge.lccode.geoquizz.models.UserLogin;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RegisterActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
-    boolean isSignIn;
     boolean isDone;
     FloatingActionButton done;
     private EditText name;
     private EditText password;
     private TextView activity_register_label;
+    private TextView activity_register_account;
     private CoordinatorLayout coordinatorLayout;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        isSignIn = true;
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_login);
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id
                 .coordinatorLayout);
 
@@ -79,12 +72,16 @@ public class RegisterActivity extends AppCompatActivity {
             }
         };
         activity_register_label = (TextView) findViewById(R.id.activity_register_label);
-
-        if (isSignIn){
-            activity_register_label.setText("SIGN UP");
-        }else{
-            activity_register_label.setText("LOGIN");
-        }
+        activity_register_label.setText("LOGIN");
+        activity_register_account = (TextView) findViewById(R.id.activity_register_account);
+        activity_register_account.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         done = (FloatingActionButton) findViewById(R.id.done);
         name = (EditText) findViewById(R.id.activity_register_name);
         name.addTextChangedListener(textWatcher);
@@ -93,16 +90,11 @@ public class RegisterActivity extends AppCompatActivity {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (isSignIn){
-                    registerUser();
-                }else{
-                    loginUser();
-                }
+                loginUser();
             }
         });
 
     }
-
 
 
     public Retrofit getRetrofit() {
@@ -130,7 +122,7 @@ public class RegisterActivity extends AppCompatActivity {
                     Application.token = token;
                     Application.isLoggedIn = true;
                     Application.name = userName;
-                    Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
 
                 } else {
@@ -150,49 +142,8 @@ public class RegisterActivity extends AppCompatActivity {
             }
 
         });
-    }
 
 
-    private void registerUser() {
-
-        String userName = name.getText().toString().trim();
-        String userPass = password.getText().toString().trim();
-        System.out.println(userName + " : " + userPass);
-        QuizRestInterface apiService = getRetrofit().create(QuizRestInterface.class);
-        Call<Void> call = apiService.registerUser(userName, userPass);
-        call.enqueue(new Callback<Void>() {
-            @Override
-            public void onResponse(Call<Void> call, Response<Void> response) {
-                int statusCode = response.code();
-
-                if (statusCode == 200) {
-                    Snackbar snackbar = Snackbar
-                            .make(coordinatorLayout, "User sucessfully registered: " + statusCode, Snackbar.LENGTH_SHORT);
-                    snackbar.show();
-                    loginUser();
-
-                } else if (statusCode == 409) {
-                    Snackbar snackbar = Snackbar
-                            .make(coordinatorLayout, "Username is already taken", Snackbar.LENGTH_SHORT);
-                    snackbar.show();
-                } else {
-                    Snackbar snackbar = Snackbar
-                            .make(coordinatorLayout, "Error ocurred while connecting to server. Please wait and try again.", Snackbar.LENGTH_SHORT);
-                    snackbar.show();
-                }
-
-            }
-
-            @Override
-            public void onFailure(Call<Void> call, Throwable t) {
-                t.printStackTrace();
-                Snackbar snackbar = Snackbar
-                        .make(coordinatorLayout, "Error ocurred while connecting to server. Please wait and try again.", Snackbar.LENGTH_SHORT);
-                snackbar.show();
-            }
-
-
-        });
     }
 
 
