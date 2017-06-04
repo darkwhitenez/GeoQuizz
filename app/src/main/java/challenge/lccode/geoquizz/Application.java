@@ -2,6 +2,7 @@ package challenge.lccode.geoquizz;
 
 import java.util.List;
 
+import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.UserStats;
 
 /**
@@ -14,6 +15,7 @@ public class Application extends android.app.Application {
     public static boolean isLoggedIn;
     public static String name;
     public static List<UserStats> userStats;
+    public static Quiz quiz;
 
     @Override
     public void onCreate() {

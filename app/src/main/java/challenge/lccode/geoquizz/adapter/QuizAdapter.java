@@ -35,7 +35,7 @@ public class QuizAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return quiz.getQuizItems().get(position)._id;
+        return quiz.getQuizItems().get(position).hashCode();
     }
 
     @Override

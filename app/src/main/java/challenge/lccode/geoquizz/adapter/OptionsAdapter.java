@@ -10,16 +10,18 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import challenge.lccode.geoquizz.models.Answer;
+
 /**
  * Created by zizzy on 3.6.2017..
  */
 
 public class OptionsAdapter extends BaseAdapter {
-    private List<String> answers;
+    private List<Answer> answers;
     private int layoutId;
     private Context context;
 
-    public OptionsAdapter(List<String> answers, @LayoutRes int layoutId, Context context) {
+    public OptionsAdapter(List<Answer> answers, @LayoutRes int layoutId, Context context) {
         this.answers = answers;
         this.layoutId = layoutId;
         this.context = context;
@@ -46,7 +48,7 @@ public class OptionsAdapter extends BaseAdapter {
             LayoutInflater inflater = LayoutInflater.from(parent.getContext());
             convertView = inflater.inflate(layoutId, parent, false);
         }
-        String text = answers.get(position);
+        String text = answers.get(position).text;
         ((TextView) convertView).setText(getAlphaIndex(position) + "  " + text);
         return convertView;
     }

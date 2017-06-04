@@ -42,8 +42,8 @@ public interface QuizRestInterface {
     Call<List<UserStats>> getUserStats(@Header("x-auth-token") String token);
 
     // dohvat random kviza
-    @GET("/api/quiz/getrandom")
-    Call<Quiz> getRandomQuiz();
+    @GET("/api/quiz/get_random")
+    Call<List<QuizItem>> getRandomQuiz(@Header("x-auth-token") String token);
 
     // dohvat random kviza neke države
     @GET("/api/quiz/getforcountry/{id}")

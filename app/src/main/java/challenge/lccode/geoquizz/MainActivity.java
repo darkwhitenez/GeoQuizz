@@ -15,11 +15,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.IOException;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import challenge.lccode.geoquizz.models.Quiz;
+import challenge.lccode.geoquizz.models.QuizItem;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -42,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.activity_main_map)
     TextView frame_map;
 
-    ProgressDialog dialog;
     private Menu menu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,12 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.activity_main_challenge)
     public void challenge(View view) {
-        dialog = new ProgressDialog(this, R.style.ProgressbarTheme);
-        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-        dialog.setCancelable(true);
-        dialog.setTitle("Please wait");
-        dialog.setMessage("Loading the quiz data");
-        dialog.show();
 
         //  new RandomQuizProvider().execute("");
         startActivity(new Intent(MainActivity.this, ChallengeActivity.class));
@@ -141,11 +136,11 @@ public class MainActivity extends AppCompatActivity {
                 return null;
             }
             QuizRestInterface apiService = retrofit.create(QuizRestInterface.class);
-            final Call<Quiz> callSticker = apiService.getRandomQuiz();
+            final Call<List<QuizItem>> callSticker = apiService.getRandomQuiz(Application.token);
 
             try {
 
-                Quiz quiz = callSticker.execute().body();
+                Quiz quiz = new Quiz(callSticker.execute().body());
                 System.out.println("GETTING QUIZ");
                 return quiz;
 

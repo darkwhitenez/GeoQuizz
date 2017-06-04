@@ -8,19 +8,17 @@ import java.util.List;
  */
 
 public class Quiz implements Serializable {
-    public String _id;
+    public List<QuizItem> quizItems;
 
     public List<QuizItem> getQuizItems() {
         return quizItems;
     }
 
-    public List<QuizItem> quizItems;
 
     public Quiz() {
     }
 
-    public Quiz(String _id, List<QuizItem> quizItems) {
-        this._id = _id;
+    public Quiz(List<QuizItem> quizItems) {
         this.quizItems = quizItems;
     }
 

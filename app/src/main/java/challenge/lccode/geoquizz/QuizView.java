@@ -68,7 +68,7 @@ public class QuizView extends FrameLayout {
 
     protected void createQuizQuestionView() {
         mQuestionView = (TextView) mLayoutInflater.inflate(R.layout.question, this, false);
-        mQuestionView.setText(quizItem.question);
+        mQuestionView.setText(quizItem.getQuestion());
         mQuestionView.setGravity(Gravity.CENTER);
     }
 

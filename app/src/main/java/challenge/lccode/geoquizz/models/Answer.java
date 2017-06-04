@@ -5,8 +5,14 @@ package challenge.lccode.geoquizz.models;
  */
 
 public class Answer {
-    public String text;
-    public Boolean correct;
 
-    public Answer(){}
+    public Boolean correct;
+    public String text;
+    public Answer() {
+    }
+
+    public Answer(String text, Boolean correct) {
+        this.text = text;
+        this.correct = correct;
+    }
 }
