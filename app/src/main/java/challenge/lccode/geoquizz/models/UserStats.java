@@ -6,11 +6,11 @@ import java.util.List;
  * Created by zizzy on 2.6.2017..
  */
 
-public class UserStats {
+public class UserStats{
 
-    public Integer numberOfPlayed;
-    public Double percentageOfCorrectAnswers;
-    public List<UserRateByCountry> userRates;
+    public String country_code;
+    public Integer questions_answered;
+    public Integer questions_correct;
 
     UserStats() {
     }

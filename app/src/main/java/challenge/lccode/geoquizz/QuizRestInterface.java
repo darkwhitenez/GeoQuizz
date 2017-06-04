@@ -13,6 +13,7 @@ import retrofit2.http.Body;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
+import retrofit2.http.Header;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
 
@@ -37,8 +38,8 @@ public interface QuizRestInterface {
     Call<Void> sendQuizResult(@Path("id") String userId, @Body QuizResult quizResult );
 
     // statistika o korisniku općenito
-    @GET("/api/user/stats/{id}")
-    Call<UserStats> getUserStats(@Path("id") String id);
+    @GET("/api/user/get_stats}")
+    Call<List<UserStats>> getUserStats(@Header("token") String token);
 
     // dohvat random kviza
     @GET("/api/quiz/getrandom")

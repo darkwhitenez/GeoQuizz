@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="challenge.lccode.geoquizz">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name=".Application">
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action
@@ -23,9 +24,13 @@
         <activity android:name=".GlobeActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ChallengeActivity" />
-        <activity android:name=".QuizResultActivity" />
+        <activity
+            android:name=".QuizResultActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".InfoActivity" />
-        <activity android:name=".StatsActivity" />
+        <activity
+            android:name=".StatsActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".LoginActivity" />
 
 

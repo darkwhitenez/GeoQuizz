@@ -1,5 +1,9 @@
 package challenge.lccode.geoquizz;
 
+import java.util.List;
+
+import challenge.lccode.geoquizz.models.UserStats;
+
 /**
  * Created by zizzy on 2.6.2017..
  */
@@ -9,6 +13,7 @@ public class Application extends android.app.Application {
     public static String token;
     public static boolean isLoggedIn;
     public static String name;
+    public static List<UserStats> userStats;
 
     @Override
     public void onCreate() {

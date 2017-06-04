@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
                 if (Application.isLoggedIn) {
                     logOut();
                 } else {
-                    Intent intent = new Intent(this, RegisterActivity.class);
+                    Intent intent = new Intent(this, LoginActivity.class);
                     startActivity(intent);
                     finish();
                 }
