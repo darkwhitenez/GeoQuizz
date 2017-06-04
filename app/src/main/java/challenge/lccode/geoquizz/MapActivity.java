@@ -15,7 +15,7 @@ import com.jiahuan.svgmapview.core.helper.ImageHelper;
 import com.jiahuan.svgmapview.core.helper.map.SVGBuilder;
 
 
-public class MapActivity extends AppCompatActivity
+public class MapActivity extends ActionBarActivity
 {
     private SVGMapView mapView;
 
@@ -28,9 +28,9 @@ public class MapActivity extends AppCompatActivity
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        //mapView = (SVGMapView) findViewById(R.id.map_id);
+        mapView = (SVGMapView) findViewById(R.id.map_id);
 
-        mapView = new SVGMapView(this);
+        //mapView = new SVGMapView(getBaseContext());
 
         mapView.registerMapViewListener(new SVGMapViewListener()
         {
@@ -73,8 +73,8 @@ public class MapActivity extends AppCompatActivity
                 });
             }
         });
-        mapView.setBrandBitmap(ImageHelper.drawableToBitmap(new SVGBuilder().readFromString(SVGPicture.ICON_TOILET).build().getDrawable(), 1.0f));
-        mapView.loadMap(SVGHelper.getContent(this, "worldLow.svg"));
+        //mapView.setBrandBitmap(ImageHelper.drawableToBitmap(new SVGBuilder().readFromString(SVGPicture.ICON_TOILET).build().getDrawable(), 1.0f));
+        mapView.loadMap(SVGHelper.getContent(this, "world2.svg"));
     }
 
 

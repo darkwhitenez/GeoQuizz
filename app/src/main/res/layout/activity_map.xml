@@ -3,4 +3,10 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <com.jiahuan.svgmapview.SVGMapView
+        android:id="@+id/map_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.jiahuan.svgmapview.SVGMapView>
+
 </LinearLayout>
