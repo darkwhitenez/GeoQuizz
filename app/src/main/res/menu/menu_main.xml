@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_user"
+        android:icon="@drawable/ic_perm_identity_black_24dp"
+        android:orderInCategory="100"
+        android:title="User"
+        app:showAsAction="ifRoom">
+        <menu android:id="@+id/actionbar_user_actions">
+            <item
+                android:id="@+id/actionbar_user_login"
+                android:title="Login" />
+        </menu>
+        >
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:orderInCategory="200"
+        android:title="Settings"
+        app:showAsAction="ifRoom" >
+        <menu android:id="@+id/actionbar_settings">
+            <item
+                android:id="@+id/actionbar_settings_info"
+                android:title="Info" />
+            <item
+                android:id="@+id/actionbar_settings_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
