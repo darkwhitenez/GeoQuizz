@@ -1,12 +1,10 @@
 package challenge.lccode.geoquizz;
 
 import android.content.Context;
-import android.os.Build;
-import android.os.Parcel;
-import android.os.Parcelable;
+import android.graphics.Color;
+import android.os.CountDownTimer;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.view.MarginLayoutParamsCompat;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +27,7 @@ public class QuizView extends FrameLayout {
     private GridView gridView;
     private Context context;
     private QuizItem quizItem;
+    private View answeredCellView;
     private int mAnswered = -1;
     private TextView mQuestionView;
     private FloatingActionButton mSubmitAnswer;
@@ -83,6 +82,7 @@ public class QuizView extends FrameLayout {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                answeredCellView = view;
                 mAnswered = position;
                 allowAnswer();
             }
@@ -91,7 +91,6 @@ public class QuizView extends FrameLayout {
 
 
     private void createFloatingActionButton() {
-
         addView(getSubmitButton());
     }
 
@@ -118,9 +117,25 @@ public class QuizView extends FrameLayout {
 
     private void submitAnswer() {
         final boolean answerCorrect = isAnswerCorrect();
-        if (getContext() instanceof ChallengeActivity) {
-            ((ChallengeActivity) getContext()).proceed();
+        if (answerCorrect) {
+            answeredCellView.setBackgroundColor(ContextCompat.getColor(context, R.color.green));
+        } else {
+            answeredCellView.setBackgroundColor(ContextCompat.getColor(context, R.color.red));
         }
+
+        new CountDownTimer(600, 200) {
+
+            public void onTick(long millisUntilFinished) {
+            }
+
+            public void onFinish() {
+                if (getContext() instanceof ChallengeActivity) {
+                    ((ChallengeActivity) getContext()).proceed(answerCorrect);
+                }
+            }
+        }.start();
+
+
     }
 
     protected boolean isAnswerCorrect() {

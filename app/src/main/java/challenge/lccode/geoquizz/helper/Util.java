@@ -18,4 +18,21 @@ public class Util {
 
         return retrofit;
     }
+
+    public static String getOffensiveStatement(int percentage) {
+        if (percentage < 25) {
+            return "Eat your veggies. You should do better than that";
+        }
+        if (percentage < 50) {
+            return "Not bad, but you could do better.";
+        }
+
+        if (percentage < 75) {
+            return "Well done you, Magellan";
+        }
+        if (percentage < 90) {
+            return "Straight to the top!";
+        }
+        return "Winner born and raised!";
+    }
 }
