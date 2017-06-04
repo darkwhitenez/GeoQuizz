@@ -49,23 +49,8 @@ public class OptionsAdapter extends BaseAdapter {
             convertView = inflater.inflate(layoutId, parent, false);
         }
         String text = answers.get(position).text;
-        ((TextView) convertView).setText(getAlphaIndex(position) + "  " + text);
+        ((TextView) convertView).setText(text);
         return convertView;
-    }
-
-    private String getAlphaIndex(int p){
-    switch(p){
-        case 0:
-            return "a)";
-        case 1:
-            return "b)";
-        case 2:
-            return "c)";
-        case 3:
-            return "d)";
-        default:
-            return "";
-    }
     }
 
 }
