@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -30,6 +31,7 @@ public class ChallengeActivity extends AppCompatActivity {
     private Quiz quiz;
     private int quizCount;
     private List<Boolean> quizCorrect;
+    private Toolbar toolbar;
     private Animation slide_in_left, slide_in_right, slide_out_left, slide_out_right;
 
 
@@ -39,6 +41,8 @@ public class ChallengeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_challenge);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_challenge);
+        toolbar.setTitle("Challenge");
         quiz = FakeQuiz.getQuiz();
         quizCount = -1;
         quizCorrect = new ArrayList<>();

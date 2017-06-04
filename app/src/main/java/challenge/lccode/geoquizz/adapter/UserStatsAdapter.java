@@ -35,9 +35,10 @@ public class UserStatsAdapter extends RecyclerView.Adapter<UserStatsAdapter.MyVi
         }
 
         UserStats userStat = Application.userStats.get(position);
+
         holder.country_code.setText(userStat.country_code);
-        holder.q_correct.setText(userStat.questions_correct);
-        holder.q_played.setText(userStat.questions_answered);
+        holder.q_correct.setText(userStat.questions_correct.toString());
+        holder.q_played.setText(userStat.questions_answered.toString());
 
     }
 
@@ -51,7 +52,6 @@ public class UserStatsAdapter extends RecyclerView.Adapter<UserStatsAdapter.MyVi
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView country_code, q_correct, q_played;
-        public Button play_country;
         public Retrofit retrofit;
 
         public MyViewHolder(View view) {
@@ -61,7 +61,6 @@ public class UserStatsAdapter extends RecyclerView.Adapter<UserStatsAdapter.MyVi
             country_code = (TextView) view.findViewById(R.id.country_code);
             q_correct = (TextView) view.findViewById(R.id.q_correct);
             q_played = (TextView) view.findViewById(R.id.q_played);
-           // play_country = (Button) view.findViewById(R.id.play_country);
         }
 
         @Override

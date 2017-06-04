@@ -38,8 +38,8 @@ public interface QuizRestInterface {
     Call<Void> sendQuizResult(@Path("id") String userId, @Body QuizResult quizResult );
 
     // statistika o korisniku općenito
-    @GET("/api/user/get_stats}")
-    Call<List<UserStats>> getUserStats(@Header("token") String token);
+    @GET("/api/user/get_stats")
+    Call<List<UserStats>> getUserStats(@Header("x-auth-token") String token);
 
     // dohvat random kviza
     @GET("/api/quiz/getrandom")

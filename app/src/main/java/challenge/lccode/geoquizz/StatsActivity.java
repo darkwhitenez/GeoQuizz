@@ -63,6 +63,7 @@ public class StatsActivity extends AppCompatActivity {
         protected void onPostExecute(List<UserStats> stats) {
             super.onPostExecute(stats);
             bar.setVisibility(View.GONE);
+            Application.userStats = stats;
             userStatsAdapter.notifyDataSetChanged();
         }
 
@@ -80,7 +81,7 @@ public class StatsActivity extends AppCompatActivity {
             try {
 
                 userStats = callStats.execute().body();
-                System.out.println(userStats);
+
             } catch (Exception e) {
                 e.printStackTrace();
             }

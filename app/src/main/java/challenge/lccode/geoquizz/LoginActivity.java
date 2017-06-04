@@ -114,7 +114,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (statusCode == 200) {
                     String gson = new Gson().toJson(response.body());
-                    String token = new Gson().fromJson(gson, JsonObject.class).get("token").toString();
+                    String token = new Gson().fromJson(gson, JsonObject.class).get("token").getAsString();
                     Application.token = token;
                     Application.isLoggedIn = true;
                     Application.name = userName;
