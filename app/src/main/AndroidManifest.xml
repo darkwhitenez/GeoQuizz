@@ -30,7 +30,9 @@
         <activity
             android:name=".QuizResultActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".InfoActivity" />
+        <activity
+            android:name=".InfoActivity"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".StatsActivity"
             android:parentActivityName=".MainActivity" />

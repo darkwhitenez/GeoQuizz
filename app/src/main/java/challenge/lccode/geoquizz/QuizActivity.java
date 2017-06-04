@@ -49,9 +49,9 @@ public class QuizActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
 
         countryCode = (String)getIntent().getExtras().get("country_code");
-        toolbar.setTitle(countryCode + " QUIZ");
 
         toolbar = (Toolbar) findViewById(R.id.toolbar_challenge);
+        toolbar.setTitle(countryCode + " QUIZ");
         dialog = new ProgressDialog(this, R.style.ProgressbarTheme);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         dialog.setCancelable(true);
