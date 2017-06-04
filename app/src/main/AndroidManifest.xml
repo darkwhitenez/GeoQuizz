@@ -25,6 +25,9 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ChallengeActivity" />
         <activity
+            android:name=".MapActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".QuizResultActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".InfoActivity" />

@@ -145,5 +145,30 @@
                 android:textSize="22sp" />
         </FrameLayout>
 
+        <FrameLayout
+            android:id="@+id/activity_main_frame_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/primary_dark"
+            android:elevation="6dp">
+
+            <TextView
+                android:id="@+id/activity_main_map"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Map"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </FrameLayout>
+
+
     </LinearLayout>
 </layout>

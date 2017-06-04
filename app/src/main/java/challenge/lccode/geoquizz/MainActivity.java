@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -37,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout frame_register;
     @BindView(R.id.activity_main_frame_stats)
     FrameLayout frame_stats;
+    @BindView(R.id.activity_main_map)
+    TextView frame_map;
 
     ProgressDialog dialog;
     private Menu menu;
@@ -47,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-
         ButterKnife.bind(this);
         if (Application.isLoggedIn) {
             frame_register.setVisibility(View.GONE);
@@ -61,6 +64,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     /*  listeners   */
+
+    @OnClick(R.id.activity_main_map)
+    public void map(View view) {
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
+
 
     @OnClick(R.id.activity_main_spin)
     public void spin(View view) {
