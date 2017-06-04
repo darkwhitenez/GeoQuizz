@@ -54,7 +54,9 @@ def register():
 def get_random():
     answers = [{'text': f'Dolor sit amet {i}', 'correct': False} for i in range(4)]
     random.choice(answers)['correct'] = True
-    return jsonify(question={'text': 'Lorem ipsum'}, answers=answers)
+    return jsonify(
+        [{'question': {'text': f'Lorem ipsum {i}'}, 'answers': answers} for i in range(10)]
+    )
 
 
 @api.route('/quiz/get_for_country')
@@ -62,7 +64,9 @@ def get_random():
 def get_for_country():
     answers = [{'text': f'Dolor sit amet {i}', 'correct': False} for i in range(4)]
     random.choice(answers)['correct'] = True
-    return jsonify(question={'text': 'Lorem ipsum'}, answers=answers)
+    return jsonify(
+        [{'question': {'text': f'Lorem ipsum {i}'},'answers': answers} for i in range(10)]
+    )
 
 
 @api.route('/quiz/send_result', methods=['POST'])
