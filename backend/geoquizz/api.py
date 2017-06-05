@@ -94,9 +94,10 @@ def send_result():
                               questions_answered=questions_answered,
                               questions_correct=questions_correct)
         db.session.add(stats)
+    else:
+        stats.questions_answered += questions_answered
+        stats.questions_correct += questions_correct
 
-    stats.questions_answered += questions_answered
-    stats.questions_correct += questions_correct
     db.session.commit()
 
     return jsonify(success=True)
