@@ -3,11 +3,7 @@ package challenge.lccode.geoquizz.adapter;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -16,11 +12,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import challenge.lccode.geoquizz.Application;
-import challenge.lccode.geoquizz.QuizActivity;
+import challenge.lccode.geoquizz.ChallengeActivity;
 import challenge.lccode.geoquizz.R;
-import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.UserStats;
-import retrofit2.Retrofit;
 
 /**
  * Created by zizzy on 4.6.2017..
@@ -92,7 +86,7 @@ public class UserStatsAdapter extends RecyclerView.Adapter<UserStatsAdapter.MyVi
                         public void onClick(DialogInterface dialog, int which) {
                             Bundle bundle = new Bundle();
                             bundle.putSerializable("country_code", countryCode);
-                            Intent intent = new Intent(context, QuizActivity.class);
+                            Intent intent = new Intent(context, ChallengeActivity.class);
                             intent.putExtras(bundle);
                             context.startActivity(intent);
                         }

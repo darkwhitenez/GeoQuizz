@@ -47,6 +47,7 @@ public class ChallengeActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private ProgressDialog dialog;
     private Retrofit retrofit;
+    private String countryCode;
 
 
     @Override
@@ -55,8 +56,17 @@ public class ChallengeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_challenge);
 
+        countryCode = null;
+        if (getIntent().getExtras() != null){
+            countryCode = (String) getIntent().getExtras().get("country_code");
+        }
+
         toolbar = (Toolbar) findViewById(R.id.toolbar_challenge);
-        toolbar.setTitle("Challenge");
+        if (countryCode == null) {
+            toolbar.setTitle("Challenge");
+        } else {
+            toolbar.setTitle(countryCode + " QUIZ");
+        }
         dialog = new ProgressDialog(this, R.style.ProgressbarTheme);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         dialog.setCancelable(true);
@@ -64,11 +74,11 @@ public class ChallengeActivity extends AppCompatActivity {
         dialog.setMessage("Loading the quiz data");
         dialog.show();
         retrofit = Util.getRetrofit();
-        fetchQuiz();
+        fetchQuiz(countryCode == null);
 
     }
 
-    private void initQuiz(){
+    private void initQuiz() {
         System.out.println(quiz.getQuizItems());
         quizCount = -1;
         quizCorrect = new ArrayList<>();
@@ -123,8 +133,6 @@ public class ChallengeActivity extends AppCompatActivity {
 
         if (nextItem < count) {
 
-            mQuizView.getInAnimation().start();
-            mQuizView.getOutAnimation().start();
             mQuizView.showNext();
             setQuestionNumber();
             return;
@@ -133,6 +141,9 @@ public class ChallengeActivity extends AppCompatActivity {
 
         Bundle bundle = new Bundle();
         bundle.putSerializable("quiz_results", (Serializable) quizCorrect);
+        if (countryCode != null) {
+            bundle.putString("country_code", countryCode);
+        }
         Intent intent = new Intent(this, QuizResultActivity.class);
         intent.putExtras(bundle);
         startActivity(intent);
@@ -140,9 +151,14 @@ public class ChallengeActivity extends AppCompatActivity {
     }
 
 
-    private void fetchQuiz() {
+    private void fetchQuiz(Boolean isRandom) {
         QuizRestInterface apiService = retrofit.create(QuizRestInterface.class);
-        final Call<List<QuizItem>> callQuiz = apiService.getRandomQuiz(Application.token);
+        Call<List<QuizItem>> callQuiz;
+        if (isRandom) {
+            callQuiz = apiService.getRandomQuiz(Application.token);
+        } else {
+            callQuiz = apiService.getQuizForCountry(countryCode, Application.token);
+        }
         callQuiz.enqueue(new Callback<List<QuizItem>>() {
             @Override
             public void onResponse(Call<List<QuizItem>> call, Response<List<QuizItem>> response) {

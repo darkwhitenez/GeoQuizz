@@ -80,8 +80,6 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.activity_main_challenge)
     public void challenge(View view) {
-
-        //  new RandomQuizProvider().execute("");
         startActivity(new Intent(MainActivity.this, ChallengeActivity.class));
 
     }

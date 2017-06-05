@@ -14,6 +14,10 @@ import android.widget.TextView;
 import java.util.List;
 
 import challenge.lccode.geoquizz.helper.Util;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
 
 
 public class QuizResultActivity extends AppCompatActivity {
@@ -22,7 +26,8 @@ public class QuizResultActivity extends AppCompatActivity {
     private TextView quiz_result_msg;
     private TextView activity_main_register;
     private TextView percentage_value;
-    ProgressDialog dialog;
+    private ProgressDialog dialog;
+    private String countryCode;
 
 
     @Override
@@ -45,22 +50,39 @@ public class QuizResultActivity extends AppCompatActivity {
         });
         Bundle bundle = getIntent().getExtras();
         List<Boolean> results = (List<Boolean>) bundle.getSerializable("quiz_results");
-        System.out.println(results);
+        countryCode = bundle.getString("country_code");
         int correct = 0;
         for (Boolean res : results) {
             if (res) {
                 correct++;
             }
         }
+
+        if (countryCode != null) {
+            sendQuizResult(countryCode, correct, results.size());
+        }
         double percentage = (double) correct / results.size();
-        System.out.println(percentage);
         int percentageInt = (int) (percentage * 100);
 
 
         percentage_value.setText(percentageInt + "%");
         quiz_result_msg.setText(Util.getOffensiveStatement(percentageInt));
 
+    }
 
+    private void sendQuizResult(String countryCode, int correct, int size) {
+        QuizRestInterface apiService = Util.getRetrofit().create(QuizRestInterface.class);
+        Call<Void> call = apiService.sendQuizResult(countryCode, size, correct, Application.token);
+        call.enqueue(new Callback<Void>() {
+            @Override
+            public void onResponse(Call<Void> call, Response<Void> response) {
+                System.out.println("Quiz result successfully stored.");
+            }
+
+            @Override
+            public void onFailure(Call<Void> call, Throwable t) {
+            }
+        });
     }
 
     private void startAnotherChallenge() {
@@ -77,12 +99,18 @@ public class QuizResultActivity extends AppCompatActivity {
             }
 
             public void onFinish() {
-                startActivity(new Intent(QuizResultActivity.this, ChallengeActivity.class));
+                Intent intent = new Intent(QuizResultActivity.this, ChallengeActivity.class);
+                if (countryCode == null){
+                    startActivity(intent);
+                }else{
+                    Bundle bundle = new Bundle();
+                    bundle.putSerializable("country_code", countryCode);
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+                }
 
             }
         }.start();
-
-        //  new RandomQuizProvider().execute("");
     }
 
 
