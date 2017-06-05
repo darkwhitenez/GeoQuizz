@@ -1,7 +1,9 @@
 import os
 
-DEBUG = True
+DEBUG = False
 SQLITE = True
+HOST = ''
+PORT = 5000
 
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
