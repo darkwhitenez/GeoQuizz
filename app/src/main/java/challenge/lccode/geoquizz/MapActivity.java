@@ -17,7 +17,8 @@ import com.jiahuan.svgmapview.core.helper.map.SVGBuilder;
 
 public class MapActivity extends ActionBarActivity
 {
-    private SVGMapView mapView;
+    private static SVGMapView mapView;
+    public static boolean loaded = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -37,14 +38,6 @@ public class MapActivity extends ActionBarActivity
             @Override
             public void onMapLoadComplete()
             {
-                MapActivity.this.runOnUiThread(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        Toast.makeText(MapActivity.this, "onMapLoadComplete", Toast.LENGTH_LONG).show();
-                    }
-                });
             }
 
             @Override
@@ -74,8 +67,13 @@ public class MapActivity extends ActionBarActivity
             }
         });
         //mapView.setBrandBitmap(ImageHelper.drawableToBitmap(new SVGBuilder().readFromString(SVGPicture.ICON_TOILET).build().getDrawable(), 1.0f));
-        mapView.loadMap(SVGHelper.getContent(this, "world.svg"));
+
+        SVGHelper.getMap(this);
         //SVGHelper.addColor("RS", "a");
+    }
+
+    public static void displayMap() {
+        mapView.loadMap(SVGHelper.getSVG());
     }
 
 

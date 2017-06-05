@@ -15,6 +15,7 @@ public class Application extends android.app.Application {
     public static boolean isLoggedIn;
     public static String name;
     public static List<UserStats> userStats;
+    public static List<UserStats> mapStats;
     public static Quiz quiz;
 
     @Override
