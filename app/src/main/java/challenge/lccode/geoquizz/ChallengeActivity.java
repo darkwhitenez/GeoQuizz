@@ -139,8 +139,10 @@ public class ChallengeActivity extends AppCompatActivity {
             return;
 
         }
+        System.out.println(quizResults);
+        System.out.println(countryCode);
 
-        Bundle bundle = new Bundle();
+           Bundle bundle = new Bundle();
         bundle.putSerializable("quiz_results", (Serializable) quizResults);
         if (countryCode != null) {
             bundle.putString("country_code", countryCode);
