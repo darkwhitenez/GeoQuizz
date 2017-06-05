@@ -54,7 +54,7 @@ def register():
 def get_random():
     questions = Question.query.order_by(func.random()).limit(7)
     return jsonify(
-        [{
+        [{'id': question.id,
           'text': question.text,
           'answers': [{
               'text': answer.text,
