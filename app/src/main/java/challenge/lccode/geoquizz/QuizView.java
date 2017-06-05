@@ -130,7 +130,7 @@ public class QuizView extends FrameLayout {
 
             public void onFinish() {
                 if (getContext() instanceof ChallengeActivity) {
-                    ((ChallengeActivity) getContext()).proceed(answerCorrect);
+                    ((ChallengeActivity) getContext()).proceed(answerCorrect, quizItem.id );
                 }
             }
         }.start();

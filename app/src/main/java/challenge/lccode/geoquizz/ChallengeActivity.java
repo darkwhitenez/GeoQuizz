@@ -29,7 +29,7 @@ import challenge.lccode.geoquizz.helper.Countries;
 import challenge.lccode.geoquizz.helper.Util;
 import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.QuizItem;
-import challenge.lccode.geoquizz.models.UserStats;
+import challenge.lccode.geoquizz.models.QuizResult;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -44,7 +44,7 @@ public class ChallengeActivity extends AppCompatActivity {
     private QuizAdapter mQuizAdapter;
     private Quiz quiz;
     private int quizCount;
-    private List<Boolean> quizCorrect;
+    private List<QuizResult> quizResults;
     private Toolbar toolbar;
     private ProgressDialog dialog;
     private Retrofit retrofit;
@@ -58,7 +58,7 @@ public class ChallengeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_challenge);
 
         countryCode = null;
-        if (getIntent().getExtras() != null){
+        if (getIntent().getExtras() != null) {
             countryCode = (String) getIntent().getExtras().get("country_code");
         }
 
@@ -80,9 +80,8 @@ public class ChallengeActivity extends AppCompatActivity {
     }
 
     private void initQuiz() {
-        System.out.println(quiz.getQuizItems());
         quizCount = -1;
-        quizCorrect = new ArrayList<>();
+        quizResults = new ArrayList<>();
         quizNumberText = (TextView) findViewById(R.id.toolbar_count);
         setQuestionNumber();
         back = (ImageView) findViewById(R.id.back);
@@ -124,11 +123,12 @@ public class ChallengeActivity extends AppCompatActivity {
     }
 
 
-    public void proceed(boolean isCorrect) {
+    public void proceed(boolean isCorrect, int quizItemId) {
+        System.out.println(isCorrect + " " + quizItemId);
         if (mQuizView == null) {
             return;
         }
-        quizCorrect.add(isCorrect);
+        quizResults.add(new QuizResult(quizItemId, isCorrect));
         int nextItem = mQuizView.getDisplayedChild() + 1;
         final int count = mQuizView.getAdapter().getCount();
 
@@ -141,7 +141,7 @@ public class ChallengeActivity extends AppCompatActivity {
         }
 
         Bundle bundle = new Bundle();
-        bundle.putSerializable("quiz_results", (Serializable) quizCorrect);
+        bundle.putSerializable("quiz_results", (Serializable) quizResults);
         if (countryCode != null) {
             bundle.putString("country_code", countryCode);
         }
@@ -164,9 +164,6 @@ public class ChallengeActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<QuizItem>> call, Response<List<QuizItem>> response) {
                 int statusCode = response.code();
-                System.out.println(statusCode);
-                System.out.println(response.body());
-
                 if (statusCode == 200) {
                     Application.quiz = new Quiz(response.body());
                     quiz = Application.quiz;

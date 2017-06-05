@@ -10,7 +10,7 @@ public class QuizItem {
 
     public List<Answer> answers;
     public String text;
-    public Long _id;
+    public Integer id;
 
 
     public QuizItem() {
@@ -20,8 +20,8 @@ public class QuizItem {
         return text;
     }
 
-    public QuizItem(Long _id, String question, List<Answer> answers) {
-        this._id = _id;
+    public QuizItem(Integer id, String question, List<Answer> answers) {
+        this.id = id;
         this.text = question;
         this.answers = answers;
     }

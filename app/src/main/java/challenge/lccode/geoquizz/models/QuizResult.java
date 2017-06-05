@@ -5,8 +5,14 @@ package challenge.lccode.geoquizz.models;
  */
 
 public class QuizResult {
-    public Integer idQuiz;
-    public Integer correctAnswers;
+    public Integer id;
+    public Boolean correct;
 
-    public QuizResult(){}
+    public QuizResult(Integer id, Boolean correct) {
+        this.id = id;
+        this.correct = correct;
+    }
+
+    public QuizResult() {
+    }
 }

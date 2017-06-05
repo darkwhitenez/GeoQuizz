@@ -72,7 +72,7 @@
         android:elevation="6dp">
 
         <TextView
-            android:id="@+id/activity_main_register"
+            android:id="@+id/activity_quiz_play_another_text"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="@drawable/ripple_effect"
@@ -84,5 +84,29 @@
             android:textSize="22sp" />
     </FrameLayout>
 
+    <FrameLayout
+        android:id="@+id/activity_quiz_stats"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/accent"
+        android:elevation="6dp">
+
+        <TextView
+            android:id="@+id/activity_quiz_stats_text"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ripple_effect"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Stats"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+    </FrameLayout>
 
 </LinearLayout>

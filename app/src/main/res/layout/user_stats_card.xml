@@ -30,24 +30,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <ImageView
+ <!--               <ImageView
+                    android:layout_gravity="start"
                     android:id="@+id/country_icon"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:backgroundTint="@color/primary_light"
                     android:scaleType="centerCrop" />
-
-                <TextView
+-->
+               <TextView
                     android:id="@+id/country_code"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="start"
                     android:layout_margin="4dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="100dp"
                     android:textAppearance="?attr/textAppearanceListItem"
                     android:textColor="@color/primary_dark"
                     android:textSize="18sp"
@@ -65,7 +63,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingTop="10dp"
-                    android:textSize="12sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -80,7 +78,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingTop="10dp"
-                    android:textSize="12sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
 

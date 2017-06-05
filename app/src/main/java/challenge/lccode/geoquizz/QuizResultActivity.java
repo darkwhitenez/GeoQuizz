@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import challenge.lccode.geoquizz.helper.Util;
+import challenge.lccode.geoquizz.models.QuizResult;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -49,17 +50,17 @@ public class QuizResultActivity extends AppCompatActivity {
             }
         });
         Bundle bundle = getIntent().getExtras();
-        List<Boolean> results = (List<Boolean>) bundle.getSerializable("quiz_results");
+        List<QuizResult> results = (List<QuizResult>) bundle.getSerializable("quiz_results");
         countryCode = bundle.getString("country_code");
         int correct = 0;
-        for (Boolean res : results) {
-            if (res) {
+        for (QuizResult res : results) {
+            if (res.correct) {
                 correct++;
             }
         }
 
         if (countryCode != null) {
-            sendQuizResult(countryCode, correct, results.size());
+            sendQuizResult(results);
         }
         double percentage = (double) correct / results.size();
         int percentageInt = (int) (percentage * 100);
@@ -70,17 +71,19 @@ public class QuizResultActivity extends AppCompatActivity {
 
     }
 
-    private void sendQuizResult(String countryCode, int correct, int size) {
+    private void sendQuizResult(List<QuizResult> results) {
+        System.out.println(results);
         QuizRestInterface apiService = Util.getRetrofit().create(QuizRestInterface.class);
-        Call<Void> call = apiService.sendQuizResult(countryCode, size, correct, Application.token);
-        call.enqueue(new Callback<Void>() {
+        Call<List<QuizResult>> call = apiService.sendQuizResult(results, Application.token);
+        call.enqueue(new Callback<List<QuizResult>>() {
             @Override
-            public void onResponse(Call<Void> call, Response<Void> response) {
+            public void onResponse(Call<List<QuizResult>> call, Response<List<QuizResult>> response) {
                 System.out.println("Quiz result successfully stored.");
             }
 
             @Override
-            public void onFailure(Call<Void> call, Throwable t) {
+            public void onFailure(Call<List<QuizResult>> call, Throwable t) {
+                t.printStackTrace();
             }
         });
     }
