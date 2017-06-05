@@ -43,11 +43,15 @@ public class CountriesAdapter extends RecyclerView.Adapter<CountriesAdapter.MyVi
         System.out.println(countryCode);
 
         holder.country_code.setText(countryCode);
-        String uri = "flags_" + countryCode.toLowerCase() + ".png";
-        int id = context.getResources().getIdentifier(uri, null, context.getPackageName());
-        Drawable res = context.getResources().getDrawable(id);
-        holder.country_icon.setImageDrawable(res);
 
+        try{
+            String uri = "flags_" + countryCode.toLowerCase();
+            int id = context.getResources().getIdentifier(uri, "drawable", context.getPackageName());
+            holder.country_icon.setImageResource(id);
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 
