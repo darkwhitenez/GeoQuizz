@@ -39,19 +39,15 @@ public class CountriesAdapter extends RecyclerView.Adapter<CountriesAdapter.MyVi
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        String countryCode = Countries.getByIndex(position);
-        System.out.println(countryCode);
+        String countryCode = Countries.getKeyByIndex(position);
+        String countryName = Countries.getNameByCode(countryCode);
+        holder.country_code.setText(countryName);
 
-        holder.country_code.setText(countryCode);
 
-        try{
-            String uri = "flags_" + countryCode.toLowerCase();
-            int id = context.getResources().getIdentifier(uri, "drawable", context.getPackageName());
-            holder.country_icon.setImageResource(id);
+        String uri = "flag_" + countryCode.toLowerCase();
+        int id = context.getResources().getIdentifier(uri, "drawable", context.getPackageName());
+        holder.country_icon.setImageResource(id);
 
-        }catch (Exception e){
-            e.printStackTrace();
-        }
 
     }
 
@@ -74,10 +70,10 @@ public class CountriesAdapter extends RecyclerView.Adapter<CountriesAdapter.MyVi
                 @Override
                 public void onClick(View v) {
                     int position = getAdapterPosition();
-                    countryCode = Countries.getByIndex(position);
+                    countryCode = Countries.getKeyByIndex(position);
                     AlertDialog.Builder adb = new AlertDialog.Builder(context);
                     adb.setTitle("New quiz");
-                    adb.setMessage("Do you wish to start a " + countryCode + " quiz?");
+                    adb.setMessage("Do you wish to start a " + Countries.getNameByIndex(position) + " quiz?");
                     adb.setCancelable(true);
                     String yesButtonText = "Yes";
                     String noButtonText = "No";

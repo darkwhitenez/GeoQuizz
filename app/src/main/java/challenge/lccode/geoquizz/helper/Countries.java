@@ -13,7 +13,7 @@ public class Countries {
     private static Map<String, String> map;
     private static List<String> countryCodes;
 
-    {
+   static {
         map = new LinkedHashMap<>();
         map.put("AF", "Afghanistan");
         map.put("AL", "Albania");
@@ -272,11 +272,17 @@ public class Countries {
         return map.get(countryCode);
     }
 
-    public static String getByIndex(int index) {
+    public static String getNameByIndex(int index) {
         return getNameByCode(countryCodes.get(index));
     }
 
-    public static Integer getSize() {
+
+     public static String getKeyByIndex(int index) {
+          return countryCodes.get(index);
+     }
+
+
+     public static Integer getSize() {
         return countryCodes.size();
     }
 

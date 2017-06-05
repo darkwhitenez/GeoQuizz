@@ -25,6 +25,7 @@ import java.util.List;
 
 import challenge.lccode.geoquizz.adapter.QuizAdapter;
 import challenge.lccode.geoquizz.helper.ApiVersionHelper;
+import challenge.lccode.geoquizz.helper.Countries;
 import challenge.lccode.geoquizz.helper.Util;
 import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.QuizItem;
@@ -65,7 +66,7 @@ public class ChallengeActivity extends AppCompatActivity {
         if (countryCode == null) {
             toolbar.setTitle("Challenge");
         } else {
-            toolbar.setTitle(countryCode + " QUIZ");
+            toolbar.setTitle(Countries.getNameByCode(countryCode) + " QUIZ");
         }
         dialog = new ProgressDialog(this, R.style.ProgressbarTheme);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
