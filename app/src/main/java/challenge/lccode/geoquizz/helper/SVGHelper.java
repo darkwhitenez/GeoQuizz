@@ -19,6 +19,7 @@ import java.io.OutputStream;
 import java.util.List;
 
 import challenge.lccode.geoquizz.Application;
+import challenge.lccode.geoquizz.MapActivity;
 import challenge.lccode.geoquizz.QuizRestInterface;
 import challenge.lccode.geoquizz.StatsActivity;
 import challenge.lccode.geoquizz.models.UserStats;
@@ -56,6 +57,8 @@ public class SVGHelper {
             e.printStackTrace();
         }
 
+        MapActivity.loaded = true;
+
         return svg;
     }
 
@@ -63,12 +66,11 @@ public class SVGHelper {
         for(UserStats stat : Application.mapStats) {
             colorCountry(stat.country_code, Float.toString(stat.questions_answered/stat.questions_correct * 100));
         }
-
     }
 
 
     public static void colorCountry(String id, String opacity) {
-        int idIndex = svg.indexOf(id);
+        int idIndex = svg.indexOf("id=\"" + id + "\"");
         int styleIndex = svg.indexOf("style", idIndex);
 
         String replaceWith = "style=\"fill:#ff0000;fill-rule:evenodd\"";
@@ -97,6 +99,7 @@ public class SVGHelper {
             Application.mapStats = stats;
 
             getContent();
+            MapActivity.displayMap();
         }
 
         @Override
