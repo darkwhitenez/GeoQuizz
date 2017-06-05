@@ -16,7 +16,7 @@ Powering the server-side of GeoQuizz.
 
 1. Clone the repository
 
-        git clone https://github.com//GeoQuizz.git
+        git clone https://github.com/darkwhitenez/GeoQuizz.git
         cd GeoQuizz
 
 2. Install the requirements
@@ -41,7 +41,7 @@ Powering the server-side of GeoQuizz.
 
 1. Clone the repository
 
-        git clone https://github.com//GeoQuizz.git
+        git clone https://github.com/darkwhitenez/GeoQuizz.git
         cd GeoQuizz
 
 2. Build the image
