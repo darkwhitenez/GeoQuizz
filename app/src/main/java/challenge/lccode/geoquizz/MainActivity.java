@@ -1,10 +1,13 @@
 package challenge.lccode.geoquizz;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -42,9 +45,22 @@ public class MainActivity extends AppCompatActivity {
     TextView frame_map;
 
     private Menu menu;
+    private SharedPreferences prefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        prefs = PreferenceManager.getDefaultSharedPreferences(this);
+
+        if (!prefs.getString(Application.PREF_UN, "").equals("")
+                && !prefs.getString(Application.PREF_PW, "").equals("")
+                && !prefs.getString(Application.PREF_TOKEN, "").equals("")) {
+            Log.d("aaa", prefs.getString(Application.PREF_UN, ""));
+            Log.d("aaa", prefs.getString(Application.PREF_PW, ""));
+            Log.d("aaa", prefs.getString(Application.PREF_TOKEN, ""));
+            Application.isLoggedIn = true;
+            Application.token = prefs.getString(Application.PREF_TOKEN, "");
+        }
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.main_toolbar);
@@ -196,6 +212,11 @@ public class MainActivity extends AppCompatActivity {
     private void logOut() {
         Application.isLoggedIn = false;
         Application.token = "";
+        prefs.edit()
+                .putString(Application.PREF_UN, "")
+                .putString(Application.PREF_PW, "")
+                .putString(Application.PREF_TOKEN, "")
+                .apply();
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();

@@ -17,6 +17,9 @@ public class Application extends android.app.Application {
     public static List<UserStats> userStats;
     public static List<UserStats> mapStats;
     public static Quiz quiz;
+    public static final String PREF_UN = "username";
+    public static final String PREF_PW = "password";
+    public static final String PREF_TOKEN = "token";
 
     @Override
     public void onCreate() {

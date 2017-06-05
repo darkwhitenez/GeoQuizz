@@ -1,7 +1,9 @@
 package challenge.lccode.geoquizz;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -31,9 +33,12 @@ public class LoginActivity extends AppCompatActivity {
     private TextView activity_register_label;
     private TextView activity_register_account;
     private CoordinatorLayout coordinatorLayout;
+    private SharedPreferences prefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        prefs = PreferenceManager.getDefaultSharedPreferences(this);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id
@@ -104,7 +109,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private void loginUser() {
         final String userName = name.getText().toString().trim();
-        String userPass = password.getText().toString().trim();
+        final String userPass = password.getText().toString().trim();
+
         QuizRestInterface apiService = getRetrofit().create(QuizRestInterface.class);
         Call<Object> call = apiService.loginUser(userName, userPass);
         call.enqueue(new Callback<Object>() {
@@ -118,6 +124,13 @@ public class LoginActivity extends AppCompatActivity {
                     Application.token = token;
                     Application.isLoggedIn = true;
                     Application.name = userName;
+
+                    prefs.edit()
+                            .putString(Application.PREF_UN, userName)
+                            .putString(Application.PREF_PW, userPass)
+                            .putString(Application.PREF_TOKEN, Application.token)
+                            .apply();
+
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
@@ -139,8 +152,6 @@ public class LoginActivity extends AppCompatActivity {
             }
 
         });
-
-
     }
 
 
