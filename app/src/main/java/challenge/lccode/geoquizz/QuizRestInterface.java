@@ -2,11 +2,8 @@ package challenge.lccode.geoquizz;
 
 import java.util.List;
 
-import challenge.lccode.geoquizz.models.GeneralStats;
-import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.QuizItem;
 import challenge.lccode.geoquizz.models.QuizResult;
-import challenge.lccode.geoquizz.models.UserLogin;
 import challenge.lccode.geoquizz.models.UserStats;
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -15,7 +12,6 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.Header;
 import retrofit2.http.POST;
-import retrofit2.http.Path;
 
 /**
  * Created by zizzy on 2.6.2017..

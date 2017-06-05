@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.activity_main_map)
     TextView frame_map;
 
-    private Menu menu;
     private SharedPreferences prefs;
 
     @Override
@@ -54,9 +53,7 @@ public class MainActivity extends AppCompatActivity {
         if (!prefs.getString(Application.PREF_UN, "").equals("")
                 && !prefs.getString(Application.PREF_PW, "").equals("")
                 && !prefs.getString(Application.PREF_TOKEN, "").equals("")) {
-            Log.d("aaa", prefs.getString(Application.PREF_UN, ""));
-            Log.d("aaa", prefs.getString(Application.PREF_PW, ""));
-            Log.d("aaa", prefs.getString(Application.PREF_TOKEN, ""));
+
             Application.isLoggedIn = true;
             Application.token = prefs.getString(Application.PREF_TOKEN, "");
         }
@@ -120,48 +117,6 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         return retrofit;
-    }
-
-    private class RandomQuizProvider extends AsyncTask<String, Void, Quiz> {
-
-        @Override
-        protected void onPostExecute(Quiz q) {
-            super.onPostExecute(q);
-            if (q != null) {
-                Intent intent = new Intent(MainActivity.this, ChallengeActivity.class);
-                Bundle bundle = new Bundle();
-                bundle.putSerializable("quiz", q);
-                intent.putExtras(bundle);
-                startActivity(intent);
-                finish();
-                return;
-            }
-
-            /* snackbar TODO */
-        }
-
-        @Override
-        protected Quiz doInBackground(String... params) {
-
-            Retrofit retrofit = getRetrofit();
-            if (retrofit == null) {
-                return null;
-            }
-            QuizRestInterface apiService = retrofit.create(QuizRestInterface.class);
-            final Call<List<QuizItem>> callSticker = apiService.getRandomQuiz(Application.token);
-
-            try {
-
-                Quiz quiz = new Quiz(callSticker.execute().body());
-                System.out.println("GETTING QUIZ");
-                return quiz;
-
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-            return null;
-        }
     }
 
     @Override

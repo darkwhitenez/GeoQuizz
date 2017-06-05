@@ -154,10 +154,9 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     private void registerUser() {
-
         String userName = name.getText().toString().trim();
         String userPass = password.getText().toString().trim();
-        System.out.println(userName + " : " + userPass);
+
         QuizRestInterface apiService = getRetrofit().create(QuizRestInterface.class);
         Call<Void> call = apiService.registerUser(userName, userPass);
         call.enqueue(new Callback<Void>() {
