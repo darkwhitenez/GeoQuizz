@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.activity_main_spin)
     public void spin(View view) {
-        Intent intent = new Intent(this, GlobeActivity.class);
+        Intent intent = new Intent(this, CountriesActivity.class);
         startActivity(intent);
     }
 
