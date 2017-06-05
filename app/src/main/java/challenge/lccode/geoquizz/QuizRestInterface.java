@@ -46,9 +46,9 @@ public interface QuizRestInterface {
     @POST("/api/quiz/get_for_country")
     Call<List<QuizItem>> getQuizForCountry(@Field("country_code") String countryCode, @Header("x-auth-token") String token);
 
-    @FormUrlEncoded
+   // @FormUrlEncoded
     @POST("/api/quiz/send_result")
-    Call<Void> sendQuizResult(@Body List<QuizResult> results,  @Header("x-auth-token") String token);
+    Call<List<QuizResult>> sendQuizResult(@Body List<QuizResult> results,  @Header("x-auth-token") String token);
 
 
 }

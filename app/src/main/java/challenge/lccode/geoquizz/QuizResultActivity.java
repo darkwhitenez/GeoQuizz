@@ -26,6 +26,8 @@ public class QuizResultActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TextView quiz_result_msg;
     private TextView activity_quiz_play_another_text;
+    private TextView activity_quiz_stats_text;
+
     private TextView percentage_value;
     private ProgressDialog dialog;
     private String countryCode;
@@ -43,6 +45,14 @@ public class QuizResultActivity extends AppCompatActivity {
         percentage_value = (TextView) findViewById(R.id.percentage_value);
         quiz_result_msg = (TextView) findViewById(R.id.quiz_result_msg);
         activity_quiz_play_another_text = (TextView) findViewById(R.id.activity_quiz_play_another_text);
+        activity_quiz_stats_text = (TextView) findViewById(R.id.activity_quiz_stats_text);
+
+        activity_quiz_stats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startStats();
+            }
+        });
         activity_quiz_play_another_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +61,6 @@ public class QuizResultActivity extends AppCompatActivity {
         });
         Bundle bundle = getIntent().getExtras();
         List<QuizResult> results = (List<QuizResult>) bundle.getSerializable("quiz_results");
-        System.out.println(results);
         countryCode = bundle.getString("country_code");
         int correct = 0;
         for (QuizResult res : results) {
@@ -72,18 +81,23 @@ public class QuizResultActivity extends AppCompatActivity {
 
     }
 
+    private void startStats() {
+        Intent intent = new Intent(QuizResultActivity.this, StatsActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
     private void sendQuizResult(List<QuizResult> results) {
-        System.out.println(results);
         QuizRestInterface apiService = Util.getRetrofit().create(QuizRestInterface.class);
-        Call<Void> call = apiService.sendQuizResult(results, Application.token);
-        call.enqueue(new Callback<Void>() {
+        Call<List<QuizResult>> call = apiService.sendQuizResult(results, Application.token);
+        call.enqueue(new Callback<List<QuizResult>>() {
             @Override
-            public void onResponse(Call<Void> call, Response<Void> response) {
+            public void onResponse(Call<List<QuizResult>> call, Response<List<QuizResult>> response) {
                 System.out.println("Quiz result successfully stored.");
             }
 
             @Override
-            public void onFailure(Call<Void> call, Throwable t) {
+            public void onFailure(Call<List<QuizResult>> call, Throwable t) {
                 t.printStackTrace();
             }
         });
