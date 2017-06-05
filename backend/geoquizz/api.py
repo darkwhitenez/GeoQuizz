@@ -54,7 +54,8 @@ def register():
 def get_random():
     questions = Question.query.order_by(func.random()).limit(7)
     return jsonify(
-        [{'text': question.text,
+        [{
+          'text': question.text,
           'answers': [{
               'text': answer.text,
               'correct': answer.correct
@@ -69,7 +70,8 @@ def get_for_country():
     country_code = request.form['country_code']
     questions = Question.query.filter_by(country_code=country_code).order_by(func.random()).limit(7)
     return jsonify(
-        [{'text': question.text,
+        [{'id': question.id,
+          'text': question.text,
           'answers': [{
               'text': answer.text,
               'correct': answer.correct
@@ -81,22 +83,24 @@ def get_for_country():
 @api.route('/quiz/send_result', methods=['POST'])
 @authenticate
 def send_result():
-    country_code = request.form.get('country_code')
-    questions_answered = request.form.get('answered', type=int)
-    questions_correct = request.form.get('correct', type=int)
+    question_results = request.get_json(force=True)
 
-    stats = QuestionStats.query.filter_by(country_code=country_code,
-                                          user_id=g.user.id).first()
+    # record progress for correct questions
+    for qr in (qr for qr in question_results if qr['correct']):
+        db.session.merge(QuestionProgress(question_id=qr['id'], user_id=g.user.id))
 
-    if not stats:
-        stats = QuestionStats(user=g.user,
-                              country_code=country_code,
-                              questions_answered=questions_answered,
-                              questions_correct=questions_correct)
-        db.session.add(stats)
-    else:
-        stats.questions_answered += questions_answered
-        stats.questions_correct += questions_correct
+    # increase global stats
+    for qr in question_results:
+        question = Question.query.get(qr['id'])
+        stats = QuestionStats.query.filter_by(country_code=question.country_code,
+                                              user_id=g.user.id).first()
+        if not stats:
+            stats = QuestionStats(user=g.user, country=question.country)
+            db.session.add(stats)
+
+        if qr['correct']:
+            stats.questions_correct += 1
+        stats.questions_answered += 1
 
     db.session.commit()
 

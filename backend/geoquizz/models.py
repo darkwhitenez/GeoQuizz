@@ -34,10 +34,11 @@ class Question(db.Model):
     __tablename__ = 'question'
 
     id = Column(Integer, primary_key=True)
-    country_code = Column(String, nullable=False)
+    country_code = Column(String, ForeignKey('country.code'), nullable=False)
     text = Column(String, nullable=False)
 
     answers = relationship('Answer', back_populates='question')
+    country = relationship('Country')
 
 
 class Answer(db.Model):
@@ -57,8 +58,8 @@ class QuestionStats(db.Model):
     user_id = Column(Integer, ForeignKey('user.id'), primary_key=True)
     country_code = Column(String, ForeignKey('country.code'), primary_key=True)
 
-    questions_answered = Column(Integer, nullable=False)
-    questions_correct = Column(Integer, nullable=False)
+    questions_answered = Column(Integer, nullable=False, default=0)
+    questions_correct = Column(Integer, nullable=False, default=0)
 
     country = relationship('Country')
     user = relationship('User', back_populates='question_stats')
