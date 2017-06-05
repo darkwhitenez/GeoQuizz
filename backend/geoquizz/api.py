@@ -95,7 +95,10 @@ def send_result():
         stats = QuestionStats.query.filter_by(country_code=question.country_code,
                                               user_id=g.user.id).first()
         if not stats:
-            stats = QuestionStats(user=g.user, country=question.country)
+            stats = QuestionStats(user_id=g.user.id,
+                                  country_code=question.country_code,
+                                  questions_correct=0,
+                                  questions_answered=0)
             db.session.add(stats)
 
         if qr['correct']:
