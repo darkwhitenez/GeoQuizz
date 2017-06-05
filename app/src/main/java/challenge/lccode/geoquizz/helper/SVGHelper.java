@@ -57,8 +57,6 @@ public class SVGHelper {
             e.printStackTrace();
         }
 
-        MapActivity.loaded = true;
-
         return svg;
     }
 

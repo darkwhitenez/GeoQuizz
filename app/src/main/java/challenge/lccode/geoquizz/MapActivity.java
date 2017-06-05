@@ -18,7 +18,6 @@ import com.jiahuan.svgmapview.core.helper.map.SVGBuilder;
 public class MapActivity extends ActionBarActivity
 {
     private static SVGMapView mapView;
-    public static boolean loaded = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
