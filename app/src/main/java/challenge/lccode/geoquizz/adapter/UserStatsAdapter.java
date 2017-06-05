@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import challenge.lccode.geoquizz.Application;
@@ -46,6 +47,11 @@ public class UserStatsAdapter extends RecyclerView.Adapter<UserStatsAdapter.MyVi
         holder.q_correct.setText(userStat.questions_correct.toString());
         holder.q_played.setText(userStat.questions_answered.toString());
 
+
+        String uri = "flag_" + userStat.country_code.toLowerCase();
+        int id = context.getResources().getIdentifier(uri, "drawable", context.getPackageName());
+        holder.country_icon.setImageResource(id);
+
     }
 
     @Override
@@ -58,12 +64,14 @@ public class UserStatsAdapter extends RecyclerView.Adapter<UserStatsAdapter.MyVi
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView country_code, q_correct, q_played;
+        public ImageView country_icon;
 
         public MyViewHolder(View view) {
             super(view);
             country_code = (TextView) view.findViewById(R.id.country_code);
             q_correct = (TextView) view.findViewById(R.id.q_correct);
             q_played = (TextView) view.findViewById(R.id.q_played);
+            country_icon = (ImageView) view.findViewById(R.id.country_icon);
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
