@@ -1,8 +1,7 @@
-import random
 from functools import wraps
 
-from sqlalchemy.sql.expression import func
 from flask import Blueprint, request, jsonify, g
+from sqlalchemy.sql.expression import func
 from werkzeug.security import generate_password_hash, check_password_hash
 
 from geoquizz.models import db, User, QuestionStats, Question
