@@ -1,8 +1,7 @@
-import random
 from functools import wraps
 
-from sqlalchemy.sql.expression import func
 from flask import Blueprint, request, jsonify, g
+from sqlalchemy.sql.expression import func
 from werkzeug.security import generate_password_hash, check_password_hash
 
 from geoquizz.models import db, User, QuestionStats, Question
@@ -95,9 +94,10 @@ def send_result():
                               questions_answered=questions_answered,
                               questions_correct=questions_correct)
         db.session.add(stats)
+    else:
+        stats.questions_answered += questions_answered
+        stats.questions_correct += questions_correct
 
-    stats.questions_answered += questions_answered
-    stats.questions_correct += questions_correct
     db.session.commit()
 
     return jsonify(success=True)

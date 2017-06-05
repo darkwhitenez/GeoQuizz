@@ -33,10 +33,6 @@ public interface QuizRestInterface {
     @POST("/api/user/login")
     Call<Object> loginUser(@Field("username") String username, @Field("password") String password);
 
-    // slanje rezultata kviza
-    @POST("/api/quiz/result/{id}")
-    Call<Void> sendQuizResult(@Path("id") String userId, @Body QuizResult quizResult);
-
     // statistika o korisniku općenito
     @GET("/api/user/get_stats")
     Call<List<UserStats>> getUserStats(@Header("x-auth-token") String token);
@@ -50,9 +46,9 @@ public interface QuizRestInterface {
     @POST("/api/quiz/get_for_country")
     Call<List<QuizItem>> getQuizForCountry(@Field("country_code") String countryCode, @Header("x-auth-token") String token);
 
-    // dohvat općenite statistike svih korisnika
-    @GET("/api/quiz/getgeneralstats")
-    Call<GeneralStats> getGeneralQuizStats();
+    @FormUrlEncoded
+    @POST("/api/quiz/send_result")
+    Call<Void> sendQuizResult(@Field("country_code") String countryCode, @Field("answered") Integer answered, @Field("correct") Integer correct, @Header("x-auth-token") String token);
 
 
 }
