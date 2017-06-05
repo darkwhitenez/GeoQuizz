@@ -150,7 +150,7 @@ public class ChallengeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, QuizResultActivity.class);
         intent.putExtras(bundle);
         startActivity(intent);
-
+        finish();
     }
 
 
