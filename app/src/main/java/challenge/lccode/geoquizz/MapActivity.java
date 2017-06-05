@@ -74,7 +74,8 @@ public class MapActivity extends ActionBarActivity
             }
         });
         //mapView.setBrandBitmap(ImageHelper.drawableToBitmap(new SVGBuilder().readFromString(SVGPicture.ICON_TOILET).build().getDrawable(), 1.0f));
-        mapView.loadMap(SVGHelper.getContent(this, "world2.svg"));
+        mapView.loadMap(SVGHelper.getContent(this, "world.svg"));
+        //SVGHelper.addColor("RS", "a");
     }
 
 
