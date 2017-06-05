@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Toast;
+
 import challenge.lccode.geoquizz.helper.SVGHelper;
 
 import com.jiahuan.svgmapview.SVGMapView;
@@ -15,60 +16,31 @@ import com.jiahuan.svgmapview.core.helper.ImageHelper;
 import com.jiahuan.svgmapview.core.helper.map.SVGBuilder;
 
 
-public class MapActivity extends ActionBarActivity
-{
+public class MapActivity extends ActionBarActivity {
     private static SVGMapView mapView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
         mapView = (SVGMapView) findViewById(R.id.map_id);
 
-        //mapView = new SVGMapView(getBaseContext());
-
-        mapView.registerMapViewListener(new SVGMapViewListener()
-        {
+        mapView.registerMapViewListener(new SVGMapViewListener() {
             @Override
-            public void onMapLoadComplete()
-            {
+            public void onMapLoadComplete() {
             }
 
             @Override
-            public void onMapLoadError()
-            {
-                MapActivity.this.runOnUiThread(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        Toast.makeText(MapActivity.this, "onMapLoadError", Toast.LENGTH_LONG).show();
-                    }
-                });
+            public void onMapLoadError() {
             }
 
             @Override
-            public void onGetCurrentMap(Bitmap bitmap)
-            {
-                MapActivity.this.runOnUiThread(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        Toast.makeText(MapActivity.this, "onGetCurrentMap", Toast.LENGTH_LONG).show();
-                    }
-                });
+            public void onGetCurrentMap(Bitmap bitmap) {
             }
         });
-        //mapView.setBrandBitmap(ImageHelper.drawableToBitmap(new SVGBuilder().readFromString(SVGPicture.ICON_TOILET).build().getDrawable(), 1.0f));
 
         SVGHelper.getMap(this);
-        //SVGHelper.addColor("RS", "a");
     }
 
     public static void displayMap() {
@@ -77,10 +49,8 @@ public class MapActivity extends ActionBarActivity
 
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        switch (item.getItemId())
-        {
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
             case android.R.id.home:
                 finish();
                 break;
@@ -89,24 +59,21 @@ public class MapActivity extends ActionBarActivity
     }
 
     @Override
-    protected void onPause()
-    {
+    protected void onPause() {
         super.onPause();
         mapView.onPause();
     }
 
 
     @Override
-    protected void onResume()
-    {
+    protected void onResume() {
         super.onResume();
         mapView.onResume();
     }
 
 
     @Override
-    protected void onDestroy()
-    {
+    protected void onDestroy() {
         super.onDestroy();
         mapView.onDestroy();
     }

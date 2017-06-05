@@ -124,7 +124,6 @@ public class ChallengeActivity extends AppCompatActivity {
 
 
     public void proceed(boolean isCorrect, int quizItemId) {
-        System.out.println(isCorrect + " " + quizItemId);
         if (mQuizView == null) {
             return;
         }
@@ -139,10 +138,8 @@ public class ChallengeActivity extends AppCompatActivity {
             return;
 
         }
-        System.out.println(quizResults);
-        System.out.println(countryCode);
 
-           Bundle bundle = new Bundle();
+        Bundle bundle = new Bundle();
         bundle.putSerializable("quiz_results", (Serializable) quizResults);
         if (countryCode != null) {
             bundle.putString("country_code", countryCode);
@@ -150,7 +147,7 @@ public class ChallengeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, QuizResultActivity.class);
         intent.putExtras(bundle);
         startActivity(intent);
-
+        finish();
     }
 
 

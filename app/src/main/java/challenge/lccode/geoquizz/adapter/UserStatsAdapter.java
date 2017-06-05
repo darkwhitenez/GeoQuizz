@@ -46,14 +46,6 @@ public class UserStatsAdapter extends RecyclerView.Adapter<UserStatsAdapter.MyVi
         holder.country_code.setText(userStat.country_code);
         holder.q_correct.setText(userStat.questions_correct.toString());
         holder.q_played.setText(userStat.questions_answered.toString());
-
-
-/*
-        String uri = "flag_" + userStat.country_code.toLowerCase();
-        int id = context.getResources().getIdentifier(uri, "drawable", context.getPackageName());
-        holder.country_icon.setImageResource(id);
-*/
-
     }
 
     @Override
