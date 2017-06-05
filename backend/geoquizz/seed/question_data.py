@@ -42724,6 +42724,556 @@ questions = [
         "country": "UA"
     },
     {
+        "text": "Who is the third President of USA?",
+        "answers": [
+            {
+                "text": "Thomas Jefferson",
+                "correct": True
+            },
+            {
+                "text": "John Adams",
+                "correct": False
+            },
+            {
+                "text": "Abraham Lincoln",
+                "correct": False
+            },
+            {
+                "text": "George Washington",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which State of USA was once part of Mexico?",
+        "answers": [
+            {
+                "text": "Texas",
+                "correct": True
+            },
+            {
+                "text": "Maryland",
+                "correct": False
+            },
+            {
+                "text": "New York",
+                "correct": False
+            },
+            {
+                "text": "Alaska",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "What is the number of states in USA?",
+        "answers": [
+            {
+                "text": "24",
+                "correct": False
+            },
+            {
+                "text": "50",
+                "correct": True
+            },
+            {
+                "text": "60",
+                "correct": False
+            },
+            {
+                "text": "49",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which city is known as the Big Apple?",
+        "answers": [
+            {
+                "text": "Los Angeles",
+                "correct": False
+            },
+            {
+                "text": "Washington D.C.",
+                "correct": False
+            },
+            {
+                "text": "Houston",
+                "correct": False
+            },
+            {
+                "text": "New York",
+                "correct": True
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Who had the longest tenure as President of USA?",
+        "answers": [
+            {
+                "text": "John F. Kennedy",
+                "correct": False
+            },
+            {
+                "text": "Franklin D. Roosevelt",
+                "correct": True
+            },
+            {
+                "text": "George Washington",
+                "correct": False
+            },
+            {
+                "text": "James Carter",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which of the following cities is in Nevada?",
+        "answers": [
+            {
+                "text": "Reno",
+                "correct": True
+            },
+            {
+                "text": "Los Angeles",
+                "correct": False
+            },
+            {
+                "text": "Montreal",
+                "correct": False
+            },
+            {
+                "text": "Atlanta",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which city was known as New Amsterdam?",
+        "answers": [
+            {
+                "text": "New Orleans",
+                "correct": False
+            },
+            {
+                "text": "Los Angeles",
+                "correct": False
+            },
+            {
+                "text": "Seattle",
+                "correct": False
+            },
+            {
+                "text": "New York",
+                "correct": True
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "How many stars are in the flag of USA?",
+        "answers": [
+            {
+                "text": "50",
+                "correct": True
+            },
+            {
+                "text": "20",
+                "correct": False
+            },
+            {
+                "text": "60",
+                "correct": False
+            },
+            {
+                "text": "75",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "If the President and Vice President of USA die at the same time who becomes the President?",
+        "answers": [
+            {
+                "text": "Attorney General",
+                "correct": False
+            },
+            {
+                "text": "Secretary of State",
+                "correct": False
+            },
+            {
+                "text": "Speaker of the House of Representatives",
+                "correct": True
+            },
+            {
+                "text": "Defence Secretary",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "What is the number of judges in Federal Supreme Court?",
+        "answers": [
+            {
+                "text": "10",
+                "correct": False
+            },
+            {
+                "text": "9",
+                "correct": True
+            },
+            {
+                "text": "12",
+                "correct": False
+            },
+            {
+                "text": "5",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Albany is the capital of which State?",
+        "answers": [
+            {
+                "text": "California",
+                "correct": False
+            },
+            {
+                "text": "Maryland",
+                "correct": False
+            },
+            {
+                "text": "Texas",
+                "correct": False
+            },
+            {
+                "text": "New York",
+                "correct": True
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "If it is 6.00 a.m. in New York what is the time in Los Angeles?",
+        "answers": [
+            {
+                "text": "6.00 a.m.",
+                "correct": False
+            },
+            {
+                "text": "6.00 p.m.",
+                "correct": False
+            },
+            {
+                "text": "3.00 a.m.",
+                "correct": True
+            },
+            {
+                "text": "9.00 a.m.",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "How much is a dime?",
+        "answers": [
+            {
+                "text": "5 cents",
+                "correct": False
+            },
+            {
+                "text": "10 cents",
+                "correct": True
+            },
+            {
+                "text": "25 cents",
+                "correct": False
+            },
+            {
+                "text": "50 cents",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Who was the candidate in the Presidential Election of 1992, who did not belong to Republican or Democratic Party?",
+        "answers": [
+            {
+                "text": "Hugh Ross Perot",
+                "correct": True
+            },
+            {
+                "text": "Jack Anderson",
+                "correct": False
+            },
+            {
+                "text": "Patrick Buchanan",
+                "correct": False
+            },
+            {
+                "text": "Walter Mondale",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Abraham Lincoln was shot on 14 April 1865. It was _____.",
+        "answers": [
+            {
+                "text": "Pentecost",
+                "correct": False
+            },
+            {
+                "text": "Easter",
+                "correct": False
+            },
+            {
+                "text": "Good Friday",
+                "correct": True
+            },
+            {
+                "text": "Palm Sunday",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which country has the highest number of Jews?",
+        "answers": [
+            {
+                "text": "USA",
+                "correct": True
+            },
+            {
+                "text": "Russia",
+                "correct": False
+            },
+            {
+                "text": "Israel",
+                "correct": False
+            },
+            {
+                "text": "India",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which is the tallest building in USA?",
+        "answers": [
+            {
+                "text": "Empire State",
+                "correct": False
+            },
+            {
+                "text": "Sears Tower",
+                "correct": True
+            },
+            {
+                "text": "White House",
+                "correct": False
+            },
+            {
+                "text": "St. Patrick\u2019s Cathedral",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which is the first 24 hours news channel?",
+        "answers": [
+            {
+                "text": "CNN",
+                "correct": True
+            },
+            {
+                "text": "Disney",
+                "correct": False
+            },
+            {
+                "text": "Star News",
+                "correct": False
+            },
+            {
+                "text": "NBC",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which is the 49th State of USA?",
+        "answers": [
+            {
+                "text": "Alaska",
+                "correct": True
+            },
+            {
+                "text": "Georgia",
+                "correct": False
+            },
+            {
+                "text": "Texas",
+                "correct": False
+            },
+            {
+                "text": "California",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Which President had the surname Blythe at the time of his birth?",
+        "answers": [
+            {
+                "text": "Ronald Reagan",
+                "correct": False
+            },
+            {
+                "text": "Gerald Ford",
+                "correct": False
+            },
+            {
+                "text": "William Clinton",
+                "correct": True
+            },
+            {
+                "text": "Richard Nixon",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "When was Pearl Harbour attacked by the Japanese Air Force?",
+        "answers": [
+            {
+                "text": "September 3, 1939",
+                "correct": False
+            },
+            {
+                "text": "December 7, 1941",
+                "correct": True
+            },
+            {
+                "text": "June 22, 1942",
+                "correct": False
+            },
+            {
+                "text": "May 7, 1945",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "USA fought with which country in 1898?",
+        "answers": [
+            {
+                "text": "Spain",
+                "correct": True
+            },
+            {
+                "text": "UK",
+                "correct": False
+            },
+            {
+                "text": "Vietnam",
+                "correct": False
+            },
+            {
+                "text": "Russia",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Who has done the role of American President in the film Independence Day?",
+        "answers": [
+            {
+                "text": "Michael Douglas",
+                "correct": False
+            },
+            {
+                "text": "Martin Sheen",
+                "correct": False
+            },
+            {
+                "text": "Harrison Ford",
+                "correct": False
+            },
+            {
+                "text": "Bill Pullman",
+                "correct": True
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "Who is the first citizen of USA to be canonised?",
+        "answers": [
+            {
+                "text": "Peter Damien",
+                "correct": False
+            },
+            {
+                "text": "Maximilian Kolbe",
+                "correct": False
+            },
+            {
+                "text": "Elizabeth Ann Seton",
+                "correct": True
+            },
+            {
+                "text": "Maria Goretti",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
+        "text": "In which year man stepped on the Moon for the first time?",
+        "answers": [
+            {
+                "text": "1969",
+                "correct": True
+            },
+            {
+                "text": "1975",
+                "correct": False
+            },
+            {
+                "text": "1962",
+                "correct": False
+            },
+            {
+                "text": "1957",
+                "correct": False
+            }
+        ],
+        "country": "US"
+    },
+    {
         "text": "United Kingdom was formed in which year?",
         "answers": [
             {
