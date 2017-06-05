@@ -17,6 +17,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import challenge.lccode.geoquizz.helper.Util;
 import challenge.lccode.geoquizz.models.Quiz;
 import challenge.lccode.geoquizz.models.QuizItem;
 import retrofit2.Call;
@@ -40,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout frame_stats;
     @BindView(R.id.activity_main_map)
     TextView frame_map;
+    @BindView(R.id.activity_main_play_frame)
+    FrameLayout frame_play;
+    @BindView(R.id.activity_main_challenge_frame)
+    FrameLayout frame_challenge;
+    @BindView(R.id.activity_main_frame_map)
+    FrameLayout activity_main_frame_map;
+
 
     private Menu menu;
 
@@ -51,12 +59,19 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ButterKnife.bind(this);
+
         if (Application.isLoggedIn) {
             frame_register.setVisibility(View.GONE);
+            frame_play.setVisibility(View.VISIBLE);
+            frame_challenge.setVisibility(View.VISIBLE);
+            activity_main_frame_map.setVisibility(View.VISIBLE);
+
         } else {
             frame_stats.setVisibility(View.GONE);
+            frame_play.setVisibility(View.GONE);
+            frame_challenge.setVisibility(View.GONE);
+            activity_main_frame_map.setVisibility(View.GONE);
         }
-
 
     }
 
@@ -97,14 +112,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public Retrofit getRetrofit() {
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(Application.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-
-        return retrofit;
-    }
 
     private class RandomQuizProvider extends AsyncTask<String, Void, Quiz> {
 
@@ -127,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Quiz doInBackground(String... params) {
 
-            Retrofit retrofit = getRetrofit();
+            Retrofit retrofit = Util.getRetrofit(MainActivity.this);
             if (retrofit == null) {
                 return null;
             }
@@ -168,12 +175,13 @@ public class MainActivity extends AppCompatActivity {
 
         switch (id) {
             case R.id.actionbar_settings_settings:
+                Intent intentSettings = new Intent(this, SettingsActivity.class);
+                startActivity(intentSettings);
                 break;
 
             case R.id.actionbar_settings_info: {
                 Intent intentInfo = new Intent(this, InfoActivity.class);
                 startActivity(intentInfo);
-                finish();
                 break;
             }
 

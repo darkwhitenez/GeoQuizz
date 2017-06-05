@@ -14,9 +14,4 @@ public class InfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info);
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        System.out.println("bokbok");
-    }
 }

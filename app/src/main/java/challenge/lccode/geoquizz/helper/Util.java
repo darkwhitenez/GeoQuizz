@@ -1,5 +1,9 @@
 package challenge.lccode.geoquizz.helper;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
+
 import challenge.lccode.geoquizz.Application;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -10,9 +14,14 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Util {
 
-    public static Retrofit getRetrofit() {
+    private static SharedPreferences sharedPreferences;
+
+    public synchronized  static Retrofit getRetrofit(Context context) {
+        sharedPreferences = context.getSharedPreferences("server_uri", Activity.MODE_PRIVATE);
+        String server_uri = sharedPreferences.getString("server_url", "");
+
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(Application.BASE_URL)
+                .baseUrl(Application.DEFAULT_SERVER_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

@@ -8,4 +8,7 @@
 
         \n\n\n Carry on.
     </string>
+    <string name="server_url">Server url</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
 </resources>

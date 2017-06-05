@@ -47,16 +47,17 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:alpha="1"
-            android:padding="10dp"
+            android:padding="5dp"
             android:scaleType="fitCenter"
             android:scaleX="0.9"
             android:scaleY="0.9"
             android:src="@drawable/globe_small" />
 
         <FrameLayout
+            android:id="@+id/activity_main_play_frame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/rounded_button"
             android:backgroundTint="@color/primary"
             android:elevation="6dp">
@@ -75,11 +76,12 @@
         </FrameLayout>
 
         <FrameLayout
+            android:id="@+id/activity_main_challenge_frame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/rounded_button"
             android:backgroundTint="@color/primary"
             android:elevation="6dp">
@@ -103,9 +105,9 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="40dp"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/rounded_button"
-            android:backgroundTint="@color/primary_dark"
+            android:backgroundTint="@color/primary"
             android:elevation="6dp">
 
             <TextView
@@ -127,9 +129,9 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="40dp"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/rounded_button"
-            android:backgroundTint="@color/primary_dark"
+            android:backgroundTint="@color/primary"
             android:elevation="6dp">
 
             <TextView
@@ -151,9 +153,9 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="60dp"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/rounded_button"
-            android:backgroundTint="@color/primary_dark"
+            android:backgroundTint="@color/primary"
             android:elevation="6dp">
 
             <TextView

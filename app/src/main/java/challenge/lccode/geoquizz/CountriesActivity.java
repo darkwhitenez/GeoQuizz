@@ -30,7 +30,7 @@ public class CountriesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        retrofit = Util.getRetrofit();
+        retrofit = Util.getRetrofit(this);
         setContentView(R.layout.activity_countries);
         toolbar = (Toolbar) findViewById(R.id.activity_countries_toolbar);
         toolbar.setTitle("COUNTRIES");

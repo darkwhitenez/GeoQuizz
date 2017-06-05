@@ -74,7 +74,7 @@ public class ChallengeActivity extends AppCompatActivity {
         dialog.setTitle("Please wait");
         dialog.setMessage("Loading the quiz data");
         dialog.show();
-        retrofit = Util.getRetrofit();
+        retrofit = Util.getRetrofit(this);
         fetchQuiz(countryCode == null);
 
     }

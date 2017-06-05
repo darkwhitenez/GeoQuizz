@@ -36,7 +36,7 @@ public class StatsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        retrofit = Util.getRetrofit();
+        retrofit = Util.getRetrofit(this);
         setContentView(R.layout.activity_stats);
         toolbar = (Toolbar) findViewById(R.id.activity_stats_toolbar);
         toolbar.setTitle("STATISTICS");

@@ -24,6 +24,7 @@ import com.google.gson.JsonObject;
 import butterknife.BindView;
 import butterknife.OnClick;
 import butterknife.OnTextChanged;
+import challenge.lccode.geoquizz.helper.Util;
 import challenge.lccode.geoquizz.models.UserLogin;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -104,20 +105,10 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
 
-
-    public Retrofit getRetrofit() {
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(Application.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-
-        return retrofit;
-    }
-
     private void loginUser() {
         final String userName = name.getText().toString().trim();
         String userPass = password.getText().toString().trim();
-        QuizRestInterface apiService = getRetrofit().create(QuizRestInterface.class);
+        QuizRestInterface apiService = Util.getRetrofit(this).create(QuizRestInterface.class);
         Call<Object> call = apiService.loginUser(userName, userPass);
         call.enqueue(new Callback<Object>() {
             @Override
@@ -158,7 +149,7 @@ public class RegisterActivity extends AppCompatActivity {
         String userName = name.getText().toString().trim();
         String userPass = password.getText().toString().trim();
         System.out.println(userName + " : " + userPass);
-        QuizRestInterface apiService = getRetrofit().create(QuizRestInterface.class);
+        QuizRestInterface apiService = Util.getRetrofit(this).create(QuizRestInterface.class);
         Call<Void> call = apiService.registerUser(userName, userPass);
         call.enqueue(new Callback<Void>() {
             @Override

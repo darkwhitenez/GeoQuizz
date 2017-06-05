@@ -61,8 +61,8 @@ public class SVGHelper {
     }
 
     public static void colorCountries() {
-        for(UserStats stat : Application.mapStats) {
-            colorCountry(stat.country_code, Float.toString(stat.questions_answered/stat.questions_correct * 100));
+        for (UserStats stat : Application.mapStats) {
+            colorCountry(stat.country_code, Float.toString(stat.questions_answered / stat.questions_correct * 100));
         }
     }
 
@@ -108,7 +108,7 @@ public class SVGHelper {
 
         @Override
         protected List<UserStats> doInBackground(Object... params) {
-            retrofit = Util.getRetrofit();
+            retrofit = Util.getRetrofit(cntx);
 
             QuizRestInterface apiService = retrofit.create(QuizRestInterface.class);
             List<UserStats> mapStats = null;

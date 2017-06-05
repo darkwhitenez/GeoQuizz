@@ -88,7 +88,7 @@ public class QuizResultActivity extends AppCompatActivity {
     }
 
     private void sendQuizResult(List<QuizResult> results) {
-        QuizRestInterface apiService = Util.getRetrofit().create(QuizRestInterface.class);
+        QuizRestInterface apiService = Util.getRetrofit(this).create(QuizRestInterface.class);
         Call<List<QuizResult>> call = apiService.sendQuizResult(results, Application.token);
         call.enqueue(new Callback<List<QuizResult>>() {
             @Override

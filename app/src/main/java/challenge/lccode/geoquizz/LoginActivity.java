@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
+import challenge.lccode.geoquizz.helper.Util;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -93,19 +94,10 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
-    public Retrofit getRetrofit() {
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(Application.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-
-        return retrofit;
-    }
-
     private void loginUser() {
         final String userName = name.getText().toString().trim();
         String userPass = password.getText().toString().trim();
-        QuizRestInterface apiService = getRetrofit().create(QuizRestInterface.class);
+        QuizRestInterface apiService = Util.getRetrofit(this).create(QuizRestInterface.class);
         Call<Object> call = apiService.loginUser(userName, userPass);
         call.enqueue(new Callback<Object>() {
             @Override
