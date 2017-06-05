@@ -22,7 +22,7 @@ def create_database(app):
 
         if not Country.query.first():
             from geoquizz.seed.country_data import countries
-            for code, name in countries.items():
+            for name, code in countries.items():
                 db.session.add(Country(code=code, name=name))
                 db.session.commit()
 
