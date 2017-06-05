@@ -64,6 +64,16 @@ class QuestionStats(db.Model):
     user = relationship('User', back_populates='question_stats')
 
 
+class QuestionProgress(db.Model):
+    __tablename__ = 'question_progress'
+
+    user_id = Column(Integer, ForeignKey('user.id'), primary_key=True)
+    question_id = Column(Integer, ForeignKey('question.id'), primary_key=True)
+
+    user = relationship('User')
+    question = relationship('Question')
+
+
 class Country(db.Model):
     __tablename__ = 'country'
 

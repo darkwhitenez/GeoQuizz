@@ -4,7 +4,7 @@ from flask import Blueprint, request, jsonify, g
 from sqlalchemy.sql.expression import func
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from geoquizz.models import db, User, QuestionStats, Question
+from geoquizz.models import db, User, QuestionStats, Question, QuestionProgress
 
 api = Blueprint('api', __name__)
 
@@ -108,6 +108,10 @@ def send_result():
 def get_stats():
     stats = [{'questions_answered': s.questions_answered,
               'questions_correct': s.questions_correct,
+              'question_count': Question.query.filter_by(country_code=s.country_code).count(),
+              'question_progress': QuestionProgress.query.join(Question).filter(
+                  Question.country_code == s.country_code,
+                  QuestionProgress.user == g.user).count(),
               'country_code': s.country_code}
              for s in g.user.question_stats]
     return jsonify(stats)
