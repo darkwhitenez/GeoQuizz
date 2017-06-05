@@ -37,14 +37,7 @@ public class MapActivity extends ActionBarActivity
             @Override
             public void onMapLoadComplete()
             {
-                MapActivity.this.runOnUiThread(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        Toast.makeText(MapActivity.this, "onMapLoadComplete", Toast.LENGTH_LONG).show();
-                    }
-                });
+                SVGHelper.getMap(getBaseContext());
             }
 
             @Override
@@ -74,7 +67,8 @@ public class MapActivity extends ActionBarActivity
             }
         });
         //mapView.setBrandBitmap(ImageHelper.drawableToBitmap(new SVGBuilder().readFromString(SVGPicture.ICON_TOILET).build().getDrawable(), 1.0f));
-        mapView.loadMap(SVGHelper.getContent(this, "world.svg"));
+
+        mapView.loadMap(SVGHelper.getSVG());
         //SVGHelper.addColor("RS", "a");
     }
 
