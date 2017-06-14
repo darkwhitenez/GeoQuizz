@@ -8,5 +8,3 @@ GeoQuizz app for Android OS
 * Java 7
 
 It's a fun quiz application with questions about the countries from all around the world
-
-![Screenshot](game.png)
