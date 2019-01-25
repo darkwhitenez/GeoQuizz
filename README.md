@@ -4,6 +4,13 @@ GeoQuizz is a simple Android quizz app with backend in python
 
 ## Screenshots
 
+
+Login screen
+<p align="center">
+<img width="250" src="login_form.png">
+</p> 
+
+---
 Home screen
 <p align="center">
 <img width="250" src="main.png">
@@ -13,7 +20,7 @@ Home screen
 
 Game
 <p align="center">
-<img width="250" src="rock_my_world.png">
+<img width="250" src="game.png">
 </p> 
 
 ---
